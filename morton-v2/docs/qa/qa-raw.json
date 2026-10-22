@@ -1,0 +1,284 @@
+{
+  "base": "http://127.0.0.1:5290/",
+  "startedAt": "2026-10-22T09:38:44.195Z",
+  "views": [
+    {
+      "view": "1440x900",
+      "w": 1440,
+      "h": 900,
+      "dpr": 1,
+      "heroAt": 46729,
+      "probe": {
+        "state": "hero",
+        "timings": {
+          "mount": 402,
+          "drawing": 406,
+          "built": 1493,
+          "targetReady": 1493,
+          "reveal": 1554,
+          "hero": 2176
+        }
+      },
+      "frameDeltas": {
+        "n": 293,
+        "p95": 16.7,
+        "max": 100
+      },
+      "spikes": [
+        {
+          "at": 320,
+          "d": 100,
+          "phase": "boot"
+        },
+        {
+          "at": 370,
+          "d": 50.1,
+          "phase": "boot"
+        }
+      ],
+      "overflowX": 0,
+      "scrollHeight": 8141,
+      "errors": [],
+      "failed": [],
+      "video": null
+    },
+    {
+      "view": "1440x700",
+      "w": 1440,
+      "h": 700,
+      "dpr": 1,
+      "heroAt": 46448,
+      "probe": {
+        "state": "hero",
+        "timings": {
+          "mount": 218,
+          "drawing": 223,
+          "built": 1316,
+          "targetReady": 1316,
+          "reveal": 1378,
+          "hero": 1999
+        }
+      },
+      "frameDeltas": {
+        "n": 296,
+        "p95": 16.8,
+        "max": 100
+      },
+      "spikes": [
+        {
+          "at": 197,
+          "d": 100,
+          "phase": "boot"
+        }
+      ],
+      "overflowX": 0,
+      "scrollHeight": 7941,
+      "errors": [],
+      "failed": [],
+      "video": null
+    },
+    {
+      "view": "1366x768",
+      "w": 1366,
+      "h": 768,
+      "dpr": 1,
+      "heroAt": 46399,
+      "probe": {
+        "state": "hero",
+        "timings": {
+          "mount": 242,
+          "drawing": 246,
+          "built": 1347,
+          "targetReady": 1347,
+          "reveal": 1409,
+          "hero": 2028
+        }
+      },
+      "frameDeltas": {
+        "n": 295,
+        "p95": 16.8,
+        "max": 100
+      },
+      "spikes": [
+        {
+          "at": 209,
+          "d": 100,
+          "phase": "boot"
+        }
+      ],
+      "overflowX": 0,
+      "scrollHeight": 7794,
+      "errors": [],
+      "failed": [],
+      "video": null
+    },
+    {
+      "view": "1024x768",
+      "w": 1024,
+      "h": 768,
+      "dpr": 1,
+      "heroAt": 46325,
+      "probe": {
+        "state": "hero",
+        "timings": {
+          "mount": 182,
+          "drawing": 186,
+          "built": 1286,
+          "targetReady": 1286,
+          "reveal": 1348,
+          "hero": 1968
+        }
+      },
+      "frameDeltas": {
+        "n": 297,
+        "p95": 16.8,
+        "max": 83.4
+      },
+      "spikes": [
+        {
+          "at": 157,
+          "d": 83.4,
+          "phase": "boot"
+        }
+      ],
+      "overflowX": 0,
+      "scrollHeight": 6825,
+      "errors": [],
+      "failed": [],
+      "video": null
+    },
+    {
+      "view": "390x844",
+      "w": 390,
+      "h": 844,
+      "dpr": 2,
+      "heroAt": 46717,
+      "probe": {
+        "state": "hero",
+        "timings": {
+          "mount": 194,
+          "drawing": 197,
+          "built": 1307,
+          "targetReady": 1308,
+          "reveal": 1369,
+          "hero": 1990
+        }
+      },
+      "frameDeltas": {
+        "n": 297,
+        "p95": 16.7,
+        "max": 83.3
+      },
+      "spikes": [
+        {
+          "at": 175,
+          "d": 83.3,
+          "phase": "boot"
+        }
+      ],
+      "overflowX": 0,
+      "scrollHeight": 8270,
+      "errors": [],
+      "failed": [],
+      "video": null
+    }
+  ],
+  "flows": [
+    {
+      "flow": "focus",
+      "before": 5352,
+      "opened": {
+        "overlay": true,
+        "active": true,
+        "locked": true
+      },
+      "closed": {
+        "overlay": false,
+        "active": "w01",
+        "scroll": 5352
+      },
+      "cycles": [
+        {
+          "overlays": 1,
+          "nodes": 304,
+          "scroll": 5352
+        },
+        {
+          "overlays": 1,
+          "nodes": 304,
+          "scroll": 5145
+        },
+        {
+          "overlays": 1,
+          "nodes": 304,
+          "scroll": 5770
+        },
+        {
+          "overlays": 1,
+          "nodes": 304,
+          "scroll": 5281
+        },
+        {
+          "overlays": 1,
+          "nodes": 304,
+          "scroll": 5145
+        }
+      ],
+      "errors": []
+    },
+    {
+      "flow": "reduced-motion",
+      "ms": 70,
+      "state": "hero",
+      "coverOpacity": "0"
+    },
+    {
+      "flow": "late-ready",
+      "heldMs": 1749,
+      "stillCoveredDuringHold": true,
+      "probe": {
+        "state": "hero",
+        "timings": {
+          "mount": 133,
+          "drawing": 135,
+          "built": 1287,
+          "targetReady": 2354,
+          "reveal": 2415,
+          "hero": 3037
+        }
+      }
+    },
+    {
+      "flow": "reload-x5",
+      "runs": [
+        {
+          "draw": 1082,
+          "reveal": 622,
+          "total": 2035
+        },
+        {
+          "draw": 1168,
+          "reveal": 621,
+          "total": 1989
+        },
+        {
+          "draw": 1181,
+          "reveal": 621,
+          "total": 1940
+        },
+        {
+          "draw": 1181,
+          "reveal": 620,
+          "total": 1933
+        },
+        {
+          "draw": 1176,
+          "reveal": 621,
+          "total": 1934
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "finishedAt": "2026-10-22T09:43:22.562Z"
+}

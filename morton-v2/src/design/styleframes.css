@@ -1,0 +1,796 @@
+/* ───────────────────────────────────────────────────────────────────────────
+ * Styleframe compositions (Phase 1).
+ * One section per frame, 100vh tall, 0-radius, absolute geometry on a 12-col
+ * grid expressed in vw/vh so the composition scales as a drawing, not a stack.
+ * Media query at 720px re-composes (not scales) each frame for 390×844.
+ * ─────────────────────────────────────────────────────────────────────────── */
+
+.sf {
+  position: relative;
+  height: 100vh;
+  min-height: 640px;
+  overflow: hidden;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+/* ── plate (image slot) ─────────────────────────────────────────────────── */
+.plate {
+  position: relative;
+  overflow: hidden;
+  background: var(--plate-tone, var(--plate-paper));
+  border-radius: 0;
+}
+.plate::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(27, 26, 24, 0.16);
+  pointer-events: none;
+}
+.plate__img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ── wordmark ───────────────────────────────────────────────────────────── */
+.wordmark {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* ═══ 01 · HERO FINAL ══════════════════════════════════════════════════════
+ * Geometry (1440 x 900 reference):
+ *   mark   width 102.4vw, left −1.2vw, baseline 64.444vh, cap 16.56vw (238px)
+ *   plate  left 67.36vw, full height, bleeds top / right / bottom
+ *   the mark is drawn twice and clipped by each ground:
+ *     ink on paper (0 → 67.36vw) | paper punched out of the material (67.36vw →)
+ *   baseline rule at 64.444vh runs both grounds; the last two letters are a
+ *   material window, not a colour block.
+ * ═════════════════════════════════════════════════════════════════════════ */
+.sf-hero {
+  background: var(--paper);
+}
+.sf-hero__paper {
+  position: absolute;
+  inset: 0 32.7vw 0 0;       /* 0 → 67.3vw */
+  overflow: hidden;
+  z-index: 2;
+}
+.sf-hero__material {
+  position: absolute;
+  inset: 10.667vh 0 0 67.3vw;   /* top edge = the masthead rule, 67.3vw → right */
+  overflow: hidden;
+  z-index: 1;
+}
+.sf-hero__plate {
+  position: absolute;
+  inset: 0;
+  --plate-tone: var(--plate-lacquer);
+}
+.sf-hero__plate::after {
+  border: 0;
+  border-left: 1px solid rgba(242, 239, 232, 0.16);
+  border-top: 1px solid rgba(242, 239, 232, 0.1);
+  border-bottom: 1px solid rgba(242, 239, 232, 0.1);
+}
+.sf-hero__mark {
+  position: absolute;
+  left: -0.951vw;
+  top: calc(64.444vh - 16.674vw);
+  width: 101.9vw;
+  height: auto;
+  color: var(--ink);
+  z-index: 2;
+  pointer-events: none;
+}
+.sf-hero__mark--cut {
+  left: -68.251vw;            /* page −0.951vw relative to the plate edge */
+  color: var(--paper);
+}
+.sf .sf-hero__index {
+  position: absolute;
+  left: var(--gutter);
+  top: 6.222vh;
+  margin: 0;
+  z-index: 4;
+}
+.sf-hero .sf-hero__plate-label {
+  position: absolute;
+  left: 67.3vw;
+  top: 10.667vh;
+  margin: 0;
+  color: var(--paper);
+  opacity: 0.78;
+  z-index: 4;
+  padding: 22px 0 0 22px;
+}
+.sf-hero__masthead {
+  position: absolute;
+  left: var(--gutter);
+  top: 10.667vh;
+  width: 25vw;
+  height: 1px;
+  background: var(--divider);
+  z-index: 3;
+}
+.sf .sf-hero__note {
+  position: absolute;
+  right: var(--gutter);
+  bottom: 7.778vh;
+  margin: 0;
+  text-align: right;
+  color: var(--paper);
+  opacity: 0.92;
+  z-index: 4;
+}
+.sf-hero__baseline {
+  position: absolute;
+  top: 64.444vh;
+  height: 1px;
+  z-index: 3;
+  pointer-events: none;
+}
+.sf-hero__baseline--paper {
+  left: 0;
+  right: 32.64vw;
+  background: rgba(27, 26, 24, 0.26);
+}
+.sf-hero__baseline--material {
+  left: 67.3vw;
+  right: 0;
+  background: rgba(242, 239, 232, 0.22);
+}
+.sf .sf-hero__folio {
+  position: absolute;
+  left: var(--gutter);
+  bottom: 7.778vh;
+  margin: 0;
+  z-index: 4;
+}
+
+@media (max-width: 720px) {
+  /* mobile re-composes: 18 / 62 / 20 bands.
+     top paper rail: index + plate label
+     material field: the mark punched out at 92vw (never cropped on a phone),
+     its 1px baseline under the letters
+     bottom paper rail: one line of note + index on the same baseline */
+  .sf-hero__paper { display: none; }
+  .sf-hero__material { inset: 18vh 0 20vh 0; overflow: hidden; }
+  .sf-hero__mark {
+    left: 4vw;
+    top: calc(37vh - 15.06vw);
+    width: 92vw;
+  }
+  .sf-hero__mark--cut { left: 4vw; color: var(--paper); }
+  .sf-hero__baseline { top: 55vh; }
+  .sf-hero__baseline--paper { display: none; }
+  .sf-hero__baseline--material { left: 0; right: 0; background: rgba(242, 239, 232, 0.26); }
+  .sf .sf-hero__index { color: var(--ink); top: 3.2vh; z-index: 6; }
+  .sf .sf-hero__plate-label { left: auto; right: var(--gutter); top: 3.2vh; color: var(--muted); padding: 0; z-index: 6; }
+  .sf-hero__masthead { display: none; }
+  .sf .sf-hero__note {
+    left: var(--gutter);
+    right: auto;
+    bottom: 5.2vh;
+    text-align: left;
+    color: var(--muted);
+    font-size: 11.5px;
+    line-height: 16px;
+    z-index: 6;
+  }
+  .sf-hero__note br { display: none; }
+  .sf .sf-hero__folio {
+    left: auto;
+    right: var(--gutter);
+    bottom: 5.2vh;
+    display: block;
+    color: var(--muted);
+    font-size: 11.5px;
+    line-height: 16px;
+    z-index: 6;
+  }
+}
+
+/* ═══ 00 · OPENING COVER ═══════════════════════════════════════════════════
+ * The hero's geometry, un-inked. Same plate rect (67.2vw / y 96 / 804 tall),
+ * same mark ink box (cap 344–580), same baseline 580.
+ *   primary   1.4px  → 2.8px stroke masked to the outside of the silhouette
+ *   secondary 0.8px  → internal construction, 65%
+ *   tertiary  0.5px  → plate seam, baseline, 40%
+ * The drawing is mid-plot (per-letter dashes); the centre line is 40%.
+ * ═════════════════════════════════════════════════════════════════════════ */
+.sf-cover {
+  background: var(--paper);
+}
+.sf-cover__underlay {
+  position: absolute;
+  left: 67.3vw;
+  top: 10.667vh;
+  width: 32.7vw;
+  height: 89.333vh;
+  opacity: 0.09;
+}
+.sf-cover__underlay::after { display: none; }
+.sf-cover__plate {
+  position: absolute;
+  left: 67.3vw;
+  top: 10.667vh;
+  width: 32.7vw;
+  height: 89.333vh;
+  fill: none;
+  color: var(--ink);
+  overflow: hidden;
+}
+.sf-cover__edge {
+  stroke: currentColor;
+  stroke-width: 1.4px;
+  vector-effect: non-scaling-stroke;
+}
+.sf-cover__seam {
+  stroke: currentColor;
+  stroke-width: 0.5px;
+  opacity: 0.4;
+  vector-effect: non-scaling-stroke;
+}
+.sf-cover__drawing {
+  position: absolute;
+  left: -0.951vw;
+  top: calc(64.444vh - 16.674vw);
+  width: 101.9vw;
+  color: var(--ink);
+}
+.sf-cover__baseline {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 64.444vh;
+  height: 1px;
+  background: rgba(27, 26, 24, 0.34);
+}
+.sf-cover__line {
+  position: absolute;
+  left: 13vw;
+  right: 13vw;
+  top: 50vh;
+  height: 1px;
+  background: rgba(27, 26, 24, 0.4);
+}
+.sf-cover__head {
+  position: absolute;
+  left: 38vw;
+  top: calc(50vh - 7px);
+  width: 1px;
+  height: 15px;
+  background: rgba(27, 26, 24, 0.45);
+}
+.sf-cover .sf-cover__tl {
+  position: absolute;
+  left: var(--gutter);
+  top: 6.222vh;
+  margin: 0;
+}
+.sf-cover .sf-cover__tr {
+  position: absolute;
+  right: var(--gutter);
+  top: 6.222vh;
+  margin: 0;
+}
+.sf-cover .sf-cover__br {
+  position: absolute;
+  right: var(--gutter);
+  bottom: 6.222vh;
+  margin: 0;
+}
+@media (max-width: 720px) {
+  .sf-cover__underlay { left: 61vw; top: 14vh; width: 39vw; height: 72vh; }
+  .sf-cover__plate { left: 61vw; top: 14vh; width: 39vw; height: 72vh; }
+  .sf-cover__drawing { left: 4vw; top: calc(66vh - 15.06vw); width: 92vw; }
+  .sf-cover__baseline { top: 66vh; }
+  .sf-cover__line { left: 8vw; right: 8vw; }
+  .sf-cover__head { left: 38vw; }
+  .sf-cover .sf-cover__tr { top: 3.2vh; right: 22px; left: auto; }
+}
+
+/* ═══ 02 · ABOUT / RECORD ══════════════════════════════════════════════════
+ * Left: 4:5 linen plate, bleeds left, top 9vh. The title starts inside the
+ * plate and crosses its right edge. Right: 30vw copy column + archive table.
+ * Quiet: right band, top strip, bottom band.
+ * ═════════════════════════════════════════════════════════════════════════ */
+.sf-about {
+  background: var(--paper);
+}
+.sf-about__image {
+  position: absolute;
+  left: 0;
+  top: 9vh;
+  width: 52.85vw;
+  height: 78.5vh;
+}
+.sf-about .sf-about__plate-label {
+  position: absolute;
+  left: var(--gutter);
+  top: 89.4vh;
+  margin: 0;
+}
+.sf-about .plate::after {
+  border-color: rgba(27, 26, 24, 0.3);
+}
+.sf-about__title {
+  position: absolute;
+  left: 43vw;
+  top: 9.6vh;
+  font-size: clamp(58px, 7.8vw, 112px);
+  line-height: 0.94;
+  letter-spacing: -0.035em;
+  z-index: 2;
+}
+.sf-about__copy {
+  position: absolute;
+  left: 58.4vw;
+  top: 47.5vh;
+  width: 30vw;
+}
+.sf-about .sf-about__index {
+  margin: 0 0 var(--space-3);
+}
+.sf-about__para {
+  margin: 0;
+  max-width: 34ch;
+}
+.sf-about__archive {
+  position: absolute;
+  left: 58.4vw;
+  top: 73.5vh;
+  width: 30vw;
+}
+.sf-about__archive-head {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--divider);
+  padding-top: 10px;
+  margin-bottom: 4px;
+}
+.sf-about__entry {
+  display: grid;
+  grid-template-columns: 74px 1fr auto;
+  gap: var(--space-2);
+  align-items: baseline;
+  border-top: 1px solid var(--divider);
+  padding: 11px 0;
+}
+.sf-about__year,
+.sf-about__where {
+  font-size: var(--type-label);
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+.sf-about__what {
+  font-size: 14px;
+  letter-spacing: 0.005em;
+}
+@media (max-height: 800px) and (min-width: 721px) {
+  .sf-about__title { top: 8.2vh; font-size: 80px; }
+  .sf-about__copy { top: 44vh; }
+  .sf-about__archive { top: 74vh; }
+  .sf-about__entry { padding: 8px 0; }
+  .sf-about .sf-about__plate-label { top: 90vh; }
+}
+@media (max-width: 720px) {
+  .sf-about { height: 100vh; }
+  .sf-about__image { top: 0; width: 100vw; height: 39.5vh; }
+  .sf-about .sf-about__plate-label { top: 32.8vh; left: var(--gutter); color: var(--ink); opacity: 0.62; }
+  .sf-about .plate::after {
+  border-color: rgba(27, 26, 24, 0.3);
+}
+.sf-about__title {
+    left: var(--gutter);
+    top: 39.5vh;
+    margin-top: -0.55em;
+    font-size: 40px;
+    line-height: 0.98;
+  }
+  .sf-about__copy { left: var(--gutter); top: 54vh; width: calc(100vw - 44px); }
+  .sf-about .sf-about__index { margin-bottom: 10px; }
+  .sf-about__para { font-size: 17px; line-height: 1.5; max-width: 42ch; }
+  .sf-about__archive { left: var(--gutter); top: 77vh; width: calc(100vw - 44px); }
+  .sf-about__entry { grid-template-columns: 56px 1fr; padding: 8px 0; }
+  .sf-about__where { display: none; }
+}
+
+/* ═══ 03 · WORKS / EXHIBITION (gallery chapter, dark) ══════════════════════
+ * main 16:9 (62.5vw, bleeds left) · A 4:5 · B 1:1 · C 3:2 · catalogue strip.
+ * Four ratios, unequal scale, one dense strip — no card wall.
+ * ═════════════════════════════════════════════════════════════════════════ */
+.sf-works {
+  background: var(--gallery);
+  color: var(--ink-inverse);
+}
+.sf-works .label { color: var(--ink-inverse); }
+.sf-works .label--muted { color: var(--muted-inverse); }
+.sf-works .plate::after { border-color: rgba(242, 239, 232, 0.16); }
+.sf-works .sf-works__kicker {
+  position: absolute;
+  left: var(--gutter);
+  top: 5vh;
+  margin: 0;
+}
+.sf-works .sf-works__meta {
+  position: absolute;
+  right: var(--gutter);
+  top: 5vh;
+  margin: 0;
+}
+.sf-works__head-rule {
+  position: absolute;
+  left: var(--gutter);
+  right: var(--gutter);
+  top: 9.2vh;
+  height: 1px;
+  background: var(--divider-inverse);
+}
+.sf-works__main {
+  position: absolute;
+  left: 0;
+  top: 12vh;
+  width: 64.7vw;
+  height: 55.6vh;
+}
+.sf-works__a {
+  position: absolute;
+  left: 66.11vw;
+  top: 12vh;
+  width: 13.05vw;
+  height: 26.1vh;
+}
+.sf-works__b {
+  position: absolute;
+  left: 81.39vw;
+  top: 12vh;
+  width: 14.17vw;
+  height: 28.3vh;
+}
+.sf-works__c {
+  position: absolute;
+  left: 66.11vw;
+  top: 46.5vh;
+  width: 29.44vw;
+  height: 27.6vh;
+}
+.sf-works__caption {
+  position: absolute;
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  border-top: 1px solid var(--divider-inverse);
+  padding-top: 9px;
+}
+.sf-works__name {
+  font-size: 13px;
+  letter-spacing: 0.01em;
+}
+.sf-works__caption--main {
+  left: var(--gutter);
+  top: 69.8vh;
+  width: 40vw;
+}
+.sf-works__caption--a {
+  left: 66.11vw;
+  top: 41.4vh;
+  width: 13.05vw;
+}
+.sf-works__caption--b {
+  left: 81.39vw;
+  top: 41.4vh;
+  width: 14.17vw;
+}
+.sf-works__caption--c {
+  left: 66.11vw;
+  top: 76.2vh;
+  width: 29.44vw;
+}
+.sf-works__index {
+  position: absolute;
+  left: var(--gutter);
+  right: var(--gutter);
+  top: 80.5vh;
+}
+.sf-works__index-head {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--divider-strong);
+  padding-top: 8px;
+}
+.sf-works__index-row {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 10px;
+}
+.sf-works__index-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0 var(--space-3);
+  border-left: 1px solid var(--divider-inverse);
+}
+.sf-works__index-item:first-child {
+  padding-left: 0;
+  border-left: 0;
+}
+.sf-works__index-name {
+  font-size: 15px;
+}
+.sf-works__index-type {
+  font-size: 12px;
+  color: var(--muted-inverse);
+}
+@media (max-width: 720px) {
+  .sf-works .sf-works__kicker { top: 3.2vh; }
+  .sf-works .sf-works__meta { display: none; }
+  .sf-works__head-rule { top: 7.6vh; }
+  .sf-works__main { top: 10vh; width: 100vw; height: 30vh; }
+  .sf-works__a { left: var(--gutter); top: 48vh; width: 41.5vw; height: 26vh; }
+  .sf-works__b { left: 52.8vw; top: 48vh; width: 41.5vw; height: 18.5vh; }
+  .sf-works__c,
+  .sf-works__caption--c { display: none; }
+  .sf-works__caption--main { left: var(--gutter); top: 41.4vh; width: 60vw; }
+  .sf-works__caption--a { left: var(--gutter); top: 75.4vh; width: 41.5vw; }
+  .sf-works__caption--b { left: 52.8vw; top: 67.9vh; width: 41.5vw; }
+  .sf-works__index { top: 79.5vh; }
+  .sf-works__index-row { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 0; }
+  .sf-works__index-item:nth-child(3) { display: none; }
+  .sf-works__index-item:nth-child(4) { display: none; }
+}
+
+/* ═══ 04 · PROJECT FOCUS ═══════════════════════════════════════════════════
+ * Left: the exhibit bleeds top/left/bottom at 52vw; a 2:1 detail inset sits on
+ * it with its own caption. Right column: 112px title, 2×2 meta on 1px rules,
+ * 34ch note, plate register at the foot, mark as the sign-off.
+ * ═════════════════════════════════════════════════════════════════════════ */
+.sf-focus {
+  background: var(--paper);
+}
+.sf-focus__exhibit {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 52vw;
+  height: 100vh;
+}
+.sf-focus__image {
+  position: absolute;
+  inset: 0;
+}
+.sf-focus .sf-focus__plate-label {
+  position: absolute;
+  left: var(--gutter);
+  top: 6.2vh;
+  bottom: auto;
+  margin: 0;
+  color: var(--paper);
+  opacity: 0.72;
+  z-index: 2;
+}
+.sf-focus__detail-wrap {
+  position: absolute;
+  right: 3.2vw;
+  bottom: 9.5vh;
+  margin: 0;
+  width: 21.6vw;
+}
+.sf-focus__detail {
+  position: relative;
+  width: 100%;
+  height: 10.8vw;
+  box-shadow: 0 0 0 1px rgba(242, 239, 232, 0.45);
+}
+.sf-focus .sf-focus__detail-label {
+  display: block;
+  margin-top: 8px;
+  color: var(--paper);
+  opacity: 0.72;
+  text-align: right;
+}
+.sf-focus__back {
+  position: absolute;
+  right: var(--gutter);
+  top: 5.6vh;
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+  height: 38px;
+  padding: 0 16px;
+  border: 1px solid var(--divider-strong);
+  border-radius: 0;
+  color: var(--ink);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: transparent;
+}
+.sf-focus__back:hover { border-color: var(--ink); }
+.sf-focus .sf-focus__kicker {
+  position: absolute;
+  left: 58.4vw;
+  top: 7vh;
+  margin: 0;
+}
+.sf-focus__title {
+  position: absolute;
+  left: 58.4vw;
+  top: 12.4vh;
+  font-size: clamp(64px, 7.8vw, 112px);
+  line-height: 0.94;
+  letter-spacing: -0.035em;
+}
+.sf-focus__meta {
+  position: absolute;
+  left: 58.4vw;
+  top: 42vh;
+  width: 35.5vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 1px solid var(--divider);
+  border-bottom: 1px solid var(--divider);
+}
+.sf-focus__cell {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 13px 0 15px;
+}
+.sf-focus__cell:nth-child(even) {
+  border-left: 1px solid var(--divider);
+  padding-left: var(--space-3);
+}
+.sf-focus__cell:nth-child(n + 3) {
+  border-top: 1px solid var(--divider);
+}
+.sf-focus__value {
+  font-size: 15px;
+  letter-spacing: 0.005em;
+}
+.sf-focus .sf-focus__note {
+  position: absolute;
+  left: 58.4vw;
+  top: 59.5vh;
+  width: 33ch;
+  margin: 0;
+}
+.sf-focus__register {
+  position: absolute;
+  left: 58.4vw;
+  right: var(--gutter);
+  bottom: 8.2vh;
+  display: grid;
+  grid-template-columns: 84px 1fr;
+  row-gap: 6px;
+  border-top: 1px solid var(--divider);
+  padding-top: 10px;
+}
+.sf-focus__register-value {
+  font-size: 12px;
+  letter-spacing: 0.02em;
+}
+.sf-focus__foot-mark {
+  position: absolute;
+  right: var(--gutter);
+  bottom: 2.2vh;
+  width: 10vw;
+  color: var(--ink);
+  opacity: 0.5;
+}
+.sf-focus :focus-visible {
+  outline: 1px solid var(--ink);
+  outline-offset: 3px;
+}
+@media (max-height: 800px) and (min-width: 721px) {
+  .sf-focus__title { top: 11.5vh; font-size: 96px; }
+  .sf-focus__meta { top: 38vh; }
+  .sf-focus__cell { padding: 9px 0 10px; }
+  .sf-focus .sf-focus__note { top: 55vh; }
+  .sf-focus__detail-wrap { bottom: 9vh; width: 19vw; }
+  .sf-focus__detail { height: 9.5vw; }
+  .sf-focus__register { bottom: 6.5vh; }
+}
+@media (max-width: 720px) {
+  .sf-focus__exhibit { width: 100vw; height: 30vh; }
+  .sf-focus .sf-focus__plate-label { bottom: auto; top: calc(30vh - 2.2vh); transform: translateY(-100%); left: auto; right: var(--gutter); }
+  .sf-focus__detail-wrap {
+    display: block;
+    left: 44px;
+    right: 44px;
+    bottom: auto;
+    top: 79vh;
+    width: auto;
+  }
+  .sf-focus__detail { height: calc((100vw - 88px) * 0.5); }
+  .sf-focus .sf-focus__detail-label { text-align: left; color: var(--muted); opacity: 1; margin-top: 7px; }
+  .sf-focus__back {
+    left: var(--gutter);
+    right: auto;
+    top: 3.2vh;
+    border-color: rgba(242, 239, 232, 0.55);
+    color: var(--paper);
+  }
+  .sf-focus .sf-focus__kicker { left: var(--gutter); top: 34.5vh; }
+  .sf-focus__title { left: var(--gutter); top: 37.5vh; font-size: 44px; }
+  .sf-focus__meta { left: var(--gutter); top: 53vh; width: calc(100vw - 44px); }
+  .sf-focus__cell { padding: 7px 0 8px; gap: 3px; }
+  .sf-focus .sf-focus__note { left: var(--gutter); top: 66vh; width: calc(100vw - 44px); font-size: 11.5px; line-height: 1.45; }
+  .sf-focus__register { display: none; }
+  .sf-focus__foot-mark { display: none; }
+}
+
+/* ═══ REVIEW INDEX ═════════════════════════════════════════════════════════
+ * The page the user opens first: the wordmark, the five frames, the status.
+ * ═════════════════════════════════════════════════════════════════════════ */
+.review {
+  min-height: 100vh;
+  background: var(--paper);
+  color: var(--ink);
+  padding: var(--space-6) var(--gutter) var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+.review__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-4);
+  border-bottom: 1px solid var(--divider);
+  padding-bottom: var(--space-3);
+}
+.review__mark { width: min(46vw, 520px); color: var(--ink); }
+.review__kicker { margin: 0; }
+.review__status { display: flex; flex-direction: column; gap: 6px; text-align: right; }
+.review__intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  gap: var(--space-5);
+  align-items: start;
+}
+.review__meta { margin: 0; }
+.review__list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--divider); }
+.review__item { border-bottom: 1px solid var(--divider); }
+.review__link {
+  display: grid;
+  grid-template-columns: 64px minmax(0, 1fr) auto;
+  gap: var(--space-3);
+  align-items: baseline;
+  padding: var(--space-3) 0;
+  color: inherit;
+  text-decoration: none;
+}
+.review__link:hover .review__title { text-decoration: underline; text-underline-offset: 6px; }
+.review__num { padding-top: 4px; }
+.review__body { display: flex; flex-direction: column; gap: 4px; }
+.review__title {
+  font-family: var(--font-display);
+  font-size: clamp(24px, 2.4vw, 34px);
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+}
+.review__open { white-space: nowrap; }
+.review__foot {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--divider);
+  padding-top: 12px;
+}
+@media (max-width: 720px) {
+  .review { padding: var(--space-4) var(--gutter); }
+  .review__head { flex-direction: column; }
+  .review__mark { width: 86vw; }
+  .review__status { text-align: left; }
+  .review__intro { grid-template-columns: 1fr; gap: var(--space-3); }
+  .review__link { grid-template-columns: 40px minmax(0, 1fr); }
+  .review__open { display: none; }
+}

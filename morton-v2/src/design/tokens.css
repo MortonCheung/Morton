@@ -1,0 +1,88 @@
+/* ───────────────────────────────────────────────────────────────────────────
+ * MORTON V2 — design tokens (Phase 1, measured from the five styleframes)
+ *
+ * One system, five compositions. Every value below is used by at least one
+ * styleframe and is documented in docs/art-direction/COLOR_SPACING_TOKENS.md.
+ * Keep names stable: the app shell (Review.tsx) reads --gutter / --muted /
+ * --divider / --space-* as well.
+ * ─────────────────────────────────────────────────────────────────────────── */
+:root {
+  /* ── Canvas: whole planes only. Colour is carried by the exhibit plates.
+   *    No page-wide gradients, no glass, no glow. */
+  --paper: #f2efe8;          /* warm paper white — primary ground */
+  --paper-deep: #ebe7dd;     /* second paper value, used only as a plate tone */
+  --gallery: #181816;        /* dark exhibition chapter (Works) */
+  --ink: #1b1a18;            /* primary text / worst-case type */
+  --ink-inverse: #f2efe8;    /* text on gallery */
+  --muted: #6c6962;          /* secondary information — still ≥ 4.5:1 on paper */
+  --muted-inverse: #9b958c;  /* secondary information on gallery */
+  --divider: #c9c1b6;        /* 1px rules on paper */
+  --divider-strong: #8f887e; /* the few rules that must read as a boundary */
+  --divider-inverse: #3a3733;/* 1px rules on gallery */
+  --accent: #896d55;         /* reserved: the live focus ring, never decoration */
+
+  /* ── Plate tones. These are *placeholder materials* until the original plate
+   *    set lands; flat values on purpose (no fake texture). */
+  --plate-paper: #e3dbc9;
+  --plate-plaster: #d5cbb6;
+  --plate-ink: #1f1e1c;
+  --plate-linen: #d9cfbb;
+  --plate-sand: #ded3bd;
+  --plate-lacquer: #2a2521;
+  --plate-fold: #e9e2d2;
+  --plate-grain: #cfc4ae;
+
+  /* ── Type */
+  --font-display: 'Bodoni Moda', 'Times New Roman', serif;
+  --font-sans: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+  --font-read: 'Cormorant Garamond', Georgia, serif;
+
+  --type-display: clamp(44px, 7.8vw, 112px);  /* About / Focus statement lines */
+  --type-title: clamp(34px, 4.4vw, 64px);     /* section openers */
+  --type-lead: clamp(19px, 1.6vw, 23px);      /* Cormorant long read */
+  --type-body: clamp(14.5px, 1.08vw, 15.5px); /* Archivo information */
+  --type-caption: clamp(11.5px, 0.86vw, 12.5px);
+  --type-label: 11px;                         /* the smallest thing on any frame */
+
+  --track-display: -0.032em;   /* Didone display: close the sides, never negative leading */
+  --track-label: 0.145em;
+  --track-caption: 0.01em;
+
+  /* ── Grid: 12 columns desktop / 4 columns mobile, gutters on the screen edge */
+  --gutter: clamp(22px, 4.5vw, 96px);
+  --columns: 12;
+  --col-gap: clamp(12px, 1.4vw, 24px);
+  --content: calc(100vw - var(--gutter) * 2);
+
+  /* ── Spacing: the only steps allowed (8 / 16 / 24 / 40 / 64 / 96) */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 40px;
+  --space-5: 64px;
+  --space-6: 96px;
+
+  /* ── Rectangles. This is a 0-radius system. */
+  --radius: 0px;
+  --rule: 1px;
+
+  /* ── Opening cover / progress line (Phase 2 reads these too) */
+  --cover-line: 1px;
+  --cover-line-ink: rgba(27, 26, 24, 0.26);
+  --cover-line-drawn: rgba(27, 26, 24, 0.82);
+  --cover-hairstroke: rgba(27, 26, 24, 0.5);
+
+  --ease-exhibit: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+@media (max-width: 720px) {
+  :root {
+    --gutter: 22px;
+    --columns: 4;
+    --col-gap: 12px;
+    --type-display: clamp(38px, 11vw, 48px);
+    --type-title: clamp(28px, 8.4vw, 40px);
+    --type-body: 15px;
+    --type-caption: 12px;
+  }
+}

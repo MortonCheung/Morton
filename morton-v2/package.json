@@ -1,0 +1,28 @@
+{
+  "name": "morton-v2",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "MORTON V2 — single editorial luxury art system. Phase 1 ships static high-fidelity styleframes.",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5290 --strictPort",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 5291 --strictPort",
+    "typecheck": "tsc -b",
+    "shot": "node scripts/shot.mjs"
+  },
+  "dependencies": {
+    "gsap": "^3.15.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "playwright-core": "^1.62.1",
+    "typescript": "~5.9.3",
+    "vite": "^8.3.5"
+  }
+}

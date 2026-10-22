@@ -1,0 +1,136 @@
+/* ───────────────────────────────────────────────────────────────────────────
+ * Opening cover — two paper sheets on one coordinate system.
+ * The sheets are opaque; the final hero is mounted and painted underneath from
+ * the first frame. Reveal = transform only, so nothing is created mid-transition.
+ * ─────────────────────────────────────────────────────────────────────────── */
+.opening-root {
+  position: relative;
+  min-height: 100svh;
+  overflow: clip;
+}
+.opening-final {
+  position: relative;
+  z-index: 0;
+}
+.opening-cover {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  overflow: hidden;
+  background: var(--paper);
+}
+.opening-cover[hidden] {
+  display: none;
+}
+
+.opening-sheet {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 50svh;
+  overflow: hidden;
+  background: var(--paper);
+  will-change: transform;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+.opening-sheet--top {
+  top: 0;
+}
+.opening-sheet--bottom {
+  bottom: 0;
+}
+
+/* both slices show ONE full-viewport artwork */
+.opening-art {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100svh;
+  overflow: visible;
+}
+.opening-sheet--bottom .opening-art {
+  top: -50svh;
+}
+
+.opening-art [data-stroke] {
+  stroke: var(--ink);
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+}
+.opening-art [data-line-family='silhouette'] [data-stroke] {
+  stroke-width: 1.4px;
+  opacity: 1;
+}
+.opening-art [data-line-family='detail'] [data-stroke] {
+  stroke-width: 0.8px;
+  opacity: 0.66;
+}
+.opening-art [data-line-family='shading'] [data-stroke] {
+  stroke-width: 0.55px;
+  opacity: 0.4;
+}
+.opening-art[data-variant='mobile'] [data-line-family='silhouette'] [data-stroke] {
+  stroke-width: 1.2px;
+}
+.opening-art[data-variant='mobile'] [data-line-family='detail'] [data-stroke] {
+  stroke-width: 0.7px;
+  opacity: 0.6;
+}
+
+/* seam: fixed, 74vw, sits exactly on the centre line */
+.opening-seam {
+  position: fixed;
+  left: 13vw;
+  right: 13vw;
+  top: calc(50svh - 0.5px);
+  height: 1px;
+  z-index: 3;
+}
+.opening-seam__track {
+  position: absolute;
+  inset: 0;
+  background: color-mix(in srgb, var(--ink) 18%, transparent);
+}
+.opening-seam__fill {
+  position: absolute;
+  inset: 0;
+  background: var(--ink);
+  transform: scaleX(0);
+  transform-origin: left center;
+  will-change: transform;
+}
+.opening-note {
+  position: fixed;
+  left: var(--gutter);
+  top: 4.2vh;
+  z-index: 4;
+  margin: 0;
+  color: var(--muted);
+}
+
+/* the page is locked while the cover is up */
+html.is-opening,
+html.is-opening body {
+  overflow: hidden;
+  height: 100%;
+}
+
+@media (max-width: 719px) {
+  .opening-seam {
+    left: 7vw;
+    right: 7vw;
+  }
+  .opening-art [data-line-family='shading'] {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .opening-sheet,
+  .opening-seam__fill {
+    will-change: auto;
+  }
+}

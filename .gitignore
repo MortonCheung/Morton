@@ -1,5 +1,4 @@
 node_modules/
-dist/
 dist-ssr/
 *.local
 .DS_Store
@@ -12,4 +11,6 @@ test-results/
 playwright-report/
 docs/RECORDING/.raw/
 *.tsbuildinfo
-.DELIVERY_SUBREPOS/
+.servers/
+.restored/
+morton-v2/.tmp-ref/

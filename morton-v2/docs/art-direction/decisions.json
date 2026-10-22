@@ -1,0 +1,79 @@
+{
+  "project": "MORTON V2 / Phase 1",
+  "status": "PENDING_VISUAL_APPROVAL",
+  "date": "2026-10-22",
+  "decisions": [
+    {
+      "id": "D01",
+      "decision": "Wordmark is drawn geometry (rect + ellipse arcs + straight bands), not typeset Bodoni.",
+      "reason": "Round 1 was rejected because the mark was a default font extruded. A constructed mark gives a checkable spec (grid, stroke weights, apertures, spacing) and survives every scale.",
+      "evidence_screenshot": "docs/art-direction/wordmark/WORDMARK_STUDY.png, docs/art-direction/styleframes/01-hero-final.desktop.png"
+    },
+    {
+      "id": "D02",
+      "decision": "Adopt cut A (Didone serif) as the primary mark, with cut C (material window) as the hero rendering; cut B (geometric sans) kept as an alternate.",
+      "reason": "A carries the editorial/print register the four references share; C makes type and material one physical object instead of type on a colour block. B is more contemporary but loses the print register.",
+      "evidence_screenshot": "docs/art-direction/wordmark/WORDMARK_STUDY.png"
+    },
+    {
+      "id": "D03",
+      "decision": "Hero wordmark set at 101.9vw, cropped only through the outer serifs (13.7px per side, 1.9% of ink width); stems sit flush with the frame.",
+      "reason": "A larger crop destroys the brand name (MORTON must read in 0.5s); a 1.2% crop left a paper sliver inside the M's stem. Flush stems + bleeding serifs keep the full word and still read as a deliberate print bleed.",
+      "evidence_screenshot": "docs/art-direction/styleframes/01-hero-final.desktop.png"
+    },
+    {
+      "id": "D04",
+      "decision": "The last two letters are punched out of the lacquer plate (paper letters in a material field); base line runs through both grounds.",
+      "reason": "Satisfies 'material and type must interlock, not stack'; the baseline joins the two halves and carries the overflow gesture.",
+      "evidence_screenshot": "docs/art-direction/styleframes/01-hero-final.desktop.png"
+    },
+    {
+      "id": "D05",
+      "decision": "Opening cover re-uses the hero's exact geometry (plate rectangle, wordmark ink box, baseline) and renders it in three line weights with per-letter 62% plot progress.",
+      "reason": "Phase 2 must open from the cover into this hero; identical geometry is the only way the reveal can be continuous. No numbers.",
+      "evidence_screenshot": "docs/art-direction/styleframes/00-opening-cover.desktop.png"
+    },
+    {
+      "id": "D06",
+      "decision": "About uses p01 paper as its main image (not p02 plaster as first suggested).",
+      "reason": "p02's right-third shadow band would put the 112px title (which crosses the image edge) on a mid-dark field, breaking the crisp crossing. p01 keeps the crossing ink-on-light and is an approved plate.",
+      "evidence_screenshot": "docs/art-direction/styleframes/02-about-editorial.desktop.png"
+    },
+    {
+      "id": "D07",
+      "decision": "About title (112px) starts inside the image and crosses its right edge; the image gets a 1px edge at 30% ink.",
+      "reason": "Text-over-image is one of the two allowed type/image relationships; the 1px edge makes the crossing crisp instead of 'half-covered'.",
+      "evidence_screenshot": "docs/art-direction/styleframes/02-about-editorial.desktop.png"
+    },
+    {
+      "id": "D08",
+      "decision": "Works is the only dark chapter (#181816); main exhibit 64.7vw bleeding left; three secondary plates at 4:5 / 4:5 / 3:2 with captions on one baseline; a 4-column catalogue strip.",
+      "reason": "One dark gallery chapter creates the section contrast the brief asks for; unequal ratios and a dense index avoid the card-wall.",
+      "evidence_screenshot": "docs/art-direction/styleframes/03-works-exhibition.desktop.png"
+    },
+    {
+      "id": "D09",
+      "decision": "Focus has a 112px title, a 2x2 meta table on 1px rules, a 33ch note, a 2:1 detail inset placed on the exhibit, and a 1px rectangular Back control (38px tall).",
+      "reason": "Product-level information hierarchy with one real control; the detail belongs to the exhibit, not to another card in the column.",
+      "evidence_screenshot": "docs/art-direction/styleframes/04-project-focus.desktop.png"
+    },
+    {
+      "id": "D10",
+      "decision": "Every mobile frame is re-composed (bands / stacks / different crop), never a scaled desktop.",
+      "reason": "390px cannot carry 112px three-line titles or a 52vw bleed; each mobile frame gets its own rhythm while keeping the same tokens.",
+      "evidence_screenshot": "docs/art-direction/styleframes/01-hero-final.mobile.png, 02-about-editorial.mobile.png, 03-works-exhibition.mobile.png, 04-project-focus.mobile.png"
+    },
+    {
+      "id": "D11",
+      "decision": "Secondary information is stepped down by size (11–12px) and the muted colour, never by opacity.",
+      "reason": "Opacity turns small text into grey fog; the brief forbids it. Verified on all five frames.",
+      "evidence_screenshot": "docs/art-direction/styleframes/04-project-focus.desktop.png"
+    },
+    {
+      "id": "D12",
+      "decision": "No fake percentages, awards, clients or links; all unverified content is a bracketed placeholder.",
+      "reason": "Asset register requires real provenance; the brief forbids invented achievements.",
+      "evidence_screenshot": "docs/art-direction/styleframes/03-works-exhibition.desktop.png"
+    }
+  ]
+}

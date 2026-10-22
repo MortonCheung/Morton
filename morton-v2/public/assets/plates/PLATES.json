@@ -1,0 +1,198 @@
+{
+  "schema": "morton.plates/v1",
+  "project": "MORTON V2",
+  "phase": "Phase 1 \u00b7 art direction",
+  "generated_at": "2026-10-22T07:54:55+00:00",
+  "generator": "scripts/plates/generate.py",
+  "generation": "numpy + Pillow + scipy; no image model, no third-party imagery",
+  "color": {
+    "space": "sRGB",
+    "profile": "embedded sRGB IEC61966-2.1",
+    "alpha": false,
+    "format": "PNG 8-bit"
+  },
+  "palette": [
+    "#F2EFE8",
+    "#B9B0A3",
+    "#8E877C",
+    "#1B1A18",
+    "#896D55"
+  ],
+  "declaration_zh": "\u539f\u521b\u5360\u4f4d\uff0c\u975e\u771f\u5b9e\u4f5c\u54c1\u6444\u5f71\u3002\u5168\u90e8\u7531\u672c\u4ed3\u5e93\u811a\u672c\u7a0b\u5e8f\u5316\u751f\u6210\uff0c\u4e0d\u542b\u4efb\u4f55\u7b2c\u4e09\u65b9\u56fe\u50cf\u7d20\u6750\u3002",
+  "declaration_en": "Original procedural placeholder artwork. Not a photograph of a real artwork or product. No third-party imagery or reference-site assets were used.",
+  "plates": [
+    {
+      "id": "p01",
+      "file": "p01-paper-4x5.jpg",
+      "width": 1200,
+      "height": 1500,
+      "ratio": "4:5",
+      "semantics_zh": "\u7eb8\u7ea4\u7ef4 / \u6298\u75d5",
+      "semantics_en": "paper fibre / creases",
+      "method": "Directional paper macro: drawn micro-fibres + anisotropic relief, one soft diagonal fold with contact shadow, 2x supersampled.",
+      "brightness": {
+        "mean_luma_rec709": 220.0,
+        "tier": "light"
+      },
+      "suggested_usage": [
+        "secondary \u6b21\u7ea7\u56fe",
+        "texture only \u7eaf\u7eb9\u7406"
+      ],
+      "declaration": "\u539f\u521b\u5360\u4f4d\uff0c\u975e\u771f\u5b9e\u4f5c\u54c1\u6444\u5f71\u3002\u5168\u90e8\u7531\u672c\u4ed3\u5e93\u811a\u672c\u7a0b\u5e8f\u5316\u751f\u6210\uff0c\u4e0d\u542b\u4efb\u4f55\u7b2c\u4e09\u65b9\u56fe\u50cf\u7d20\u6750\u3002 / Original procedural placeholder artwork. Not a photograph of a real artwork or product. No third-party imagery or reference-site assets were used."
+    },
+    {
+      "id": "p02",
+      "file": "p02-plaster-3x2.jpg",
+      "width": 1800,
+      "height": 1200,
+      "ratio": "3:2",
+      "semantics_zh": "\u77f3\u818f / \u7c89\u5237\u5899\u9762",
+      "semantics_en": "plaster / painted wall",
+      "method": "Plaster wall corner: two analytic planes lit from upper left, trowel/pit height field, 2x supersampled.",
+      "brightness": {
+        "mean_luma_rec709": 168.4,
+        "tier": "mid"
+      },
+      "suggested_usage": [
+        "secondary \u6b21\u7ea7\u56fe",
+        "mid-tone anchor \u4e2d\u8c03\u951a\u70b9"
+      ],
+      "declaration": "\u539f\u521b\u5360\u4f4d\uff0c\u975e\u771f\u5b9e\u4f5c\u54c1\u6444\u5f71\u3002\u5168\u90e8\u7531\u672c\u4ed3\u5e93\u811a\u672c\u7a0b\u5e8f\u5316\u751f\u6210\uff0c\u4e0d\u542b\u4efb\u4f55\u7b2c\u4e09\u65b9\u56fe\u50cf\u7d20\u6750\u3002 / Original procedural placeholder artwork. Not a photograph of a real artwork or product. No third-party imagery or reference-site assets were used."
+    },
+    {
+      "id": "p03",
+      "file": "p03-ink-1x1.jpg",
+      "width": 1200,
+      "height": 1200,
+      "ratio": "1:1",
+      "semantics_zh": "\u58a8\u6655 / \u67d3\u6599\u6e17\u5316",
+      "semantics_en": "ink bloom / dye diffusion",
+      "method": "Large ink wash with paper-fibre ground, warped diffusion edge, dry-brush break-up and sediment ring.",
+      "brightness": {
+        "mean_luma_rec709": 121.9,
+        "tier": "mid-dark"
+      },
+      "suggested_usage": [
+        "secondary \u6b21\u7ea7\u56fe",
+        "detail \u7ec6\u8282\u56fe"
+      ],
+      "declaration": "\u539f\u521b\u5360\u4f4d\uff0c\u975e\u771f\u5b9e\u4f5c\u54c1\u6444\u5f71\u3002\u5168\u90e8\u7531\u672c\u4ed3\u5e93\u811a\u672c\u7a0b\u5e8f\u5316\u751f\u6210\uff0c\u4e0d\u542b\u4efb\u4f55\u7b2c\u4e09\u65b9\u56fe\u50cf\u7d20\u6750\u3002 / Original procedural placeholder artwork. Not a photograph of a real artwork or product. No third-party imagery or reference-site assets were used."
+    },
+    {
+      "id": "p04",
+      "file": "p04-linen-4x5.jpg",
+      "width": 1200,
+      "height": 1500,
+      "ratio": "4:5",
+      "semantics_zh": "\u4e9a\u9ebb\u7ec7\u7269",
+      "semantics_en": "linen weave",
+      "method": "Linen weave height field (warp/weft, slubs, irregular thread spacing) plus one soft fold and cast shadow.",
+      "brightness": {
+        "mean_luma_rec709": 182.8,
+        "tier": "mid"
+      },
+      "suggested_usage": [
+        "texture only \u7eaf\u7eb9\u7406",
+        "secondary \u6b21\u7ea7\u56fe"
+      ],
+      "declaration": "\u539f\u521b\u5360\u4f4d\uff0c\u975e\u771f\u5b9e\u4f5c\u54c1\u6444\u5f71\u3002\u5168\u90e8\u7531\u672c\u4ed3\u5e93\u811a\u672c\u7a0b\u5e8f\u5316\u751f\u6210\uff0c\u4e0d\u542b\u4efb\u4f55\u7b2c\u4e09\u65b9\u56fe\u50cf\u7d20\u6750\u3002 / Original procedural placeholder artwork. Not a photograph of a real artwork or product. No third-party imagery or reference-site assets were used."
+    },
+    {
+      "id": "p05",
+      "file": "p05-sand-16x9.jpg",
+      "width": 1920,
+      "height": 1080,
+      "ratio": "16:9",
+      "semantics_zh": "\u7802 / \u7ec6\u9897\u7c92\u77f3\u6750",
+      "semantics_en": "sand / fine granular stone",
+      "method": "Sand: two-scale Voronoi grains, wind ripples and a low raking light; one pebble with a long cast shadow.",
+      "brightness": {
+        "mean_luma_rec709": 163.0,
+        "tier": "mid"
+      },
+      "suggested_usage": [
+        "secondary \u6b21\u7ea7\u56fe",
+        "wide banner \u6a2a\u5e45"
+      ],
+      "declaration": "\u539f\u521b\u5360\u4f4d\uff0c\u975e\u771f\u5b9e\u4f5c\u54c1\u6444\u5f71\u3002\u5168\u90e8\u7531\u672c\u4ed3\u5e93\u811a\u672c\u7a0b\u5e8f\u5316\u751f\u6210\uff0c\u4e0d\u542b\u4efb\u4f55\u7b2c\u4e09\u65b9\u56fe\u50cf\u7d20\u6750\u3002 / Original procedural placeholder artwork. Not a photograph of a real artwork or product. No third-party imagery or reference-site assets were used."
+    },
+    {
+      "id": "p06",
+      "file": "p06-lacquer-3x2.jpg",
+      "width": 1800,
+      "height": 1200,
+      "ratio": "3:2",
+      "semantics_zh": "\u6df1\u8272\u6f06\u9762 / \u54d1\u5149\u91d1\u5c5e",
+      "semantics_en": "dark lacquer / matte metal",
+      "method": "Full-bleed matte lacquer: flat-topped strip reflection at y\u224825%, orange-peel micro-specular, slow 4-6 level illumination gradient, heavy sub-LSB dither.",
+      "brightness": {
+        "mean_luma_rec709": 46.0,
+        "tier": "dark"
+      },
+      "suggested_usage": [
+        "dark section \u6697\u573a\u5e95",
+        "hero background \u4e3b\u89c6\u89c9\u80cc\u666f"
+      ],
+      "declaration": "\u539f\u521b\u5360\u4f4d\uff0c\u975e\u771f\u5b9e\u4f5c\u54c1\u6444\u5f71\u3002\u5168\u90e8\u7531\u672c\u4ed3\u5e93\u811a\u672c\u7a0b\u5e8f\u5316\u751f\u6210\uff0c\u4e0d\u542b\u4efb\u4f55\u7b2c\u4e09\u65b9\u56fe\u50cf\u7d20\u6750\u3002 / Original procedural placeholder artwork. Not a photograph of a real artwork or product. No third-party imagery or reference-site assets were used."
+    },
+    {
+      "id": "p07",
+      "file": "p07-fold-2x3.jpg",
+      "width": 1200,
+      "height": 1800,
+      "ratio": "2:3",
+      "semantics_zh": "\u7eb8\u5f20\u6298\u53e0\u7684\u7a7a\u95f4\u88c5\u7f6e",
+      "semantics_en": "folded paper installation",
+      "method": "3D perspective folded paper screen (three planes, bowed strips, sagging top edge) with cast shadow and paper fibre.",
+      "brightness": {
+        "mean_luma_rec709": 178.2,
+        "tier": "mid-light"
+      },
+      "suggested_usage": [
+        "hero \u4e3b\u89c6\u89c9",
+        "secondary \u6b21\u7ea7\u56fe"
+      ],
+      "declaration": "\u539f\u521b\u5360\u4f4d\uff0c\u975e\u771f\u5b9e\u4f5c\u54c1\u6444\u5f71\u3002\u5168\u90e8\u7531\u672c\u4ed3\u5e93\u811a\u672c\u7a0b\u5e8f\u5316\u751f\u6210\uff0c\u4e0d\u542b\u4efb\u4f55\u7b2c\u4e09\u65b9\u56fe\u50cf\u7d20\u6750\u3002 / Original procedural placeholder artwork. Not a photograph of a real artwork or product. No third-party imagery or reference-site assets were used."
+    },
+    {
+      "id": "p07b",
+      "file": "p07b-fold-deep-2x3.jpg",
+      "width": 1200,
+      "height": 1800,
+      "ratio": "2:3",
+      "semantics_zh": "\u7eb8\u5f20\u6298\u53e0\u7a7a\u95f4\u88c5\u7f6e\uff08\u620f\u5267\u7248\uff09",
+      "semantics_en": "folded paper installation (dramatic alternate)",
+      "method": "Dramatic alternate of p07: lower camera, closer framing, longer/harder floor shadow, stronger facet contrast.",
+      "brightness": {
+        "mean_luma_rec709": 172.2,
+        "tier": "mid-light"
+      },
+      "suggested_usage": [
+        "hero \u4e3b\u89c6\u89c9"
+      ],
+      "declaration": "\u539f\u521b\u5360\u4f4d\uff0c\u975e\u771f\u5b9e\u4f5c\u54c1\u6444\u5f71\u3002\u5168\u90e8\u7531\u672c\u4ed3\u5e93\u811a\u672c\u7a0b\u5e8f\u5316\u751f\u6210\uff0c\u4e0d\u542b\u4efb\u4f55\u7b2c\u4e09\u65b9\u56fe\u50cf\u7d20\u6750\u3002 / Original procedural placeholder artwork. Not a photograph of a real artwork or product. No third-party imagery or reference-site assets were used.",
+      "alternate_of": "p07"
+    },
+    {
+      "id": "p08",
+      "file": "p08-grain-4x5.jpg",
+      "width": 1200,
+      "height": 1500,
+      "ratio": "4:5",
+      "semantics_zh": "\u6728\u7eb9 / \u5e74\u8f6e",
+      "semantics_en": "wood grain / growth rings",
+      "method": "Flat-sawn wood: waving long grain, fibre/pore texture, a dense knot ring cluster and a drying check with cavity and lit lip.",
+      "brightness": {
+        "mean_luma_rec709": 141.5,
+        "tier": "mid-dark"
+      },
+      "suggested_usage": [
+        "secondary \u6b21\u7ea7\u56fe",
+        "texture only \u7eaf\u7eb9\u7406"
+      ],
+      "declaration": "\u539f\u521b\u5360\u4f4d\uff0c\u975e\u771f\u5b9e\u4f5c\u54c1\u6444\u5f71\u3002\u5168\u90e8\u7531\u672c\u4ed3\u5e93\u811a\u672c\u7a0b\u5e8f\u5316\u751f\u6210\uff0c\u4e0d\u542b\u4efb\u4f55\u7b2c\u4e09\u65b9\u56fe\u50cf\u7d20\u6750\u3002 / Original procedural placeholder artwork. Not a photograph of a real artwork or product. No third-party imagery or reference-site assets were used."
+    }
+  ],
+  "contact_sheet": "contact-sheet.png",
+  "notes": "Placeholder material plates for the Phase 1 styleframes. They are not photographs of real artworks; replace with licensed project photography when available."
+}

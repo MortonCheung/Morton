@@ -1,0 +1,248 @@
+{
+  "base": "http://127.0.0.1:5290/",
+  "startedAt": "2026-10-22T09:44:53.174Z",
+  "shots": [
+    {
+      "frame": "00-opening-cover",
+      "view": "desktop",
+      "file": "docs/art-direction/styleframes/00-opening-cover.desktop.png",
+      "w": 1440,
+      "h": 900,
+      "dpr": 1,
+      "overflowX": 0,
+      "scrollHeight": 900,
+      "fonts": [
+        "Bodoni Moda:unloaded",
+        "Cormorant Garamond:unloaded",
+        "Archivo:loaded",
+        "Jost:unloaded"
+      ]
+    },
+    {
+      "frame": "00-opening-cover",
+      "view": "desktop-short",
+      "file": "docs/art-direction/styleframes/00-opening-cover.desktop-short.png",
+      "w": 1440,
+      "h": 700,
+      "dpr": 1,
+      "overflowX": 0,
+      "scrollHeight": 700,
+      "fonts": [
+        "Bodoni Moda:unloaded",
+        "Cormorant Garamond:unloaded",
+        "Archivo:loaded",
+        "Jost:unloaded"
+      ]
+    },
+    {
+      "frame": "00-opening-cover",
+      "view": "mobile",
+      "file": "docs/art-direction/styleframes/00-opening-cover.mobile.png",
+      "w": 390,
+      "h": 844,
+      "dpr": 2,
+      "overflowX": 0,
+      "scrollHeight": 844,
+      "fonts": [
+        "Bodoni Moda:unloaded",
+        "Cormorant Garamond:unloaded",
+        "Archivo:loaded",
+        "Jost:unloaded"
+      ]
+    },
+    {
+      "frame": "01-hero-final",
+      "view": "desktop",
+      "file": "docs/art-direction/styleframes/01-hero-final.desktop.png",
+      "w": 1440,
+      "h": 900,
+      "dpr": 1,
+      "overflowX": 0,
+      "scrollHeight": 900,
+      "fonts": [
+        "Bodoni Moda:unloaded",
+        "Cormorant Garamond:unloaded",
+        "Archivo:loaded",
+        "Jost:unloaded"
+      ]
+    },
+    {
+      "frame": "01-hero-final",
+      "view": "desktop-short",
+      "file": "docs/art-direction/styleframes/01-hero-final.desktop-short.png",
+      "w": 1440,
+      "h": 700,
+      "dpr": 1,
+      "overflowX": 0,
+      "scrollHeight": 700,
+      "fonts": [
+        "Bodoni Moda:unloaded",
+        "Cormorant Garamond:unloaded",
+        "Archivo:loaded",
+        "Jost:unloaded"
+      ]
+    },
+    {
+      "frame": "01-hero-final",
+      "view": "mobile",
+      "file": "docs/art-direction/styleframes/01-hero-final.mobile.png",
+      "w": 390,
+      "h": 844,
+      "dpr": 2,
+      "overflowX": 0,
+      "scrollHeight": 844,
+      "fonts": [
+        "Bodoni Moda:unloaded",
+        "Cormorant Garamond:unloaded",
+        "Archivo:loaded",
+        "Jost:unloaded"
+      ]
+    },
+    {
+      "frame": "02-about-editorial",
+      "view": "desktop",
+      "file": "docs/art-direction/styleframes/02-about-editorial.desktop.png",
+      "w": 1440,
+      "h": 900,
+      "dpr": 1,
+      "overflowX": 0,
+      "scrollHeight": 900,
+      "fonts": [
+        "Bodoni Moda:loaded",
+        "Cormorant Garamond:loaded",
+        "Archivo:loaded",
+        "Jost:unloaded"
+      ]
+    },
+    {
+      "frame": "02-about-editorial",
+      "view": "desktop-short",
+      "file": "docs/art-direction/styleframes/02-about-editorial.desktop-short.png",
+      "w": 1440,
+      "h": 700,
+      "dpr": 1,
+      "overflowX": 0,
+      "scrollHeight": 700,
+      "fonts": [
+        "Bodoni Moda:loaded",
+        "Cormorant Garamond:loaded",
+        "Archivo:loaded",
+        "Jost:unloaded"
+      ]
+    },
+    {
+      "frame": "02-about-editorial",
+      "view": "mobile",
+      "file": "docs/art-direction/styleframes/02-about-editorial.mobile.png",
+      "w": 390,
+      "h": 844,
+      "dpr": 2,
+      "overflowX": 0,
+      "scrollHeight": 844,
+      "fonts": [
+        "Bodoni Moda:loaded",
+        "Cormorant Garamond:loaded",
+        "Archivo:loaded",
+        "Jost:unloaded"
+      ]
+    },
+    {
+      "frame": "03-works-exhibition",
+      "view": "desktop",
+      "file": "docs/art-direction/styleframes/03-works-exhibition.desktop.png",
+      "w": 1440,
+      "h": 900,
+      "dpr": 1,
+      "overflowX": 0,
+      "scrollHeight": 900,
+      "fonts": [
+        "Bodoni Moda:unloaded",
+        "Cormorant Garamond:unloaded",
+        "Archivo:loaded",
+        "Jost:unloaded"
+      ]
+    },
+    {
+      "frame": "03-works-exhibition",
+      "view": "desktop-short",
+      "file": "docs/art-direction/styleframes/03-works-exhibition.desktop-short.png",
+      "w": 1440,
+      "h": 700,
+      "dpr": 1,
+      "overflowX": 0,
+      "scrollHeight": 700,
+      "fonts": [
+        "Bodoni Moda:unloaded",
+        "Cormorant Garamond:unloaded",
+        "Archivo:loaded",
+        "Jost:unloaded"
+      ]
+    },
+    {
+      "frame": "03-works-exhibition",
+      "view": "mobile",
+      "file": "docs/art-direction/styleframes/03-works-exhibition.mobile.png",
+      "w": 390,
+      "h": 844,
+      "dpr": 2,
+      "overflowX": 0,
+      "scrollHeight": 844,
+      "fonts": [
+        "Bodoni Moda:unloaded",
+        "Cormorant Garamond:unloaded",
+        "Archivo:loaded",
+        "Jost:unloaded"
+      ]
+    },
+    {
+      "frame": "04-project-focus",
+      "view": "desktop",
+      "file": "docs/art-direction/styleframes/04-project-focus.desktop.png",
+      "w": 1440,
+      "h": 900,
+      "dpr": 1,
+      "overflowX": 0,
+      "scrollHeight": 900,
+      "fonts": [
+        "Bodoni Moda:loaded",
+        "Cormorant Garamond:unloaded",
+        "Archivo:loaded",
+        "Jost:unloaded"
+      ]
+    },
+    {
+      "frame": "04-project-focus",
+      "view": "desktop-short",
+      "file": "docs/art-direction/styleframes/04-project-focus.desktop-short.png",
+      "w": 1440,
+      "h": 700,
+      "dpr": 1,
+      "overflowX": 0,
+      "scrollHeight": 700,
+      "fonts": [
+        "Bodoni Moda:loaded",
+        "Cormorant Garamond:unloaded",
+        "Archivo:loaded",
+        "Jost:unloaded"
+      ]
+    },
+    {
+      "frame": "04-project-focus",
+      "view": "mobile",
+      "file": "docs/art-direction/styleframes/04-project-focus.mobile.png",
+      "w": 390,
+      "h": 844,
+      "dpr": 2,
+      "overflowX": 0,
+      "scrollHeight": 844,
+      "fonts": [
+        "Bodoni Moda:loaded",
+        "Cormorant Garamond:unloaded",
+        "Archivo:loaded",
+        "Jost:unloaded"
+      ]
+    }
+  ],
+  "problems": [],
+  "finishedAt": "2026-10-22T09:45:14.901Z"
+}

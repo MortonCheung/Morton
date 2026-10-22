@@ -1,0 +1,21 @@
+node_modules/
+dist-ssr/
+*.local
+.DS_Store
+.vite/
+*.log
+npm-debug.log*
+.tmp/
+coverage/
+test-results/
+playwright-report/
+docs/RECORDING/.raw/
+*.tsbuildinfo
+
+# Build output is not tracked in V2: the Phase 1 review surface is REVIEW.html
+# plus the dev server; Phase 2/3 rebuilds before each delivery capture.
+dist/
+.tmp-shots/
+.tmp-dev.log
+
+.tmp-qa/
