@@ -1,38 +1,33 @@
 {
   "base": "http://127.0.0.1:5290/",
-  "startedAt": "2026-10-22T09:38:44.195Z",
+  "startedAt": "2026-10-22T14:59:57.066Z",
   "views": [
     {
       "view": "1440x900",
       "w": 1440,
       "h": 900,
       "dpr": 1,
-      "heroAt": 46729,
+      "heroAt": 2509,
       "probe": {
         "state": "hero",
         "timings": {
-          "mount": 402,
-          "drawing": 406,
-          "built": 1493,
-          "targetReady": 1493,
-          "reveal": 1554,
-          "hero": 2176
+          "mount": 348,
+          "drawing": 353,
+          "built": 1425,
+          "targetReady": 1425,
+          "reveal": 1487,
+          "hero": 2109
         }
       },
       "frameDeltas": {
-        "n": 293,
-        "p95": 16.7,
-        "max": 100
+        "n": 136,
+        "p95": 16.8,
+        "max": 150
       },
       "spikes": [
         {
-          "at": 320,
-          "d": 100,
-          "phase": "boot"
-        },
-        {
-          "at": 370,
-          "d": 50.1,
+          "at": 300,
+          "d": 150,
           "phase": "boot"
         }
       ],
@@ -47,27 +42,27 @@
       "w": 1440,
       "h": 700,
       "dpr": 1,
-      "heroAt": 46448,
+      "heroAt": 2417,
       "probe": {
         "state": "hero",
         "timings": {
-          "mount": 218,
-          "drawing": 223,
-          "built": 1316,
-          "targetReady": 1316,
-          "reveal": 1378,
-          "hero": 1999
+          "mount": 272,
+          "drawing": 277,
+          "built": 1358,
+          "targetReady": 1358,
+          "reveal": 1420,
+          "hero": 2041
         }
       },
       "frameDeltas": {
-        "n": 296,
+        "n": 136,
         "p95": 16.8,
-        "max": 100
+        "max": 116.6
       },
       "spikes": [
         {
-          "at": 197,
-          "d": 100,
+          "at": 236,
+          "d": 116.6,
           "phase": "boot"
         }
       ],
@@ -82,27 +77,27 @@
       "w": 1366,
       "h": 768,
       "dpr": 1,
-      "heroAt": 46399,
+      "heroAt": 2361,
       "probe": {
         "state": "hero",
         "timings": {
-          "mount": 242,
-          "drawing": 246,
-          "built": 1347,
-          "targetReady": 1347,
-          "reveal": 1409,
-          "hero": 2028
+          "mount": 178,
+          "drawing": 181,
+          "built": 1306,
+          "targetReady": 1306,
+          "reveal": 1368,
+          "hero": 1989
         }
       },
       "frameDeltas": {
-        "n": 295,
-        "p95": 16.8,
-        "max": 100
+        "n": 139,
+        "p95": 16.7,
+        "max": 66.7
       },
       "spikes": [
         {
-          "at": 209,
-          "d": 100,
+          "at": 156,
+          "d": 66.7,
           "phase": "boot"
         }
       ],
@@ -117,27 +112,27 @@
       "w": 1024,
       "h": 768,
       "dpr": 1,
-      "heroAt": 46325,
+      "heroAt": 2332,
       "probe": {
         "state": "hero",
         "timings": {
-          "mount": 182,
-          "drawing": 186,
-          "built": 1286,
-          "targetReady": 1286,
-          "reveal": 1348,
-          "hero": 1968
+          "mount": 121,
+          "drawing": 174,
+          "built": 1289,
+          "targetReady": 1289,
+          "reveal": 1350,
+          "hero": 1972
         }
       },
       "frameDeltas": {
-        "n": 297,
+        "n": 136,
         "p95": 16.8,
-        "max": 83.4
+        "max": 66.7
       },
       "spikes": [
         {
-          "at": 157,
-          "d": 83.4,
+          "at": 163,
+          "d": 66.7,
           "phase": "boot"
         }
       ],
@@ -152,27 +147,27 @@
       "w": 390,
       "h": 844,
       "dpr": 2,
-      "heroAt": 46717,
+      "heroAt": 2464,
       "probe": {
         "state": "hero",
         "timings": {
-          "mount": 194,
-          "drawing": 197,
-          "built": 1307,
-          "targetReady": 1308,
-          "reveal": 1369,
-          "hero": 1990
+          "mount": 185,
+          "drawing": 188,
+          "built": 1322,
+          "targetReady": 1323,
+          "reveal": 1383,
+          "hero": 2006
         }
       },
       "frameDeltas": {
-        "n": 297,
-        "p95": 16.7,
-        "max": 83.3
+        "n": 145,
+        "p95": 16.8,
+        "max": 66.7
       },
       "spikes": [
         {
-          "at": 175,
-          "d": 83.3,
+          "at": 158,
+          "d": 66.7,
           "phase": "boot"
         }
       ],
@@ -211,7 +206,7 @@
         {
           "overlays": 1,
           "nodes": 304,
-          "scroll": 5770
+          "scroll": 5927
         },
         {
           "overlays": 1,
@@ -221,30 +216,30 @@
         {
           "overlays": 1,
           "nodes": 304,
-          "scroll": 5145
+          "scroll": 5302
         }
       ],
       "errors": []
     },
     {
       "flow": "reduced-motion",
-      "ms": 70,
+      "ms": 89,
       "state": "hero",
       "coverOpacity": "0"
     },
     {
       "flow": "late-ready",
-      "heldMs": 1749,
+      "heldMs": 1765,
       "stillCoveredDuringHold": true,
       "probe": {
         "state": "hero",
         "timings": {
-          "mount": 133,
-          "drawing": 135,
-          "built": 1287,
-          "targetReady": 2354,
-          "reveal": 2415,
-          "hero": 3037
+          "mount": 142,
+          "drawing": 144,
+          "built": 1290,
+          "targetReady": 2374,
+          "reveal": 2436,
+          "hero": 3057
         }
       }
     },
@@ -252,33 +247,33 @@
       "flow": "reload-x5",
       "runs": [
         {
-          "draw": 1082,
+          "draw": 1129,
+          "reveal": 621,
+          "total": 2003
+        },
+        {
+          "draw": 1178,
+          "reveal": 621,
+          "total": 1930
+        },
+        {
+          "draw": 1178,
           "reveal": 622,
-          "total": 2035
-        },
-        {
-          "draw": 1168,
-          "reveal": 621,
-          "total": 1989
-        },
-        {
-          "draw": 1181,
-          "reveal": 621,
-          "total": 1940
+          "total": 1905
         },
         {
           "draw": 1181,
           "reveal": 620,
-          "total": 1933
+          "total": 1915
         },
         {
-          "draw": 1176,
-          "reveal": 621,
-          "total": 1934
+          "draw": 1167,
+          "reveal": 634,
+          "total": 1919
         }
       ]
     }
   ],
   "problems": [],
-  "finishedAt": "2026-10-22T09:43:22.562Z"
+  "finishedAt": "2026-10-22T15:00:51.643Z"
 }

@@ -1,25 +1,19 @@
 {
-  "commit": null,
   "device": "MacBook Air M3 / 8GB / macOS / Chrome 155 headless (ANGLE Metal)",
-  "capturedAt": "2026-10-22T09:43:22.562Z",
+  "capturedAt": "2026-10-22T15:00:51.643Z",
   "views": [
     {
       "view": "1440x900",
-      "drawMs": 1087,
-      "holdMs": 61,
+      "drawMs": 1072,
+      "holdMs": 62,
       "revealMs": 622,
-      "mountToHeroMs": 2176,
-      "frameP95": 16.7,
-      "frameMax": 100,
+      "mountToHeroMs": 2109,
+      "frameP95": 16.8,
+      "frameMax": 150,
       "spikes": [
         {
-          "at": 320,
-          "d": 100,
-          "phase": "boot"
-        },
-        {
-          "at": 370,
-          "d": 50.1,
+          "at": 300,
+          "d": 150,
           "phase": "boot"
         }
       ],
@@ -28,16 +22,16 @@
     },
     {
       "view": "1440x700",
-      "drawMs": 1093,
+      "drawMs": 1081,
       "holdMs": 62,
       "revealMs": 621,
-      "mountToHeroMs": 1999,
+      "mountToHeroMs": 2041,
       "frameP95": 16.8,
-      "frameMax": 100,
+      "frameMax": 116.6,
       "spikes": [
         {
-          "at": 197,
-          "d": 100,
+          "at": 236,
+          "d": 116.6,
           "phase": "boot"
         }
       ],
@@ -46,16 +40,16 @@
     },
     {
       "view": "1366x768",
-      "drawMs": 1101,
+      "drawMs": 1125,
       "holdMs": 62,
-      "revealMs": 619,
-      "mountToHeroMs": 2028,
-      "frameP95": 16.8,
-      "frameMax": 100,
+      "revealMs": 621,
+      "mountToHeroMs": 1989,
+      "frameP95": 16.7,
+      "frameMax": 66.7,
       "spikes": [
         {
-          "at": 209,
-          "d": 100,
+          "at": 156,
+          "d": 66.7,
           "phase": "boot"
         }
       ],
@@ -64,16 +58,16 @@
     },
     {
       "view": "1024x768",
-      "drawMs": 1100,
-      "holdMs": 62,
-      "revealMs": 620,
-      "mountToHeroMs": 1968,
+      "drawMs": 1115,
+      "holdMs": 61,
+      "revealMs": 622,
+      "mountToHeroMs": 1972,
       "frameP95": 16.8,
-      "frameMax": 83.4,
+      "frameMax": 66.7,
       "spikes": [
         {
-          "at": 157,
-          "d": 83.4,
+          "at": 163,
+          "d": 66.7,
           "phase": "boot"
         }
       ],
@@ -82,16 +76,16 @@
     },
     {
       "view": "390x844",
-      "drawMs": 1110,
-      "holdMs": 62,
-      "revealMs": 621,
-      "mountToHeroMs": 1990,
-      "frameP95": 16.7,
-      "frameMax": 83.3,
+      "drawMs": 1134,
+      "holdMs": 61,
+      "revealMs": 623,
+      "mountToHeroMs": 2006,
+      "frameP95": 16.8,
+      "frameMax": 66.7,
       "spikes": [
         {
-          "at": 175,
-          "d": 83.3,
+          "at": 158,
+          "d": 66.7,
           "phase": "boot"
         }
       ],
@@ -102,7 +96,6 @@
   "flows": [
     {
       "flow": "focus",
-      "before": 5352,
       "opened": {
         "overlay": true,
         "active": true,
@@ -127,7 +120,7 @@
         {
           "overlays": 1,
           "nodes": 304,
-          "scroll": 5770
+          "scroll": 5927
         },
         {
           "overlays": 1,
@@ -137,59 +130,46 @@
         {
           "overlays": 1,
           "nodes": 304,
-          "scroll": 5145
+          "scroll": 5302
         }
       ]
     },
     {
       "flow": "reduced-motion",
-      "ms": 70,
-      "state": "hero",
-      "coverOpacity": "0"
+      "ms": 89,
+      "state": "hero"
     },
     {
       "flow": "late-ready",
-      "heldMs": 1749,
-      "stillCoveredDuringHold": true,
-      "probe": {
-        "state": "hero",
-        "timings": {
-          "mount": 133,
-          "drawing": 135,
-          "built": 1287,
-          "targetReady": 2354,
-          "reveal": 2415,
-          "hero": 3037
-        }
-      }
+      "heldMs": 1765
     },
     {
       "flow": "reload-x5",
       "runs": [
         {
-          "draw": 1082,
+          "draw": 1129,
+          "reveal": 621,
+          "total": 2003
+        },
+        {
+          "draw": 1178,
+          "reveal": 621,
+          "total": 1930
+        },
+        {
+          "draw": 1178,
           "reveal": 622,
-          "total": 2035
-        },
-        {
-          "draw": 1168,
-          "reveal": 621,
-          "total": 1989
-        },
-        {
-          "draw": 1181,
-          "reveal": 621,
-          "total": 1940
+          "total": 1905
         },
         {
           "draw": 1181,
           "reveal": 620,
-          "total": 1933
+          "total": 1915
         },
         {
-          "draw": 1176,
-          "reveal": 621,
-          "total": 1934
+          "draw": 1167,
+          "reveal": 634,
+          "total": 1919
         }
       ]
     }

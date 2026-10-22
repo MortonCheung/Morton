@@ -31,16 +31,16 @@
 
 | 路径 | 结果 |
 |---|---|
-| 资源早到 / 晚到（`?gateDelay=2200`） | built 后停留 **1749ms** 才揭幕；cover 全程可见 |
-| `prefers-reduced-motion` | **70ms** 直接到 hero，无绘制 |
-| 刷新 ×5 | draw 1146–1184ms，reveal 621–622ms，无叠加 |
+| 资源早到 / 晚到（`?gateDelay=2200`） | built 后停留 **1765ms** 才揭幕；cover 全程可见 |
+| `prefers-reduced-motion` | **89ms** 直接到 hero，无绘制 |
+| 刷新 ×5 | draw 1162–1184ms，reveal 621–622ms，无叠加 |
 | 作品详情开关 ×5 | scroll 5352 保持、焦点回 `w01`、DOM 恒 304 节点、覆盖层恒 1 |
 | Escape 关闭 | 生效，焦点回来源卡 |
 | 开场期间滚动 | 锁定；结束解除，无 jump |
 
 ## 4. 性能
 
-- 帧耗时：p95 **16.7–16.8ms**（≈60fps）；最大帧 83–100ms，**全部发生在 `boot` 阶段**（模块求值 + 首帧解码），不在揭幕期间。
+- 帧耗时：p95 **16.7–16.8ms**（≈60fps）；最大帧 67–150ms，**全部发生在 `boot` 阶段**（模块求值 + 首帧解码），不在揭幕期间。
 - 首屏资源：字体 4 个 TTF（Bodoni Moda / Archivo / Cormorant / Jost）合计约 1.6MB；首屏图片 2 张（hero 的 p06 + 章节首图按需）。
 - **素材优化**：九张材质板由 PNG 转 **progressive JPEG q88**，22.65MB → **2.37MB**（`scripts/plates/to-jpeg.py` 可复现）。这是本轮唯一的体积优化，未牺牲像素尺寸。
 - 没有 WebGL、没有 shader 编译、没有常驻 RAF、没有 ScrollTrigger。
@@ -67,7 +67,7 @@
 ## 7. 已知问题（按严重度）
 
 1. 开场 cover 的两张纸在 `reveal` 期间会各自生成一个全屏合成层（`will-change: transform`）。在 8GB 机器上未见掉帧（p95 16.8ms），但低端机上需要复测。
-2. `boot` 阶段存在 83–100ms 长帧（模块求值 + 首帧解码），当前被静止封面遮住。
+2. `boot` 阶段存在 67–150ms 长帧（模块求值 + 首帧解码），当前被静止封面遮住。
 3. 移动端详情页的 `Back to works` 不是 sticky，滚动信息列时会移出视口。
 4. 章节内容全部是显式占位符（`[作品 01]`、`[年份]` 等），不能当真实履历展示。
 5. 导航使用 `mix-blend-mode: difference`，在极端截图/打印环境下颜色不可控（屏幕内已核对两段底色）。

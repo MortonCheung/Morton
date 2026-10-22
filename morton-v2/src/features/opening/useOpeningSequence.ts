@@ -74,9 +74,12 @@ export function useOpeningSequence(gateDelay = 0) {
   const timings = useRef<Partial<OpeningTimings>>({})
   const timeline = useRef<gsap.core.Timeline | null>(null)
 
+  // the probe state must survive timing marks: mark() used to reset it to 'boot',
+  // which made `drawing` unobservable for automated checks
+  const current = useRef<OpeningState>('boot')
   const mark = useCallback((key: keyof OpeningTimings) => {
     timings.current[key] = Math.round(performance.now())
-    window.__MORTON__ = { state: 'boot', timings: { ...timings.current } }
+    window.__MORTON__ = { state: current.current, timings: { ...timings.current } }
   }, [])
 
   useEffect(() => {
@@ -96,6 +99,7 @@ export function useOpeningSequence(gateDelay = 0) {
     document.documentElement.classList.add('is-opening')
     mark('mount')
     const probeState = (s: OpeningState) => {
+      current.current = s
       setState(s)
       window.__MORTON__ = { state: s, timings: { ...timings.current } }
     }
