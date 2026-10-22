@@ -439,7 +439,8 @@
 /* ── 05 Next ──────────────────────────────────────────────────────────────── */
 .section-next {
   padding-top: 120px;
-  padding-bottom: 40px;
+  /* leaves room for the fixed section index so the footer never sits under it */
+  padding-bottom: 88px;
   grid-template-rows: auto auto auto;
 }
 .section-next__rule {
