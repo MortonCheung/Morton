@@ -15,7 +15,7 @@
 | 作品聚焦 | `docs/qa/screenshots/1440x900-focus.png` | 从 Works 原位 FLIP 展开 |
 
 另有 1440×700、1366×768、1024×768、390×844 的同样序列，以及每个视口的 5 个章节截图。
-录屏：`docs/qa/recording/opening-1440x900.webm`、`opening-390x844.webm`。
+录屏：`docs/qa/recording/opening-1440x900.mp4`、`opening-390x844.mp4`。
 
 ## 2. 时序（`window.__MORTON__.timings`，performance.now 口径）
 
@@ -59,5 +59,5 @@
 ## 5. 已知问题
 
 1. **boot 阶段有一帧 83–100ms**：来自模块求值 + 首帧字体/图片解码。当前不可见（封面静止），但如果要把 `mount→首字节` 压到 100ms 内，需要进一步拆包；本轮不做。
-2. **移动端录屏**（`opening-390x844.webm`）在 headless 下以 2x DPR 录制，文件较大，只作证据，不作为线上资源。
+2. **移动端录屏**（`opening-390x844.mp4`）在 headless 下以 2x DPR 录制，文件较大，只作证据，不作为线上资源。
 3. 本机没有真机；iOS Safari 的 `100svh` 行为与地址栏收放**未验证**（`UNVERIFIED`）。

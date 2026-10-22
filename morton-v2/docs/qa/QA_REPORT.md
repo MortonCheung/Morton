@@ -25,7 +25,7 @@
 | 390×844 | 1110ms | 62ms | 621ms | 16.7ms | 0 | 0 | 0 |
 
 每个视口都抓了 5 个开场状态 + 5 个章节 + 详情（共 46 张截图，`docs/qa/screenshots/`）。
-录屏：`docs/qa/recording/opening-1440x900.webm`、`opening-390x844.webm`。
+录屏：`docs/qa/recording/opening-1440x900.mp4`、`opening-390x844.mp4`。
 
 ## 3. 关键路径
 
