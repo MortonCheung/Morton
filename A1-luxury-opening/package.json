@@ -1,0 +1,26 @@
+{
+  "name": "a1-luxury-opening",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "MORTON opening prototype \u2014 dev/build config; the built, viewable output is in dist/.",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5181 --strictPort",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 5281 --strictPort",
+    "typecheck": "tsc -b"
+  },
+  "dependencies": {
+    "gsap": "^3.15.0",
+    "opentype.js": "1.3.4",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "typescript": "~5.9.3",
+    "vite": "^8.3.5"
+  }
+}

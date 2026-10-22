@@ -1,0 +1,1004 @@
+{
+  "url": "http://127.0.0.1:5181/",
+  "startedAt": "2026-10-21T22:34:05.171Z",
+  "runs": [
+    {
+      "view": "desktop-1920",
+      "width": 1920,
+      "height": 1080,
+      "dpr": 1,
+      "loadMs": 210,
+      "screenshot": "docs/SCREENSHOTS/desktop-1920.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "probe": {
+        "state": "hero",
+        "timings": {
+          "mountedAt": 0,
+          "loadingAt": 179,
+          "drawingAt": 302,
+          "drawPlannedMs": 1230,
+          "fontBytes": 46004,
+          "fontFetchMs": 45,
+          "geometryBuildMs": 32,
+          "shaderCompileMs": 25,
+          "assetsReadyMs": 101,
+          "readyAt": 408,
+          "builtAt": 1420,
+          "drawMs": 1117,
+          "expandingAt": 1420,
+          "heroAt": 1987,
+          "expandMs": 567,
+          "totalMs": 1685
+        },
+        "letters": [
+          {
+            "id": "M-0",
+            "position": [
+              -2.4885644531250004,
+              -0.348389,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-1",
+            "position": [
+              -1.4004980468750003,
+              -0.348389,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "R-2",
+            "position": [
+              -0.5243457031250003,
+              -0.348389,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "T-3",
+            "position": [
+              0.13647460937499956,
+              -0.348389,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-4",
+            "position": [
+              0.8036425781249998,
+              -0.348389,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "N-5",
+            "position": [
+              1.6797949218750001,
+              -0.348389,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          }
+        ],
+        "extra": {
+          "quality": {
+            "name": "desktop",
+            "maxDpr": 1,
+            "shadowMapSize": 1024,
+            "curveSegments": 16,
+            "bevelSegments": 4
+          },
+          "reducedMotion": false,
+          "qa": {
+            "assetDelayMs": 0,
+            "freeze": "none"
+          },
+          "word": {
+            "width": 4.977129,
+            "letters": 6,
+            "ink": {
+              "minX": -2.453408,
+              "maxX": 2.352646,
+              "minY": -0.015137,
+              "maxY": 0.711914
+            }
+          },
+          "geometry": {
+            "meshes": 6,
+            "uniqueGeometries": 5,
+            "sharedOGeometry": true,
+            "layoutMatch": true
+          },
+          "renderer": {
+            "fps": 60,
+            "calls": 17,
+            "triangles": 123732,
+            "geometries": 16,
+            "textures": 16,
+            "programs": 8,
+            "dpr": 1,
+            "shadowMapSize": 1024,
+            "drawingBuffer": [
+              1920,
+              1080
+            ]
+          },
+          "runs": [
+            {
+              "run": 1,
+              "drawingAt": 302,
+              "builtAt": 1420,
+              "expandingAt": 1420,
+              "heroAt": 1987,
+              "drawMs": 1117,
+              "expandMs": 567,
+              "totalMs": 1685
+            }
+          ],
+          "lastRun": {
+            "run": 1,
+            "drawingAt": 302,
+            "builtAt": 1420,
+            "expandingAt": 1420,
+            "heroAt": 1987,
+            "drawMs": 1117,
+            "expandMs": 567,
+            "totalMs": 1685
+          }
+        }
+      },
+      "domContentLoaded": 181,
+      "loadEvent": 181,
+      "resources": 39,
+      "transferKB": 11628,
+      "canvas": [
+        "1920x1080"
+      ],
+      "overflowX": 0,
+      "bodyText": "MORTON — Personal Identity MORTON PERSONAL IDENTITY 01 OPENING An index of work, objects and craft. REPLAY R"
+    },
+    {
+      "view": "desktop-1440",
+      "width": 1440,
+      "height": 900,
+      "dpr": 1,
+      "loadMs": 139,
+      "screenshot": "docs/SCREENSHOTS/desktop-1440.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "probe": {
+        "state": "hero",
+        "timings": {
+          "mountedAt": 0,
+          "loadingAt": 129,
+          "drawingAt": 186,
+          "drawPlannedMs": 1230,
+          "fontBytes": 46004,
+          "fontFetchMs": 28,
+          "geometryBuildMs": 30,
+          "shaderCompileMs": 14,
+          "assetsReadyMs": 72,
+          "readyAt": 259,
+          "builtAt": 1369,
+          "drawMs": 1183,
+          "expandingAt": 1369,
+          "heroAt": 1938,
+          "expandMs": 569,
+          "totalMs": 1752
+        },
+        "letters": [
+          {
+            "id": "M-0",
+            "position": [
+              -2.4885644531250004,
+              -0.348389,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-1",
+            "position": [
+              -1.4004980468750003,
+              -0.348389,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "R-2",
+            "position": [
+              -0.5243457031250003,
+              -0.348389,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "T-3",
+            "position": [
+              0.13647460937499956,
+              -0.348389,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-4",
+            "position": [
+              0.8036425781249998,
+              -0.348389,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "N-5",
+            "position": [
+              1.6797949218750001,
+              -0.348389,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          }
+        ],
+        "extra": {
+          "quality": {
+            "name": "desktop",
+            "maxDpr": 1,
+            "shadowMapSize": 1024,
+            "curveSegments": 16,
+            "bevelSegments": 4
+          },
+          "reducedMotion": false,
+          "qa": {
+            "assetDelayMs": 0,
+            "freeze": "none"
+          },
+          "word": {
+            "width": 4.977129,
+            "letters": 6,
+            "ink": {
+              "minX": -2.453408,
+              "maxX": 2.352646,
+              "minY": -0.015137,
+              "maxY": 0.711914
+            }
+          },
+          "geometry": {
+            "meshes": 6,
+            "uniqueGeometries": 5,
+            "sharedOGeometry": true,
+            "layoutMatch": true
+          },
+          "renderer": {
+            "fps": 60,
+            "calls": 17,
+            "triangles": 123732,
+            "geometries": 16,
+            "textures": 16,
+            "programs": 8,
+            "dpr": 1,
+            "shadowMapSize": 1024,
+            "drawingBuffer": [
+              1440,
+              900
+            ]
+          },
+          "runs": [
+            {
+              "run": 1,
+              "drawingAt": 186,
+              "builtAt": 1369,
+              "expandingAt": 1369,
+              "heroAt": 1938,
+              "drawMs": 1183,
+              "expandMs": 569,
+              "totalMs": 1752
+            }
+          ],
+          "lastRun": {
+            "run": 1,
+            "drawingAt": 186,
+            "builtAt": 1369,
+            "expandingAt": 1369,
+            "heroAt": 1938,
+            "drawMs": 1183,
+            "expandMs": 569,
+            "totalMs": 1752
+          }
+        }
+      },
+      "domContentLoaded": 130,
+      "loadEvent": 131,
+      "resources": 39,
+      "transferKB": 11628,
+      "canvas": [
+        "1440x900"
+      ],
+      "overflowX": 0,
+      "bodyText": "MORTON — Personal Identity MORTON PERSONAL IDENTITY 01 OPENING An index of work, objects and craft. REPLAY R"
+    },
+    {
+      "view": "laptop-1366",
+      "width": 1366,
+      "height": 768,
+      "dpr": 1,
+      "loadMs": 135,
+      "screenshot": "docs/SCREENSHOTS/laptop-1366.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "probe": {
+        "state": "hero",
+        "timings": {
+          "mountedAt": 0,
+          "loadingAt": 126,
+          "drawingAt": 181,
+          "drawPlannedMs": 1230,
+          "fontBytes": 46004,
+          "fontFetchMs": 30,
+          "geometryBuildMs": 31,
+          "shaderCompileMs": 12,
+          "assetsReadyMs": 72,
+          "readyAt": 256,
+          "builtAt": 1369,
+          "drawMs": 1188,
+          "expandingAt": 1370,
+          "heroAt": 1938,
+          "expandMs": 568,
+          "totalMs": 1756
+        },
+        "letters": [
+          {
+            "id": "M-0",
+            "position": [
+              -2.4885644531250004,
+              -0.348389,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-1",
+            "position": [
+              -1.4004980468750003,
+              -0.348389,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "R-2",
+            "position": [
+              -0.5243457031250003,
+              -0.348389,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "T-3",
+            "position": [
+              0.13647460937499956,
+              -0.348389,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-4",
+            "position": [
+              0.8036425781249998,
+              -0.348389,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "N-5",
+            "position": [
+              1.6797949218750001,
+              -0.348389,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          }
+        ],
+        "extra": {
+          "quality": {
+            "name": "desktop",
+            "maxDpr": 1,
+            "shadowMapSize": 1024,
+            "curveSegments": 16,
+            "bevelSegments": 4
+          },
+          "reducedMotion": false,
+          "qa": {
+            "assetDelayMs": 0,
+            "freeze": "none"
+          },
+          "word": {
+            "width": 4.977129,
+            "letters": 6,
+            "ink": {
+              "minX": -2.453408,
+              "maxX": 2.352646,
+              "minY": -0.015137,
+              "maxY": 0.711914
+            }
+          },
+          "geometry": {
+            "meshes": 6,
+            "uniqueGeometries": 5,
+            "sharedOGeometry": true,
+            "layoutMatch": true
+          },
+          "renderer": {
+            "fps": 60,
+            "calls": 17,
+            "triangles": 123732,
+            "geometries": 16,
+            "textures": 16,
+            "programs": 8,
+            "dpr": 1,
+            "shadowMapSize": 1024,
+            "drawingBuffer": [
+              1366,
+              768
+            ]
+          },
+          "runs": [
+            {
+              "run": 1,
+              "drawingAt": 181,
+              "builtAt": 1369,
+              "expandingAt": 1370,
+              "heroAt": 1937,
+              "drawMs": 1188,
+              "expandMs": 568,
+              "totalMs": 1756
+            }
+          ],
+          "lastRun": {
+            "run": 1,
+            "drawingAt": 181,
+            "builtAt": 1369,
+            "expandingAt": 1370,
+            "heroAt": 1937,
+            "drawMs": 1188,
+            "expandMs": 568,
+            "totalMs": 1756
+          }
+        }
+      },
+      "domContentLoaded": 127,
+      "loadEvent": 128,
+      "resources": 39,
+      "transferKB": 11628,
+      "canvas": [
+        "1366x768"
+      ],
+      "overflowX": 0,
+      "bodyText": "MORTON — Personal Identity MORTON PERSONAL IDENTITY 01 OPENING An index of work, objects and craft. REPLAY R"
+    },
+    {
+      "view": "tablet-1024",
+      "width": 1024,
+      "height": 768,
+      "dpr": 1,
+      "loadMs": 137,
+      "screenshot": "docs/SCREENSHOTS/tablet-1024.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "probe": {
+        "state": "hero",
+        "timings": {
+          "mountedAt": 0,
+          "loadingAt": 126,
+          "drawingAt": 184,
+          "drawPlannedMs": 1230,
+          "fontBytes": 46004,
+          "fontFetchMs": 27,
+          "geometryBuildMs": 29,
+          "shaderCompileMs": 13,
+          "assetsReadyMs": 69,
+          "readyAt": 255,
+          "builtAt": 1368,
+          "drawMs": 1183,
+          "expandingAt": 1368,
+          "heroAt": 1936,
+          "expandMs": 568,
+          "totalMs": 1752
+        },
+        "letters": [
+          {
+            "id": "M-0",
+            "position": [
+              -2.4885644531250004,
+              -0.348389,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-1",
+            "position": [
+              -1.4004980468750003,
+              -0.348389,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "R-2",
+            "position": [
+              -0.5243457031250003,
+              -0.348389,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "T-3",
+            "position": [
+              0.13647460937499956,
+              -0.348389,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-4",
+            "position": [
+              0.8036425781249998,
+              -0.348389,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "N-5",
+            "position": [
+              1.6797949218750001,
+              -0.348389,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          }
+        ],
+        "extra": {
+          "quality": {
+            "name": "desktop",
+            "maxDpr": 1,
+            "shadowMapSize": 1024,
+            "curveSegments": 16,
+            "bevelSegments": 4
+          },
+          "reducedMotion": false,
+          "qa": {
+            "assetDelayMs": 0,
+            "freeze": "none"
+          },
+          "word": {
+            "width": 4.977129,
+            "letters": 6,
+            "ink": {
+              "minX": -2.453408,
+              "maxX": 2.352646,
+              "minY": -0.015137,
+              "maxY": 0.711914
+            }
+          },
+          "geometry": {
+            "meshes": 6,
+            "uniqueGeometries": 5,
+            "sharedOGeometry": true,
+            "layoutMatch": true
+          },
+          "renderer": {
+            "fps": 60,
+            "calls": 17,
+            "triangles": 123732,
+            "geometries": 16,
+            "textures": 16,
+            "programs": 8,
+            "dpr": 1,
+            "shadowMapSize": 1024,
+            "drawingBuffer": [
+              1024,
+              768
+            ]
+          },
+          "runs": [
+            {
+              "run": 1,
+              "drawingAt": 184,
+              "builtAt": 1368,
+              "expandingAt": 1368,
+              "heroAt": 1936,
+              "drawMs": 1183,
+              "expandMs": 568,
+              "totalMs": 1752
+            }
+          ],
+          "lastRun": {
+            "run": 1,
+            "drawingAt": 184,
+            "builtAt": 1368,
+            "expandingAt": 1368,
+            "heroAt": 1936,
+            "drawMs": 1183,
+            "expandMs": 568,
+            "totalMs": 1752
+          }
+        }
+      },
+      "domContentLoaded": 127,
+      "loadEvent": 128,
+      "resources": 39,
+      "transferKB": 11628,
+      "canvas": [
+        "1024x768"
+      ],
+      "overflowX": 0,
+      "bodyText": "MORTON — Personal Identity MORTON PERSONAL IDENTITY 01 OPENING An index of work, objects and craft. REPLAY R"
+    },
+    {
+      "view": "mobile-390",
+      "width": 390,
+      "height": 844,
+      "dpr": 2,
+      "loadMs": 135,
+      "screenshot": "docs/SCREENSHOTS/mobile-390.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "probe": {
+        "state": "hero",
+        "timings": {
+          "mountedAt": 0,
+          "loadingAt": 130,
+          "drawingAt": 193,
+          "drawPlannedMs": 1230,
+          "fontBytes": 46004,
+          "fontFetchMs": 29,
+          "geometryBuildMs": 22,
+          "shaderCompileMs": 12,
+          "assetsReadyMs": 64,
+          "readyAt": 258,
+          "builtAt": 1383,
+          "drawMs": 1191,
+          "expandingAt": 1384,
+          "heroAt": 1949,
+          "expandMs": 566,
+          "totalMs": 1757
+        },
+        "letters": [
+          {
+            "id": "M-0",
+            "position": [
+              -2.4885644531250004,
+              -0.348389,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-1",
+            "position": [
+              -1.4004980468750003,
+              -0.348389,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "R-2",
+            "position": [
+              -0.5243457031250003,
+              -0.348389,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "T-3",
+            "position": [
+              0.13647460937499956,
+              -0.348389,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-4",
+            "position": [
+              0.8036425781249998,
+              -0.348389,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "N-5",
+            "position": [
+              1.6797949218750001,
+              -0.348389,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          }
+        ],
+        "extra": {
+          "quality": {
+            "name": "mobile",
+            "maxDpr": 2,
+            "shadowMapSize": 512,
+            "curveSegments": 12,
+            "bevelSegments": 3
+          },
+          "reducedMotion": false,
+          "qa": {
+            "assetDelayMs": 0,
+            "freeze": "none"
+          },
+          "word": {
+            "width": 4.977129,
+            "letters": 6,
+            "ink": {
+              "minX": -2.453408,
+              "maxX": 2.352646,
+              "minY": -0.015137,
+              "maxY": 0.711914
+            }
+          },
+          "geometry": {
+            "meshes": 6,
+            "uniqueGeometries": 5,
+            "sharedOGeometry": true,
+            "layoutMatch": true
+          },
+          "renderer": {
+            "fps": 60,
+            "calls": 17,
+            "triangles": 74700,
+            "geometries": 16,
+            "textures": 16,
+            "programs": 8,
+            "dpr": 2,
+            "shadowMapSize": 512,
+            "drawingBuffer": [
+              780,
+              1688
+            ]
+          },
+          "runs": [
+            {
+              "run": 1,
+              "drawingAt": 193,
+              "builtAt": 1383,
+              "expandingAt": 1384,
+              "heroAt": 1949,
+              "drawMs": 1191,
+              "expandMs": 566,
+              "totalMs": 1757
+            }
+          ],
+          "lastRun": {
+            "run": 1,
+            "drawingAt": 193,
+            "builtAt": 1383,
+            "expandingAt": 1384,
+            "heroAt": 1949,
+            "drawMs": 1191,
+            "expandMs": 566,
+            "totalMs": 1757
+          }
+        }
+      },
+      "domContentLoaded": 131,
+      "loadEvent": 132,
+      "resources": 39,
+      "transferKB": 11628,
+      "canvas": [
+        "780x1688"
+      ],
+      "overflowX": 0,
+      "bodyText": "MORTON — Personal Identity MORTON PERSONAL IDENTITY 01 An index of work, objects and craft. R"
+    }
+  ],
+  "problems": [],
+  "video": {
+    "webm": "docs/RECORDING/A1-opening.webm",
+    "mp4": "docs/RECORDING/A1-opening.mp4",
+    "probe": {
+      "mountedAt": 0,
+      "loadingAt": 141,
+      "drawingAt": 204,
+      "drawPlannedMs": 1230,
+      "fontBytes": 46004,
+      "fontFetchMs": 42,
+      "geometryBuildMs": 31,
+      "shaderCompileMs": 13,
+      "assetsReadyMs": 87,
+      "readyAt": 293,
+      "builtAt": 1395,
+      "drawMs": 1191,
+      "expandingAt": 1395,
+      "heroAt": 1962,
+      "expandMs": 567,
+      "totalMs": 1757
+    },
+    "heroMs": 1820,
+    "pageErrors": []
+  },
+  "reloadHeapSamples": [
+    43616193,
+    45925679,
+    49460569,
+    43606364,
+    43266100
+  ],
+  "finishedAt": "2026-10-21T22:34:41.339Z"
+}

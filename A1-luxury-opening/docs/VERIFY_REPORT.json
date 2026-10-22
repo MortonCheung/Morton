@@ -1,0 +1,305 @@
+{
+  "url": "http://127.0.0.1:5181/",
+  "startedAt": "2026-10-21T21:49:12.347Z",
+  "checks": {
+    "main.state.hero": {
+      "pass": true,
+      "detail": "hero"
+    },
+    "main.draw>=1000ms": {
+      "pass": true,
+      "detail": {
+        "mountedAt": 0,
+        "loadingAt": 183,
+        "drawingAt": 263,
+        "drawPlannedMs": 1230,
+        "fontBytes": 46004,
+        "fontFetchMs": 43,
+        "geometryBuildMs": 35,
+        "shaderCompileMs": 12,
+        "assetsReadyMs": 90,
+        "readyAt": 354,
+        "builtAt": 1435,
+        "drawMs": 1173,
+        "expandingAt": 1436,
+        "heroAt": 2003,
+        "expandMs": 567,
+        "totalMs": 1740
+      }
+    },
+    "main.expand.450..650ms": {
+      "pass": true,
+      "detail": 567
+    },
+    "main.letters=6": {
+      "pass": true,
+      "detail": 6
+    },
+    "main.sharedOGeometry": {
+      "pass": true,
+      "detail": {
+        "meshes": 6,
+        "uniqueGeometries": 5,
+        "sharedOGeometry": true,
+        "layoutMatch": true
+      }
+    },
+    "main.uniqueGeometries=5": {
+      "pass": true,
+      "detail": 5
+    },
+    "main.layoutMatch": {
+      "pass": true,
+      "detail": true
+    },
+    "main.noOverflowX": {
+      "pass": true,
+      "detail": 0
+    },
+    "main.noConsoleErrors": {
+      "pass": true,
+      "detail": []
+    },
+    "replay.runsRecorded": {
+      "pass": true,
+      "detail": 4
+    },
+    "replay.eachRunTimed": {
+      "pass": true,
+      "detail": [
+        {
+          "run": 2,
+          "drawingAt": 2044,
+          "builtAt": 3268,
+          "expandingAt": 3268,
+          "heroAt": 3836,
+          "drawMs": 1223,
+          "expandMs": 569,
+          "totalMs": 1792
+        },
+        {
+          "run": 3,
+          "drawingAt": 4147,
+          "builtAt": 5369,
+          "expandingAt": 5369,
+          "heroAt": 5936,
+          "drawMs": 1222,
+          "expandMs": 568,
+          "totalMs": 1789
+        },
+        {
+          "run": 4,
+          "drawingAt": 6250,
+          "builtAt": 7467,
+          "expandingAt": 7467,
+          "heroAt": 8034,
+          "drawMs": 1217,
+          "expandMs": 567,
+          "totalMs": 1785
+        }
+      ]
+    },
+    "replay.singleCanvas": {
+      "pass": true,
+      "detail": 1
+    },
+    "replay.stateHero": {
+      "pass": true,
+      "detail": "hero"
+    },
+    "replay.noConsoleErrors": {
+      "pass": true,
+      "detail": []
+    },
+    "letters.nudgeApplied": {
+      "pass": true,
+      "detail": true
+    },
+    "letters.secondODiffers": {
+      "pass": true,
+      "detail": {
+        "o1": [
+          0,
+          0,
+          0
+        ],
+        "o4": [
+          0.3,
+          0.2,
+          0
+        ]
+      }
+    },
+    "letters.firstOUnchanged": {
+      "pass": true
+    },
+    "letters.othersUnchanged": {
+      "pass": true
+    },
+    "letters.noConsoleErrors": {
+      "pass": true,
+      "detail": []
+    },
+    "reduced.state": {
+      "pass": true,
+      "detail": "reduced"
+    },
+    "reduced.letters=6": {
+      "pass": true,
+      "detail": 6
+    },
+    "reduced.lettersVisible": {
+      "pass": true
+    },
+    "reduced.noConsoleErrors": {
+      "pass": true,
+      "detail": []
+    },
+    "forcedReduced.state": {
+      "pass": true,
+      "detail": "reduced"
+    },
+    "forcedReduced.noConsoleErrors": {
+      "pass": true,
+      "detail": []
+    },
+    "visibility.pausesDrawing": {
+      "pass": true,
+      "detail": "drawing"
+    },
+    "visibility.resumes": {
+      "pass": true,
+      "detail": "hero"
+    },
+    "visibility.drawStillValid": {
+      "pass": true,
+      "detail": 2411
+    },
+    "visibility.noConsoleErrors": {
+      "pass": true,
+      "detail": []
+    },
+    "delay.waitInBuilt": {
+      "pass": true,
+      "detail": "built"
+    },
+    "delay.noEarlyExpand": {
+      "pass": true
+    },
+    "delay.expandAfterRealReady": {
+      "pass": true,
+      "detail": {
+        "gap": 2172,
+        "timings": {
+          "mountedAt": 0,
+          "loadingAt": 120,
+          "drawingAt": 181,
+          "drawPlannedMs": 1230,
+          "builtAt": 1360,
+          "drawMs": 1180,
+          "fontBytes": 46004,
+          "fontFetchMs": 3307,
+          "geometryBuildMs": 29,
+          "shaderCompileMs": 13,
+          "assetsReadyMs": 3350,
+          "readyAt": 3532,
+          "expandingAt": 3532,
+          "heroAt": 4093,
+          "expandMs": 561,
+          "totalMs": 3913
+        }
+      }
+    },
+    "delay.drawStillCompletes": {
+      "pass": true,
+      "detail": 1180
+    },
+    "delay.noConsoleErrors": {
+      "pass": true,
+      "detail": []
+    }
+  },
+  "problems": [],
+  "replay": {
+    "heapBefore": 44627139,
+    "heapAfter": 44717726,
+    "deltaMB": 0.09,
+    "replayTimings": [
+      {
+        "run": 2,
+        "drawingAt": 2044,
+        "builtAt": 3268,
+        "expandingAt": 3268,
+        "heroAt": 3836,
+        "drawMs": 1223,
+        "expandMs": 569,
+        "totalMs": 1792
+      },
+      {
+        "run": 3,
+        "drawingAt": 4147,
+        "builtAt": 5369,
+        "expandingAt": 5369,
+        "heroAt": 5936,
+        "drawMs": 1222,
+        "expandMs": 568,
+        "totalMs": 1789
+      },
+      {
+        "run": 4,
+        "drawingAt": 6250,
+        "builtAt": 7467,
+        "expandingAt": 7467,
+        "heroAt": 8034,
+        "drawMs": 1217,
+        "expandMs": 567,
+        "totalMs": 1785
+      }
+    ]
+  },
+  "visibility": {
+    "hiddenState": "drawing",
+    "resumedTimings": {
+      "mountedAt": 0,
+      "loadingAt": 122,
+      "drawingAt": 179,
+      "drawPlannedMs": 1230,
+      "fontBytes": 46004,
+      "fontFetchMs": 32,
+      "geometryBuildMs": 30,
+      "shaderCompileMs": 13,
+      "assetsReadyMs": 74,
+      "readyAt": 255,
+      "builtAt": 2590,
+      "drawMs": 2411,
+      "expandingAt": 2591,
+      "heroAt": 3156,
+      "expandMs": 565,
+      "totalMs": 2977
+    }
+  },
+  "delayed": {
+    "builtAt": 1360,
+    "gap": 2172,
+    "timings": {
+      "mountedAt": 0,
+      "loadingAt": 120,
+      "drawingAt": 181,
+      "drawPlannedMs": 1230,
+      "builtAt": 1360,
+      "drawMs": 1180,
+      "fontBytes": 46004,
+      "fontFetchMs": 3307,
+      "geometryBuildMs": 29,
+      "shaderCompileMs": 13,
+      "assetsReadyMs": 3350,
+      "readyAt": 3532,
+      "expandingAt": 3532,
+      "heroAt": 4093,
+      "expandMs": 561,
+      "totalMs": 3913
+    }
+  },
+  "finishedAt": "2026-10-21T21:49:33.291Z",
+  "failures": 0
+}

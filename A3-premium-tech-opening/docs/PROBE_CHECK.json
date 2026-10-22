@@ -1,0 +1,401 @@
+{
+  "url": "http://127.0.0.1:5183/",
+  "startedAt": "2026-10-21T21:48:57.194Z",
+  "checks": [
+    {
+      "name": "state order ends at hero",
+      "pass": true,
+      "detail": "hero"
+    },
+    {
+      "name": "timings strictly ordered",
+      "pass": true,
+      "detail": "{\"drawingAt\":223,\"builtAt\":1351,\"expandingAt\":1351,\"heroAt\":1901}"
+    },
+    {
+      "name": "drawing >= 1000ms",
+      "pass": true,
+      "detail": "1128ms"
+    },
+    {
+      "name": "expanding 450-700ms",
+      "pass": true,
+      "detail": "550ms"
+    },
+    {
+      "name": "total <= 2200ms (normal assets)",
+      "pass": true,
+      "detail": "1734ms"
+    },
+    {
+      "name": "six letters exposed",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "name": "shared O geometry",
+      "pass": true,
+      "detail": "unique=5, meshes=6"
+    },
+    {
+      "name": "letter 0 rotates independently",
+      "pass": true,
+      "detail": "M-0"
+    },
+    {
+      "name": "second O hides independently, first O stays visible",
+      "pass": true,
+      "detail": "O-4"
+    },
+    {
+      "name": "resetLetters restores transforms",
+      "pass": true
+    },
+    {
+      "name": "hero frame rate sampled >= 40fps (headless, shared machine)",
+      "pass": true,
+      "detail": "60fps"
+    },
+    {
+      "name": "replay reaches hero 5/5",
+      "pass": true,
+      "detail": "hero,hero,hero,hero,hero"
+    },
+    {
+      "name": "replay counter tracked",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "name": "geometry/texture counts stable across replays",
+      "pass": true,
+      "detail": "5g/6t 5g/6t 5g/6t 5g/6t 5g/6t"
+    },
+    {
+      "name": "heap does not grow monotonically over replays",
+      "pass": true,
+      "detail": "before=41MB after=43MB"
+    },
+    {
+      "name": "delayed asset: waits in built state for the real asset promise",
+      "pass": true,
+      "detail": "built+410ms -> expanding, assetsReadyAt=1779"
+    },
+    {
+      "name": "delayed asset: still ends at hero",
+      "pass": true,
+      "detail": "hero"
+    },
+    {
+      "name": "reduced motion path is `reduced`",
+      "pass": true,
+      "detail": "reduced"
+    },
+    {
+      "name": "reduced motion does not run the drawing timeline",
+      "pass": true
+    },
+    {
+      "name": "reduced motion still shows the chrome",
+      "pass": true,
+      "detail": "opacity=1"
+    },
+    {
+      "name": "reduced motion still exposes six letters",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "name": "font failure falls back to a readable wordmark, never a permanent loader",
+      "pass": true,
+      "detail": "{\"state\":\"hero\",\"fallbackVisible\":true,\"extra\":\"font\",\"hasCanvas\":false}"
+    },
+    {
+      "name": "no console / page errors",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "runs": {
+    "replay": {
+      "heapBefore": 41464994,
+      "samples": [
+        {
+          "heap": 45793237,
+          "replays": 1,
+          "lastRun": {
+            "drawMs": 1128,
+            "expandMs": 550,
+            "totalMs": 1713
+          },
+          "renderer": {
+            "calls": 14,
+            "triangles": 53484,
+            "points": 0,
+            "lines": 0,
+            "geometries": 5,
+            "textures": 6,
+            "programs": 4,
+            "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3, Unspecified Version)",
+            "pixelSize": "2160x1350"
+          },
+          "state": "hero"
+        },
+        {
+          "heap": 42574037,
+          "replays": 2,
+          "lastRun": {
+            "drawMs": 1128,
+            "expandMs": 550,
+            "totalMs": 1723
+          },
+          "renderer": {
+            "calls": 14,
+            "triangles": 53484,
+            "points": 0,
+            "lines": 0,
+            "geometries": 5,
+            "textures": 6,
+            "programs": 4,
+            "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3, Unspecified Version)",
+            "pixelSize": "2160x1350"
+          },
+          "state": "hero"
+        },
+        {
+          "heap": 44877045,
+          "replays": 3,
+          "lastRun": {
+            "drawMs": 1128,
+            "expandMs": 550,
+            "totalMs": 1708
+          },
+          "renderer": {
+            "calls": 14,
+            "triangles": 53484,
+            "points": 0,
+            "lines": 0,
+            "geometries": 5,
+            "textures": 6,
+            "programs": 4,
+            "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3, Unspecified Version)",
+            "pixelSize": "2160x1350"
+          },
+          "state": "hero"
+        },
+        {
+          "heap": 47125005,
+          "replays": 4,
+          "lastRun": {
+            "drawMs": 1128,
+            "expandMs": 550,
+            "totalMs": 1716
+          },
+          "renderer": {
+            "calls": 14,
+            "triangles": 53484,
+            "points": 0,
+            "lines": 0,
+            "geometries": 5,
+            "textures": 6,
+            "programs": 4,
+            "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3, Unspecified Version)",
+            "pixelSize": "2160x1350"
+          },
+          "state": "hero"
+        },
+        {
+          "heap": 43028517,
+          "replays": 5,
+          "lastRun": {
+            "drawMs": 1128,
+            "expandMs": 550,
+            "totalMs": 1714
+          },
+          "renderer": {
+            "calls": 14,
+            "triangles": 53484,
+            "points": 0,
+            "lines": 0,
+            "geometries": 5,
+            "textures": 6,
+            "programs": 4,
+            "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3, Unspecified Version)",
+            "pixelSize": "2160x1350"
+          },
+          "state": "hero"
+        }
+      ]
+    },
+    "delayed": {
+      "builtProbe": {
+        "mountedAt": 174,
+        "fontAt": 201,
+        "drawingAt": 231,
+        "sceneReadyAt": 373,
+        "builtAt": 1369
+      },
+      "final": {
+        "mountedAt": 174,
+        "fontAt": 201,
+        "drawingAt": 231,
+        "sceneReadyAt": 373,
+        "builtAt": 1369,
+        "assetsReadyAt": 1779,
+        "expandingAt": 1779,
+        "heroAt": 2318
+      },
+      "holdMs": 410
+    },
+    "reduced": {
+      "probe": {
+        "state": "reduced",
+        "timings": {
+          "mountedAt": 183,
+          "fontAt": 208,
+          "reducedAt": 238,
+          "sceneReadyAt": 383,
+          "assetsReadyAt": 383
+        },
+        "letters": [
+          {
+            "id": "M-0",
+            "position": [
+              -3.327817994042167,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": false
+          },
+          {
+            "id": "O-1",
+            "position": [
+              -2.0163894226135954,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": false
+          },
+          {
+            "id": "R-2",
+            "position": [
+              -0.762103708327881,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": false
+          },
+          {
+            "id": "T-3",
+            "position": [
+              0.18646772024354785,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": false
+          },
+          {
+            "id": "O-4",
+            "position": [
+              1.0136105773864048,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": false
+          },
+          {
+            "id": "N-5",
+            "position": [
+              2.2678962916721193,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": false
+          }
+        ],
+        "extra": {
+          "reducedMotion": true,
+          "font": {
+            "file": "jost-morton-medium.ttf",
+            "family": "Jost",
+            "weight": 500,
+            "license": "SIL OFL 1.1"
+          },
+          "word": {
+            "text": "MORTON",
+            "width": 6.598,
+            "height": 1.165,
+            "capHeight": 1,
+            "trackingEm": 0.075
+          },
+          "geometry": {
+            "unique": 5,
+            "meshes": 6,
+            "byLetter": [
+              "1fface9f-ff36-4582-83d3-5ab3c3c5dbb0",
+              "d133a259-747a-4e5b-a6e9-1cdf8f750bc7",
+              "fb841795-b0cb-47f7-8705-e1df840e0f50",
+              "95efc469-bd52-4f01-967e-c260be6372fc",
+              "d133a259-747a-4e5b-a6e9-1cdf8f750bc7",
+              "2616cba0-aab2-434b-9b29-3282571730e2"
+            ],
+            "sharedO": true,
+            "sharedOInstances": true
+          },
+          "frame": {
+            "cssW": 1440,
+            "cssH": 900,
+            "camW": 9.164,
+            "camH": 5.727,
+            "camY": -0.143,
+            "wordFill": 0.72,
+            "dpr": 1.5,
+            "tier": "desktop"
+          },
+          "dpr": 1.5
+        }
+      },
+      "chromeOpacity": 1
+    },
+    "fontFallback": {
+      "state": "hero",
+      "fallbackVisible": true,
+      "extra": "font",
+      "hasCanvas": false
+    }
+  },
+  "consoleErrors": [],
+  "finishedAt": "2026-10-21T21:49:17.357Z",
+  "passed": 23,
+  "failed": 0
+}

@@ -1,0 +1,460 @@
+{
+  "url": "http://127.0.0.1:5182/",
+  "startedAt": "2026-10-21T20:03:30.776Z",
+  "checks": [
+    {
+      "name": "state sequence loading→drawing→built→expanding→hero",
+      "pass": true,
+      "detail": [
+        "loading",
+        "drawing",
+        "built",
+        "expanding",
+        "hero"
+      ]
+    },
+    {
+      "name": "drawing ≥ 1000 ms",
+      "pass": true,
+      "detail": "1165 ms"
+    },
+    {
+      "name": "expanding 450–650 ms",
+      "pass": true,
+      "detail": "501 ms"
+    },
+    {
+      "name": "drawing + expanding ≤ 2000 ms",
+      "pass": true,
+      "detail": "1682 ms"
+    },
+    {
+      "name": "six letters exposed with transforms",
+      "pass": true,
+      "detail": 6
+    },
+    {
+      "name": "no horizontal overflow",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "name": "single canvas",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "no console / page / http errors on load",
+      "pass": true,
+      "detail": {
+        "console": [],
+        "page": [],
+        "http": []
+      }
+    },
+    {
+      "name": "two O meshes share one geometry",
+      "pass": true,
+      "detail": [
+        "0e1bbe46-cc2a-4630-bc84-5f632a9f0886",
+        "08548ad2-0b34-4195-9f16-4fb8e72d1a2d",
+        "a42cd0ec-dbc5-46f9-86da-8abf6caf2655",
+        "b7da5db4-c8e4-4f62-a33a-381af5a4b69b",
+        "08548ad2-0b34-4195-9f16-4fb8e72d1a2d",
+        "07e51a18-1f20-48dc-af67-3d68e908bc9b"
+      ]
+    },
+    {
+      "name": "five unique glyph geometries for six letters",
+      "pass": true,
+      "detail": 5
+    },
+    {
+      "name": "independent letters: only M(0), R(2), O(4), T(3) changed",
+      "pass": true,
+      "detail": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "letters restore exactly after debug changes",
+      "pass": true,
+      "detail": [
+        "M-0",
+        "O-1",
+        "R-2",
+        "T-3",
+        "O-4",
+        "N-5"
+      ]
+    },
+    {
+      "name": "delayed texture: state holds at built",
+      "pass": true,
+      "detail": "built"
+    },
+    {
+      "name": "delayed texture: expansion waited for the real asset",
+      "pass": true,
+      "detail": 1288
+    },
+    {
+      "name": "delayed texture: expand still ~500 ms",
+      "pass": true,
+      "detail": 496
+    },
+    {
+      "name": "delayed texture: no runtime errors",
+      "pass": true,
+      "detail": {
+        "console": [],
+        "page": [],
+        "http": []
+      }
+    },
+    {
+      "name": "reduced motion reaches state reduced",
+      "pass": true,
+      "detail": "reduced"
+    },
+    {
+      "name": "reduced motion never runs drawing",
+      "pass": true
+    },
+    {
+      "name": "reduced motion keeps the six letters and one canvas",
+      "pass": true,
+      "detail": {
+        "letters": 6,
+        "canvases": 1
+      }
+    },
+    {
+      "name": "reduced motion: no runtime errors",
+      "pass": true,
+      "detail": {
+        "console": [],
+        "page": [],
+        "http": []
+      }
+    },
+    {
+      "name": "replay 5× reaches hero every time",
+      "pass": true,
+      "detail": [
+        {
+          "run": 2,
+          "drawMs": 1194,
+          "expandMs": 501,
+          "canvases": 1
+        },
+        {
+          "run": 3,
+          "drawMs": 1194,
+          "expandMs": 501,
+          "canvases": 1
+        },
+        {
+          "run": 4,
+          "drawMs": 1197,
+          "expandMs": 501,
+          "canvases": 1
+        },
+        {
+          "run": 5,
+          "drawMs": 1193,
+          "expandMs": 501,
+          "canvases": 1
+        },
+        {
+          "run": 6,
+          "drawMs": 1194,
+          "expandMs": 500,
+          "canvases": 1
+        }
+      ]
+    },
+    {
+      "name": "replay 5× keeps one canvas",
+      "pass": true,
+      "detail": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "replay 5× does not grow geometries/textures/listeners",
+      "pass": true,
+      "detail": {
+        "before": {
+          "disposed": false,
+          "state": "hero",
+          "listeners": 3,
+          "canvases": 1,
+          "owned": {
+            "geometries": 18,
+            "materials": 16,
+            "textures": 2,
+            "others": 1
+          },
+          "calls": 10,
+          "triangles": 92432,
+          "geometries": 18,
+          "textures": 6,
+          "dpr": 1,
+          "shadowMapSize": 2048,
+          "reducedMotion": false
+        },
+        "after": {
+          "disposed": false,
+          "state": "hero",
+          "listeners": 3,
+          "canvases": 1,
+          "owned": {
+            "geometries": 18,
+            "materials": 16,
+            "textures": 2,
+            "others": 1
+          },
+          "calls": 10,
+          "triangles": 92432,
+          "geometries": 18,
+          "textures": 6,
+          "dpr": 1,
+          "shadowMapSize": 2048,
+          "reducedMotion": false
+        }
+      }
+    },
+    {
+      "name": "replay heap delta reported (no hard threshold)",
+      "pass": true,
+      "detail": {
+        "before": 47088271,
+        "after": 41830687,
+        "delta": -5257584
+      }
+    },
+    {
+      "name": "replay: no runtime errors",
+      "pass": true,
+      "detail": {
+        "console": [],
+        "page": [],
+        "http": []
+      }
+    },
+    {
+      "name": "dispose marks the scene disposed",
+      "pass": true,
+      "detail": true
+    },
+    {
+      "name": "dispose removes the canvas",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "name": "dispose removes all listeners",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "name": "dispose returns owned geometries and textures to zero",
+      "pass": true,
+      "detail": {
+        "geometries": 0,
+        "materials": 0,
+        "textures": 0,
+        "others": 0
+      }
+    },
+    {
+      "name": "dispose releases renderer geometries",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "name": "dispose releases renderer textures",
+      "pass": false,
+      "detail": 3
+    }
+  ],
+  "problems": [
+    {
+      "name": "dispose releases renderer textures",
+      "detail": 3
+    }
+  ],
+  "timing": {
+    "states": [
+      "loading",
+      "drawing",
+      "built",
+      "expanding",
+      "hero"
+    ],
+    "drawMs": 1165,
+    "expandMs": 501,
+    "totalMs": 1682,
+    "timings": {
+      "mountedAt": 0,
+      "loadingAt": 308,
+      "drawingAt": 374,
+      "builtAt": 1539,
+      "expandingAt": 1555,
+      "heroAt": 2056
+    },
+    "canvases": 1,
+    "overflowX": 0
+  },
+  "independence": {
+    "changed": [
+      0,
+      2,
+      3,
+      4
+    ],
+    "ids": [
+      "0e1bbe46-cc2a-4630-bc84-5f632a9f0886",
+      "08548ad2-0b34-4195-9f16-4fb8e72d1a2d",
+      "a42cd0ec-dbc5-46f9-86da-8abf6caf2655",
+      "b7da5db4-c8e4-4f62-a33a-381af5a4b69b",
+      "08548ad2-0b34-4195-9f16-4fb8e72d1a2d",
+      "07e51a18-1f20-48dc-af67-3d68e908bc9b"
+    ],
+    "allRestored": true
+  },
+  "delayedGate": {
+    "builtAt": 1459,
+    "expandingAt": 2747,
+    "heroAt": 3243,
+    "heldState": "built",
+    "errors": {
+      "console": [],
+      "page": [],
+      "http": []
+    }
+  },
+  "reducedMotion": {
+    "state": "reduced",
+    "timings": {
+      "mountedAt": 0,
+      "loadingAt": 257,
+      "reducedAt": 321
+    },
+    "canvases": 1,
+    "errors": {
+      "console": [],
+      "page": [],
+      "http": []
+    }
+  },
+  "replay": {
+    "before": {
+      "stats": {
+        "disposed": false,
+        "state": "hero",
+        "listeners": 3,
+        "canvases": 1,
+        "owned": {
+          "geometries": 18,
+          "materials": 16,
+          "textures": 2,
+          "others": 1
+        },
+        "calls": 10,
+        "triangles": 92432,
+        "geometries": 18,
+        "textures": 6,
+        "dpr": 1,
+        "shadowMapSize": 2048,
+        "reducedMotion": false
+      },
+      "heap": 47088271
+    },
+    "after": {
+      "stats": {
+        "disposed": false,
+        "state": "hero",
+        "listeners": 3,
+        "canvases": 1,
+        "owned": {
+          "geometries": 18,
+          "materials": 16,
+          "textures": 2,
+          "others": 1
+        },
+        "calls": 10,
+        "triangles": 92432,
+        "geometries": 18,
+        "textures": 6,
+        "dpr": 1,
+        "shadowMapSize": 2048,
+        "reducedMotion": false
+      },
+      "heap": 41830687
+    },
+    "runs": [
+      {
+        "run": 2,
+        "drawMs": 1194,
+        "expandMs": 501,
+        "canvases": 1
+      },
+      {
+        "run": 3,
+        "drawMs": 1194,
+        "expandMs": 501,
+        "canvases": 1
+      },
+      {
+        "run": 4,
+        "drawMs": 1197,
+        "expandMs": 501,
+        "canvases": 1
+      },
+      {
+        "run": 5,
+        "drawMs": 1193,
+        "expandMs": 501,
+        "canvases": 1
+      },
+      {
+        "run": 6,
+        "drawMs": 1194,
+        "expandMs": 500,
+        "canvases": 1
+      }
+    ],
+    "statsStable": true
+  },
+  "lifecycle": {
+    "stats": {
+      "disposed": true,
+      "stateAtDispose": "hero",
+      "listeners": 0,
+      "canvases": 0,
+      "owned": {
+        "geometries": 0,
+        "materials": 0,
+        "textures": 0,
+        "others": 0
+      },
+      "geometries": 0,
+      "textures": 3,
+      "programs": 1,
+      "drawCalls": 10,
+      "triangles": 92432
+    },
+    "canvases": 0
+  },
+  "finishedAt": "2026-10-21T20:03:56.627Z",
+  "ok": false
+}

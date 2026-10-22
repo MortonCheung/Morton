@@ -1,0 +1,12 @@
+Jost — MORTON Medium instance
+Copyright 2020 The Jost Project Authors (https://github.com/indestructible-type/Jost)
+Licensed under the SIL Open Font License, Version 1.1.
+Full license text: https://openfontlicense.org/open-font-license-official-text/
+
+Shipped file: jost-morton-medium.ttf
+Derived from the upstream variable font (jost.ttf, SIL OFL 1.1) with
+fontTools.varLib.instancer pinned at wght=500. This is a permitted modification
+under OFL 1.1; the upstream copyright and license notices are retained, the
+reserved-font-name field is absent in the upstream metadata, and the derived
+file is redistributed under the same OFL 1.1 terms. No glyph outlines were
+retraced or altered beyond the variable-axis pinning.

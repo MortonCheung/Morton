@@ -1,0 +1,445 @@
+{
+  "url": "http://127.0.0.1:5185/",
+  "startedAt": "2026-10-21T19:45:52.433Z",
+  "passes": [
+    {
+      "name": "desktop-1920",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "state": "hero",
+      "timings": {
+        "mountedAt": 0,
+        "drawingAt": 2102,
+        "builtAt": 3122,
+        "expandingAt": 3204,
+        "expandStart": 3204,
+        "heroAt": 3720,
+        "storyReadyAt": 3720
+      },
+      "letters": 6,
+      "scrollHeight": 16308,
+      "overflowX": 0,
+      "sections": [
+        {
+          "id": "M",
+          "top": 1080,
+          "height": 2052
+        },
+        {
+          "id": "O1",
+          "top": 3132,
+          "height": 2268
+        },
+        {
+          "id": "R",
+          "top": 5400,
+          "height": 2160
+        },
+        {
+          "id": "T",
+          "top": 7560,
+          "height": 2916
+        },
+        {
+          "id": "O2",
+          "top": 10476,
+          "height": 3240
+        },
+        {
+          "id": "N",
+          "top": 13716,
+          "height": 2592
+        }
+      ],
+      "consoleErrors": [],
+      "pageErrors": []
+    },
+    {
+      "name": "desktop-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": "hero",
+      "timings": {
+        "mountedAt": 0,
+        "drawingAt": 401,
+        "builtAt": 1422,
+        "expandingAt": 1503,
+        "expandStart": 1503,
+        "heroAt": 2013,
+        "storyReadyAt": 2014
+      },
+      "letters": 6,
+      "scrollHeight": 13590,
+      "overflowX": 0,
+      "sections": [
+        {
+          "id": "M",
+          "top": 900,
+          "height": 1710
+        },
+        {
+          "id": "O1",
+          "top": 2610,
+          "height": 1890
+        },
+        {
+          "id": "R",
+          "top": 4500,
+          "height": 1800
+        },
+        {
+          "id": "T",
+          "top": 6300,
+          "height": 2430
+        },
+        {
+          "id": "O2",
+          "top": 8730,
+          "height": 2700
+        },
+        {
+          "id": "N",
+          "top": 11430,
+          "height": 2160
+        }
+      ],
+      "consoleErrors": [],
+      "pageErrors": []
+    },
+    {
+      "name": "laptop-1366",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "state": "hero",
+      "timings": {
+        "mountedAt": 0,
+        "drawingAt": 392,
+        "builtAt": 1412,
+        "expandingAt": 1495,
+        "expandStart": 1495,
+        "heroAt": 1995,
+        "storyReadyAt": 1996
+      },
+      "letters": 6,
+      "scrollHeight": 11597,
+      "overflowX": 0,
+      "sections": [
+        {
+          "id": "M",
+          "top": 768,
+          "height": 1459
+        },
+        {
+          "id": "O1",
+          "top": 2227,
+          "height": 1613
+        },
+        {
+          "id": "R",
+          "top": 3840,
+          "height": 1536
+        },
+        {
+          "id": "T",
+          "top": 5376,
+          "height": 2074
+        },
+        {
+          "id": "O2",
+          "top": 7450,
+          "height": 2304
+        },
+        {
+          "id": "N",
+          "top": 9754,
+          "height": 1843
+        }
+      ],
+      "consoleErrors": [],
+      "pageErrors": []
+    },
+    {
+      "name": "tablet-1024",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "state": "hero",
+      "timings": {
+        "mountedAt": 0,
+        "drawingAt": 341,
+        "builtAt": 1363,
+        "expandingAt": 1445,
+        "expandStart": 1445,
+        "heroAt": 1934,
+        "storyReadyAt": 1936
+      },
+      "letters": 6,
+      "scrollHeight": 11597,
+      "overflowX": 0,
+      "sections": [
+        {
+          "id": "M",
+          "top": 768,
+          "height": 1459
+        },
+        {
+          "id": "O1",
+          "top": 2227,
+          "height": 1613
+        },
+        {
+          "id": "R",
+          "top": 3840,
+          "height": 1536
+        },
+        {
+          "id": "T",
+          "top": 5376,
+          "height": 2074
+        },
+        {
+          "id": "O2",
+          "top": 7450,
+          "height": 2304
+        },
+        {
+          "id": "N",
+          "top": 9754,
+          "height": 1843
+        }
+      ],
+      "consoleErrors": [],
+      "pageErrors": []
+    },
+    {
+      "name": "mobile-390",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "hero",
+      "timings": {
+        "mountedAt": 0,
+        "drawingAt": 339,
+        "builtAt": 1360,
+        "expandingAt": 1441,
+        "expandStart": 1441,
+        "heroAt": 1956,
+        "storyReadyAt": 1956
+      },
+      "letters": 6,
+      "scrollHeight": 12744,
+      "overflowX": 0,
+      "sections": [
+        {
+          "id": "M",
+          "top": 844,
+          "height": 1604
+        },
+        {
+          "id": "O1",
+          "top": 2448,
+          "height": 1772
+        },
+        {
+          "id": "R",
+          "top": 4220,
+          "height": 1688
+        },
+        {
+          "id": "T",
+          "top": 5908,
+          "height": 2279
+        },
+        {
+          "id": "O2",
+          "top": 8187,
+          "height": 2532
+        },
+        {
+          "id": "N",
+          "top": 10719,
+          "height": 2026
+        }
+      ],
+      "consoleErrors": [],
+      "pageErrors": []
+    },
+    {
+      "name": "rm-1440",
+      "reduced": true,
+      "probe": {
+        "state": "reduced",
+        "scrollHeight": 6572,
+        "detail": null
+      },
+      "cardCount": 8,
+      "detailCheck": {
+        "open": true,
+        "scrollY": 0,
+        "bodyOverflow": "hidden",
+        "closed": {
+          "open": false,
+          "scrollY": 4518,
+          "active": "p01"
+        }
+      },
+      "consoleErrors": [],
+      "pageErrors": []
+    },
+    {
+      "name": "rm-390",
+      "reduced": true,
+      "probe": {
+        "state": "reduced",
+        "scrollHeight": 8761,
+        "detail": null
+      },
+      "cardCount": 8,
+      "detailCheck": {
+        "open": true,
+        "scrollY": 0,
+        "bodyOverflow": "hidden",
+        "closed": {
+          "open": false,
+          "scrollY": 4680,
+          "active": "p01"
+        }
+      },
+      "consoleErrors": [],
+      "pageErrors": []
+    },
+    {
+      "name": "detail-button",
+      "cardCount": 8,
+      "sourceId": "p01",
+      "before": 10365,
+      "opened": {
+        "open": true,
+        "probe": {
+          "open": true,
+          "sourceId": "p01"
+        },
+        "focus": true,
+        "bodyOverflow": "hidden",
+        "scrollY": 0
+      },
+      "closed": {
+        "open": false,
+        "probe": {
+          "open": false,
+          "sourceId": null
+        },
+        "scrollY": 10365,
+        "focus": "p01",
+        "bodyPosition": "static"
+      },
+      "restored": true,
+      "consoleErrors": [],
+      "pageErrors": []
+    },
+    {
+      "name": "reloads-5",
+      "runs": [
+        {
+          "state": "hero",
+          "canvases": 1,
+          "sections": 6,
+          "scrollHeight": 13590,
+          "timings": {
+            "mountedAt": 0,
+            "drawingAt": 315,
+            "builtAt": 1335,
+            "expandingAt": 1418,
+            "expandStart": 1418,
+            "heroAt": 1918,
+            "storyReadyAt": 1919
+          }
+        },
+        {
+          "state": "hero",
+          "canvases": 1,
+          "sections": 6,
+          "scrollHeight": 13590,
+          "timings": {
+            "mountedAt": 0,
+            "drawingAt": 146,
+            "builtAt": 1168,
+            "expandingAt": 1249,
+            "expandStart": 1250,
+            "heroAt": 1741,
+            "storyReadyAt": 1741
+          }
+        },
+        {
+          "state": "hero",
+          "canvases": 1,
+          "sections": 6,
+          "scrollHeight": 13590,
+          "timings": {
+            "mountedAt": 0,
+            "drawingAt": 153,
+            "builtAt": 1175,
+            "expandingAt": 1256,
+            "expandStart": 1256,
+            "heroAt": 1744,
+            "storyReadyAt": 1744
+          }
+        },
+        {
+          "state": "hero",
+          "canvases": 1,
+          "sections": 6,
+          "scrollHeight": 13590,
+          "timings": {
+            "mountedAt": 0,
+            "drawingAt": 167,
+            "builtAt": 1189,
+            "expandingAt": 1272,
+            "expandStart": 1272,
+            "heroAt": 1764,
+            "storyReadyAt": 1764
+          }
+        },
+        {
+          "state": "hero",
+          "canvases": 1,
+          "sections": 6,
+          "scrollHeight": 13590,
+          "timings": {
+            "mountedAt": 0,
+            "drawingAt": 150,
+            "builtAt": 1170,
+            "expandingAt": 1252,
+            "expandStart": 1252,
+            "heroAt": 1768,
+            "storyReadyAt": 1769
+          }
+        }
+      ],
+      "consoleErrors": [],
+      "pageErrors": []
+    }
+  ],
+  "problems": [],
+  "frameStats": {
+    "samples": 692,
+    "avg": 16.67,
+    "p50": 16.7,
+    "p95": 16.8,
+    "max": 16.8,
+    "under25ms": 1
+  },
+  "smoothVideo": {
+    "webm": "docs/RECORDING/B1-smooth-scroll.webm",
+    "mp4": "docs/RECORDING/B1-smooth-scroll.mp4"
+  },
+  "finishedAt": "2026-10-21T20:04:00.481Z"
+}

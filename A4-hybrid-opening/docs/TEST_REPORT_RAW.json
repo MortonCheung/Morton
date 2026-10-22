@@ -1,0 +1,760 @@
+{
+  "url": "http://127.0.0.1:5184/",
+  "startedAt": "2026-10-21T22:32:55.338Z",
+  "runs": [
+    {
+      "view": "desktop-1920",
+      "width": 1920,
+      "height": 1080,
+      "dpr": 1,
+      "loadMs": 438,
+      "screenshot": "docs/SCREENSHOTS/desktop-1920.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "probe": {
+        "state": "hero",
+        "timings": {
+          "mountedAt": 0,
+          "drawingAt": 490,
+          "sceneReadyAt": 579,
+          "criticalReadyAt": 582,
+          "builtAt": 1545,
+          "expandingAt": 1545,
+          "heroAt": 2027
+        },
+        "letters": [
+          {
+            "id": "M-0",
+            "position": [
+              -1.9816,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-1",
+            "position": [
+              -0.977,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "R-2",
+            "position": [
+              -0.1409,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "T-3",
+            "position": [
+              0.4955,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-4",
+            "position": [
+              1.2871,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "N-5",
+            "position": [
+              2.1496,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          }
+        ],
+        "extra": {
+          "renderer": {
+            "geometries": 19,
+            "textures": 9,
+            "programs": 10,
+            "calls": 1,
+            "triangles": 2
+          },
+          "dpr": 1,
+          "twoO": {
+            "uuids": [
+              "ba14ff80-8027-44b5-b0cd-7ad7bec86ee0",
+              "ba14ff80-8027-44b5-b0cd-7ad7bec86ee0"
+            ],
+            "shared": true
+          },
+          "viewport": {
+            "w": 1920,
+            "h": 1080
+          },
+          "durations": {
+            "drawMs": 1055,
+            "expandMs": 482,
+            "totalMs": 2027,
+            "gateWaitMs": 0
+          },
+          "renderPaused": true
+        }
+      },
+      "domContentLoaded": 389,
+      "loadEvent": 391,
+      "resources": 42,
+      "transferKB": 24357,
+      "canvas": [
+        "1920x1080"
+      ],
+      "overflowX": 0,
+      "bodyText": "MORTON PERSONAL IDENTITY REPLAY A personal practice in form, motion and material. SCROLL MORTON opening complete"
+    },
+    {
+      "view": "desktop-1440",
+      "width": 1440,
+      "height": 900,
+      "dpr": 1,
+      "loadMs": 291,
+      "screenshot": "docs/SCREENSHOTS/desktop-1440.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "probe": {
+        "state": "hero",
+        "timings": {
+          "mountedAt": 0,
+          "drawingAt": 335,
+          "sceneReadyAt": 403,
+          "criticalReadyAt": 406,
+          "builtAt": 1385,
+          "expandingAt": 1386,
+          "heroAt": 1869
+        },
+        "letters": [
+          {
+            "id": "M-0",
+            "position": [
+              -1.9816,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-1",
+            "position": [
+              -0.977,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "R-2",
+            "position": [
+              -0.1409,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "T-3",
+            "position": [
+              0.4955,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-4",
+            "position": [
+              1.2871,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "N-5",
+            "position": [
+              2.1496,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          }
+        ],
+        "extra": {
+          "renderer": {
+            "geometries": 19,
+            "textures": 9,
+            "programs": 10,
+            "calls": 1,
+            "triangles": 2
+          },
+          "dpr": 1,
+          "twoO": {
+            "uuids": [
+              "79f0aa20-4068-4dc7-83ac-a7e9fe789f3c",
+              "79f0aa20-4068-4dc7-83ac-a7e9fe789f3c"
+            ],
+            "shared": true
+          },
+          "viewport": {
+            "w": 1440,
+            "h": 900
+          },
+          "durations": {
+            "drawMs": 1050,
+            "expandMs": 483,
+            "totalMs": 1869,
+            "gateWaitMs": 1
+          },
+          "renderPaused": true
+        }
+      },
+      "domContentLoaded": 280,
+      "loadEvent": 281,
+      "resources": 41,
+      "transferKB": 24356,
+      "canvas": [
+        "1440x900"
+      ],
+      "overflowX": 0,
+      "bodyText": "MORTON PERSONAL IDENTITY REPLAY A personal practice in form, motion and material. SCROLL MORTON opening complete"
+    },
+    {
+      "view": "laptop-1366",
+      "width": 1366,
+      "height": 768,
+      "dpr": 1,
+      "loadMs": 300,
+      "screenshot": "docs/SCREENSHOTS/laptop-1366.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "probe": {
+        "state": "hero",
+        "timings": {
+          "mountedAt": 0,
+          "drawingAt": 342,
+          "sceneReadyAt": 410,
+          "criticalReadyAt": 413,
+          "builtAt": 1393,
+          "expandingAt": 1393,
+          "heroAt": 1877
+        },
+        "letters": [
+          {
+            "id": "M-0",
+            "position": [
+              -1.9816,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-1",
+            "position": [
+              -0.977,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "R-2",
+            "position": [
+              -0.1409,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "T-3",
+            "position": [
+              0.4955,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-4",
+            "position": [
+              1.2871,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "N-5",
+            "position": [
+              2.1496,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          }
+        ],
+        "extra": {
+          "renderer": {
+            "geometries": 19,
+            "textures": 9,
+            "programs": 10,
+            "calls": 1,
+            "triangles": 2
+          },
+          "dpr": 1,
+          "twoO": {
+            "uuids": [
+              "5002b28a-7807-43d0-b1d0-247e055d06ee",
+              "5002b28a-7807-43d0-b1d0-247e055d06ee"
+            ],
+            "shared": true
+          },
+          "viewport": {
+            "w": 1366,
+            "h": 768
+          },
+          "durations": {
+            "drawMs": 1051,
+            "expandMs": 484,
+            "totalMs": 1877,
+            "gateWaitMs": 0
+          },
+          "renderPaused": true
+        }
+      },
+      "domContentLoaded": 289,
+      "loadEvent": 290,
+      "resources": 41,
+      "transferKB": 24356,
+      "canvas": [
+        "1366x768"
+      ],
+      "overflowX": 0,
+      "bodyText": "MORTON PERSONAL IDENTITY REPLAY A personal practice in form, motion and material. SCROLL MORTON opening complete"
+    },
+    {
+      "view": "tablet-1024",
+      "width": 1024,
+      "height": 768,
+      "dpr": 1,
+      "loadMs": 287,
+      "screenshot": "docs/SCREENSHOTS/tablet-1024.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "probe": {
+        "state": "hero",
+        "timings": {
+          "mountedAt": 0,
+          "drawingAt": 339,
+          "sceneReadyAt": 403,
+          "criticalReadyAt": 405,
+          "builtAt": 1390,
+          "expandingAt": 1390,
+          "heroAt": 1874
+        },
+        "letters": [
+          {
+            "id": "M-0",
+            "position": [
+              -1.9816,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-1",
+            "position": [
+              -0.977,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "R-2",
+            "position": [
+              -0.1409,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "T-3",
+            "position": [
+              0.4955,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-4",
+            "position": [
+              1.2871,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "N-5",
+            "position": [
+              2.1496,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          }
+        ],
+        "extra": {
+          "renderer": {
+            "geometries": 19,
+            "textures": 9,
+            "programs": 10,
+            "calls": 1,
+            "triangles": 2
+          },
+          "dpr": 1,
+          "twoO": {
+            "uuids": [
+              "1e9ff299-2c4f-4058-baea-fb6d207f9aba",
+              "1e9ff299-2c4f-4058-baea-fb6d207f9aba"
+            ],
+            "shared": true
+          },
+          "viewport": {
+            "w": 1024,
+            "h": 768
+          },
+          "durations": {
+            "drawMs": 1051,
+            "expandMs": 484,
+            "totalMs": 1874,
+            "gateWaitMs": 0
+          },
+          "renderPaused": true
+        }
+      },
+      "domContentLoaded": 279,
+      "loadEvent": 280,
+      "resources": 41,
+      "transferKB": 24356,
+      "canvas": [
+        "1024x768"
+      ],
+      "overflowX": 0,
+      "bodyText": "MORTON PERSONAL IDENTITY REPLAY A personal practice in form, motion and material. SCROLL MORTON opening complete"
+    },
+    {
+      "view": "mobile-390",
+      "width": 390,
+      "height": 844,
+      "dpr": 2,
+      "loadMs": 305,
+      "screenshot": "docs/SCREENSHOTS/mobile-390.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "probe": {
+        "state": "hero",
+        "timings": {
+          "mountedAt": 0,
+          "drawingAt": 352,
+          "sceneReadyAt": 422,
+          "criticalReadyAt": 425,
+          "builtAt": 1403,
+          "expandingAt": 1403,
+          "heroAt": 1887
+        },
+        "letters": [
+          {
+            "id": "M-0",
+            "position": [
+              -1.9816,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-1",
+            "position": [
+              -0.977,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "R-2",
+            "position": [
+              -0.1409,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "T-3",
+            "position": [
+              0.4955,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-4",
+            "position": [
+              1.2871,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "N-5",
+            "position": [
+              2.1496,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          }
+        ],
+        "extra": {
+          "renderer": {
+            "geometries": 17,
+            "textures": 5,
+            "programs": 4,
+            "calls": 7,
+            "triangles": 69370
+          },
+          "dpr": 2,
+          "twoO": {
+            "uuids": [
+              "080404a1-3981-4363-a657-b8c5b033164d",
+              "080404a1-3981-4363-a657-b8c5b033164d"
+            ],
+            "shared": true
+          },
+          "viewport": {
+            "w": 390,
+            "h": 844
+          },
+          "durations": {
+            "drawMs": 1051,
+            "expandMs": 484,
+            "totalMs": 1887,
+            "gateWaitMs": 0
+          },
+          "renderPaused": true
+        }
+      },
+      "domContentLoaded": 295,
+      "loadEvent": 296,
+      "resources": 41,
+      "transferKB": 24356,
+      "canvas": [
+        "780x1688"
+      ],
+      "overflowX": 0,
+      "bodyText": "MORTON PERSONAL IDENTITY REPLAY A personal practice in form, motion and material. MORTON opening complete"
+    }
+  ],
+  "problems": [],
+  "video": {
+    "webm": "docs/RECORDING/A4-opening.webm",
+    "mp4": "docs/RECORDING/A4-opening.mp4",
+    "probe": {
+      "mountedAt": 0,
+      "drawingAt": 354,
+      "sceneReadyAt": 422,
+      "criticalReadyAt": 424,
+      "builtAt": 1405,
+      "expandingAt": 1405,
+      "heroAt": 1889
+    },
+    "heroMs": 1595,
+    "pageErrors": []
+  },
+  "reloadHeapSamples": [
+    67282414,
+    76557076,
+    123958546,
+    65751261,
+    65792269
+  ],
+  "finishedAt": "2026-10-21T22:33:32.492Z"
+}

@@ -1,0 +1,358 @@
+{
+  "url": "http://127.0.0.1:5185/",
+  "startedAt": "2026-10-21T22:51:21.853Z",
+  "steps": [
+    {
+      "step": "scroll",
+      "scrollHeight": 13590,
+      "screenshots": [
+        "docs/SCREENSHOTS/B1-scroll-scroll-04.png",
+        "docs/SCREENSHOTS/B1-scroll-scroll-08.png",
+        "docs/SCREENSHOTS/B1-scroll-scroll-12.png",
+        "docs/SCREENSHOTS/B1-scroll-scroll-16.png"
+      ]
+    },
+    {
+      "step": "detail",
+      "index": 0,
+      "scrollBefore": 0,
+      "scrollAtCard": 8593,
+      "scrollAfterClose": 8593,
+      "restored": true,
+      "opened": {
+        "probe": {
+          "open": true,
+          "sourceId": "p01"
+        },
+        "overlay": true,
+        "active": "BUTTON",
+        "bodyOverflow": "hidden",
+        "scrollY": 0
+      },
+      "closed": {
+        "probe": {
+          "open": false,
+          "sourceId": null
+        },
+        "overlay": false,
+        "active": "BUTTON",
+        "scrollY": 8593
+      },
+      "openShot": "docs/SCREENSHOTS/B1-scroll-detail-open-0.png",
+      "closedShot": "docs/SCREENSHOTS/B1-scroll-detail-closed-0.png"
+    },
+    {
+      "step": "detail",
+      "index": 1,
+      "scrollBefore": 8593,
+      "scrollAtCard": 8593,
+      "scrollAfterClose": 8593,
+      "restored": true,
+      "opened": {
+        "probe": {
+          "open": true,
+          "sourceId": "p02"
+        },
+        "overlay": true,
+        "active": "BUTTON",
+        "bodyOverflow": "hidden",
+        "scrollY": 0
+      },
+      "closed": {
+        "probe": {
+          "open": false,
+          "sourceId": null
+        },
+        "overlay": false,
+        "active": "BUTTON",
+        "scrollY": 8593
+      },
+      "openShot": "docs/SCREENSHOTS/B1-scroll-detail-open-1.png",
+      "closedShot": "docs/SCREENSHOTS/B1-scroll-detail-closed-1.png"
+    },
+    {
+      "step": "detail",
+      "index": 2,
+      "scrollBefore": 8593,
+      "scrollAtCard": 8593,
+      "scrollAfterClose": 8593,
+      "restored": true,
+      "opened": {
+        "probe": {
+          "open": true,
+          "sourceId": "p03"
+        },
+        "overlay": true,
+        "active": "BUTTON",
+        "bodyOverflow": "hidden",
+        "scrollY": 0
+      },
+      "closed": {
+        "probe": {
+          "open": false,
+          "sourceId": null
+        },
+        "overlay": false,
+        "active": "BUTTON",
+        "scrollY": 8593
+      },
+      "openShot": "docs/SCREENSHOTS/B1-scroll-detail-open-2.png",
+      "closedShot": "docs/SCREENSHOTS/B1-scroll-detail-closed-2.png"
+    }
+  ],
+  "problems": [],
+  "video": {
+    "webm": "docs/RECORDING/B1-scroll.webm",
+    "mp4": "docs/RECORDING/B1-scroll.mp4"
+  },
+  "desktopState": {
+    "scrollY": 12690,
+    "scrollHeight": 13590,
+    "probe": {
+      "state": "hero",
+      "timings": {
+        "mountedAt": 0,
+        "drawingAt": 407,
+        "builtAt": 1428,
+        "expandingAt": 1511,
+        "expandStart": 1511,
+        "heroAt": 2015,
+        "storyReadyAt": 2015
+      },
+      "letters": [
+        {
+          "id": "M",
+          "position": [
+            -1.9065917968750004,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "visible": true
+        },
+        {
+          "id": "O1",
+          "position": [
+            -0.9320410230755809,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "visible": true
+        },
+        {
+          "id": "R",
+          "position": [
+            -0.12594726562500025,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "visible": true
+        },
+        {
+          "id": "T",
+          "position": [
+            0.48044841384515147,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "visible": true
+        },
+        {
+          "id": "O2",
+          "position": [
+            1.2420996019244193,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "visible": true
+        },
+        {
+          "id": "N",
+          "position": [
+            2.0745605468750004,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "visible": true
+        }
+      ],
+      "extra": {
+        "fit": 1.131,
+        "camZ": 6.66,
+        "wordWidth": 4.774,
+        "capHeight": 0.7,
+        "viewport": [
+          1440,
+          900
+        ],
+        "drawMs": 1021,
+        "expandMs": 504,
+        "totalMs": 1608,
+        "triangles": 31174,
+        "drawCalls": 13,
+        "pixelRatio": 1,
+        "reducedMotion": false
+      },
+      "detail": {
+        "open": false,
+        "sourceId": null
+      }
+    }
+  },
+  "heroProbe": {
+    "state": "hero",
+    "timings": {
+      "mountedAt": 0,
+      "drawingAt": 407,
+      "builtAt": 1428,
+      "expandingAt": 1511,
+      "expandStart": 1511,
+      "heroAt": 2015,
+      "storyReadyAt": 2015
+    },
+    "letters": [
+      {
+        "id": "M",
+        "position": [
+          -1.9065917968750004,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "visible": true
+      },
+      {
+        "id": "O1",
+        "position": [
+          -0.9320410230755809,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "visible": true
+      },
+      {
+        "id": "R",
+        "position": [
+          -0.12594726562500025,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "visible": true
+      },
+      {
+        "id": "T",
+        "position": [
+          0.48044841384515147,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "visible": true
+      },
+      {
+        "id": "O2",
+        "position": [
+          1.2420996019244193,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "visible": true
+      },
+      {
+        "id": "N",
+        "position": [
+          2.0745605468750004,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "visible": true
+      }
+    ],
+    "extra": {
+      "fit": 1.131,
+      "camZ": 7,
+      "wordWidth": 4.774,
+      "capHeight": 0.7,
+      "viewport": [
+        1440,
+        900
+      ],
+      "drawMs": 1021,
+      "expandMs": 504,
+      "totalMs": 1608,
+      "triangles": 31174,
+      "drawCalls": 13,
+      "pixelRatio": 1,
+      "reducedMotion": false
+    }
+  },
+  "desktopConsole": {
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failed": []
+  },
+  "mobile": {
+    "scrollHeight": 12744,
+    "overflowX": 0,
+    "consoleErrors": [],
+    "pageErrors": []
+  },
+  "finishedAt": "2026-10-21T22:51:53.442Z"
+}

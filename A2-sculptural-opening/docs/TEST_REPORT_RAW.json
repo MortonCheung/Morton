@@ -1,0 +1,804 @@
+{
+  "url": "http://127.0.0.1:5182/",
+  "startedAt": "2026-10-21T22:49:58.109Z",
+  "runs": [
+    {
+      "view": "desktop-1920",
+      "width": 1920,
+      "height": 1080,
+      "dpr": 1,
+      "loadMs": 245,
+      "screenshot": "docs/SCREENSHOTS/desktop-1920.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "probe": {
+        "state": "hero",
+        "timings": {
+          "mountedAt": 0,
+          "loadingAt": 297,
+          "drawingAt": 356,
+          "builtAt": 1508,
+          "expandingAt": 1524,
+          "heroAt": 2025
+        },
+        "letters": [
+          {
+            "id": "M-0",
+            "position": [
+              -2.4535644531250003,
+              0.11813726422190667,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-1",
+            "position": [
+              -1.3654980468750002,
+              0.11813726422190667,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "R-2",
+            "position": [
+              -0.48934570312500014,
+              0.11813726422190667,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "T-3",
+            "position": [
+              0.17147460937499992,
+              0.11813726422190667,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-4",
+            "position": [
+              0.838642578125,
+              0.11813726422190667,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "N-5",
+            "position": [
+              1.714794921875,
+              0.11813726422190667,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          }
+        ],
+        "extra": {
+          "letterGeometryIds": [
+            "91f3d673-b3ac-4584-9f4e-784f743941e6",
+            "f4826f7c-0c47-4750-96c8-385a34926790",
+            "27d5a6b3-55c5-4966-a9ec-cf4e5bfc4ddb",
+            "21421f9e-f710-4a31-b6aa-61a66c7602f1",
+            "f4826f7c-0c47-4750-96c8-385a34926790",
+            "06cfd0f3-e3ef-430c-bc64-c69c089ed2a6"
+          ],
+          "word": {
+            "text": "MORTON",
+            "width": 4.9071,
+            "height": 0.7691,
+            "depth": 0.36,
+            "letters": 6,
+            "uniqueGlyphGeometries": 5
+          },
+          "assets": {
+            "mineral": true,
+            "contact": true,
+            "timedOut": false,
+            "fallback": false
+          },
+          "drawMs": 1152,
+          "timings": {
+            "drawMs": 1152,
+            "expandMs": 501
+          },
+          "renderer": {
+            "calls": 10,
+            "triangles": 93008,
+            "geometries": 18,
+            "textures": 6,
+            "dpr": 1,
+            "shadowMapSize": 2048,
+            "reducedMotion": false
+          }
+        }
+      },
+      "domContentLoaded": 206,
+      "loadEvent": 208,
+      "resources": 37,
+      "transferKB": 11778,
+      "canvas": [
+        "1920x1080"
+      ],
+      "overflowX": 0,
+      "bodyText": "MORTON — personal identity MORTON PERSONAL IDENTITY REPLAY 01 — 06 SIX LETTERS, HELD IN ONE LIGHT. M"
+    },
+    {
+      "view": "desktop-1440",
+      "width": 1440,
+      "height": 900,
+      "dpr": 1,
+      "loadMs": 142,
+      "screenshot": "docs/SCREENSHOTS/desktop-1440.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "probe": {
+        "state": "hero",
+        "timings": {
+          "mountedAt": 0,
+          "loadingAt": 186,
+          "drawingAt": 246,
+          "builtAt": 1394,
+          "expandingAt": 1409,
+          "heroAt": 1911
+        },
+        "letters": [
+          {
+            "id": "M-0",
+            "position": [
+              -2.4535644531250003,
+              0.11813726422190667,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-1",
+            "position": [
+              -1.3654980468750002,
+              0.11813726422190667,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "R-2",
+            "position": [
+              -0.48934570312500014,
+              0.11813726422190667,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "T-3",
+            "position": [
+              0.17147460937499992,
+              0.11813726422190667,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-4",
+            "position": [
+              0.838642578125,
+              0.11813726422190667,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "N-5",
+            "position": [
+              1.714794921875,
+              0.11813726422190667,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          }
+        ],
+        "extra": {
+          "letterGeometryIds": [
+            "42da4d33-394c-49f3-a91f-be9ef2b36790",
+            "65674974-293b-4fa8-8b40-25f1b7f99c95",
+            "3c1609fd-e576-4f02-966b-8fe4e0e44558",
+            "509f610f-2975-4ca4-893c-36bd16aa3f04",
+            "65674974-293b-4fa8-8b40-25f1b7f99c95",
+            "9d1e0834-7624-479d-af18-83d5ff894a73"
+          ],
+          "word": {
+            "text": "MORTON",
+            "width": 4.9071,
+            "height": 0.7691,
+            "depth": 0.36,
+            "letters": 6,
+            "uniqueGlyphGeometries": 5
+          },
+          "assets": {
+            "mineral": true,
+            "contact": true,
+            "timedOut": false,
+            "fallback": false
+          },
+          "drawMs": 1148,
+          "timings": {
+            "drawMs": 1148,
+            "expandMs": 502
+          },
+          "renderer": {
+            "calls": 10,
+            "triangles": 93008,
+            "geometries": 18,
+            "textures": 6,
+            "dpr": 1,
+            "shadowMapSize": 2048,
+            "reducedMotion": false
+          }
+        }
+      },
+      "domContentLoaded": 130,
+      "loadEvent": 132,
+      "resources": 37,
+      "transferKB": 11778,
+      "canvas": [
+        "1440x900"
+      ],
+      "overflowX": 0,
+      "bodyText": "MORTON — personal identity MORTON PERSONAL IDENTITY REPLAY 01 — 06 SIX LETTERS, HELD IN ONE LIGHT. M"
+    },
+    {
+      "view": "laptop-1366",
+      "width": 1366,
+      "height": 768,
+      "dpr": 1,
+      "loadMs": 146,
+      "screenshot": "docs/SCREENSHOTS/laptop-1366.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "probe": {
+        "state": "hero",
+        "timings": {
+          "mountedAt": 0,
+          "loadingAt": 202,
+          "drawingAt": 252,
+          "builtAt": 1415,
+          "expandingAt": 1433,
+          "heroAt": 1950
+        },
+        "letters": [
+          {
+            "id": "M-0",
+            "position": [
+              -2.4535644531250003,
+              0.11813726422190667,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-1",
+            "position": [
+              -1.3654980468750002,
+              0.11813726422190667,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "R-2",
+            "position": [
+              -0.48934570312500014,
+              0.11813726422190667,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "T-3",
+            "position": [
+              0.17147460937499992,
+              0.11813726422190667,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-4",
+            "position": [
+              0.838642578125,
+              0.11813726422190667,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "N-5",
+            "position": [
+              1.714794921875,
+              0.11813726422190667,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          }
+        ],
+        "extra": {
+          "letterGeometryIds": [
+            "af7d9196-1ec6-44cb-b871-ca4cf4d32092",
+            "b5ad70fe-5320-4c48-89d2-22355c51630e",
+            "b9d9748e-5d12-4f20-b3a1-fc6eb0fb0940",
+            "6d6d63cb-58e5-4130-92ad-820b87a3c346",
+            "b5ad70fe-5320-4c48-89d2-22355c51630e",
+            "c18202a7-de8f-4f66-b9e2-e720fba866ca"
+          ],
+          "word": {
+            "text": "MORTON",
+            "width": 4.9071,
+            "height": 0.7691,
+            "depth": 0.36,
+            "letters": 6,
+            "uniqueGlyphGeometries": 5
+          },
+          "assets": {
+            "mineral": true,
+            "contact": true,
+            "timedOut": false,
+            "fallback": false
+          },
+          "drawMs": 1163,
+          "timings": {
+            "drawMs": 1163,
+            "expandMs": 517
+          },
+          "renderer": {
+            "calls": 10,
+            "triangles": 93008,
+            "geometries": 18,
+            "textures": 6,
+            "dpr": 1,
+            "shadowMapSize": 2048,
+            "reducedMotion": false
+          }
+        }
+      },
+      "domContentLoaded": 135,
+      "loadEvent": 136,
+      "resources": 37,
+      "transferKB": 11778,
+      "canvas": [
+        "1366x768"
+      ],
+      "overflowX": 0,
+      "bodyText": "MORTON — personal identity MORTON PERSONAL IDENTITY REPLAY 01 — 06 SIX LETTERS, HELD IN ONE LIGHT. M"
+    },
+    {
+      "view": "tablet-1024",
+      "width": 1024,
+      "height": 768,
+      "dpr": 1,
+      "loadMs": 147,
+      "screenshot": "docs/SCREENSHOTS/tablet-1024.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "probe": {
+        "state": "hero",
+        "timings": {
+          "mountedAt": 0,
+          "loadingAt": 194,
+          "drawingAt": 241,
+          "builtAt": 1401,
+          "expandingAt": 1416,
+          "heroAt": 1918
+        },
+        "letters": [
+          {
+            "id": "M-0",
+            "position": [
+              -2.4535644531250003,
+              0.11813726422190667,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-1",
+            "position": [
+              -1.3654980468750002,
+              0.11813726422190667,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "R-2",
+            "position": [
+              -0.48934570312500014,
+              0.11813726422190667,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "T-3",
+            "position": [
+              0.17147460937499992,
+              0.11813726422190667,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-4",
+            "position": [
+              0.838642578125,
+              0.11813726422190667,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "N-5",
+            "position": [
+              1.714794921875,
+              0.11813726422190667,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          }
+        ],
+        "extra": {
+          "letterGeometryIds": [
+            "429da672-4273-40a2-948a-9fd16089e6d0",
+            "9926a909-4300-4580-b5f6-2a2848058f35",
+            "d9269406-def2-4698-a7a6-443525160b0d",
+            "4bd2369f-1556-46fc-88f9-85379e06433f",
+            "9926a909-4300-4580-b5f6-2a2848058f35",
+            "40ef8a13-5e9f-4fdb-b876-65e83c487e3d"
+          ],
+          "word": {
+            "text": "MORTON",
+            "width": 4.9071,
+            "height": 0.7691,
+            "depth": 0.36,
+            "letters": 6,
+            "uniqueGlyphGeometries": 5
+          },
+          "assets": {
+            "mineral": true,
+            "contact": true,
+            "timedOut": false,
+            "fallback": false
+          },
+          "drawMs": 1160,
+          "timings": {
+            "drawMs": 1160,
+            "expandMs": 502
+          },
+          "renderer": {
+            "calls": 10,
+            "triangles": 93008,
+            "geometries": 18,
+            "textures": 6,
+            "dpr": 1,
+            "shadowMapSize": 2048,
+            "reducedMotion": false
+          }
+        }
+      },
+      "domContentLoaded": 142,
+      "loadEvent": 142,
+      "resources": 37,
+      "transferKB": 11778,
+      "canvas": [
+        "1024x768"
+      ],
+      "overflowX": 0,
+      "bodyText": "MORTON — personal identity MORTON PERSONAL IDENTITY REPLAY 01 — 06 SIX LETTERS, HELD IN ONE LIGHT. M"
+    },
+    {
+      "view": "mobile-390",
+      "width": 390,
+      "height": 844,
+      "dpr": 2,
+      "loadMs": 149,
+      "screenshot": "docs/SCREENSHOTS/mobile-390.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "probe": {
+        "state": "hero",
+        "timings": {
+          "mountedAt": 0,
+          "loadingAt": 191,
+          "drawingAt": 236,
+          "builtAt": 1401,
+          "expandingAt": 1417,
+          "heroAt": 1919
+        },
+        "letters": [
+          {
+            "id": "M-0",
+            "position": [
+              -2.4535644531250003,
+              0.11813726422190667,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-1",
+            "position": [
+              -1.3654980468750002,
+              0.11813726422190667,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "R-2",
+            "position": [
+              -0.48934570312500014,
+              0.11813726422190667,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "T-3",
+            "position": [
+              0.17147460937499992,
+              0.11813726422190667,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-4",
+            "position": [
+              0.838642578125,
+              0.11813726422190667,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "N-5",
+            "position": [
+              1.714794921875,
+              0.11813726422190667,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          }
+        ],
+        "extra": {
+          "letterGeometryIds": [
+            "a3c6ee34-7deb-417f-a911-2bf8d524a0b7",
+            "6b99ae21-676e-4951-b01e-7fddbf7472a3",
+            "36078280-191e-4106-bc02-29da26ae97ce",
+            "9e58f930-ce2a-4b42-b48b-9a609d951b79",
+            "6b99ae21-676e-4951-b01e-7fddbf7472a3",
+            "7a9fb43f-5670-4c70-abfc-e371d724aead"
+          ],
+          "word": {
+            "text": "MORTON",
+            "width": 4.9071,
+            "height": 0.7691,
+            "depth": 0.36,
+            "letters": 6,
+            "uniqueGlyphGeometries": 5
+          },
+          "assets": {
+            "mineral": true,
+            "contact": true,
+            "timedOut": false,
+            "fallback": false
+          },
+          "drawMs": 1165,
+          "timings": {
+            "drawMs": 1165,
+            "expandMs": 502
+          },
+          "renderer": {
+            "calls": 10,
+            "triangles": 93008,
+            "geometries": 18,
+            "textures": 6,
+            "dpr": 1.75,
+            "shadowMapSize": 1024,
+            "reducedMotion": false
+          }
+        }
+      },
+      "domContentLoaded": 139,
+      "loadEvent": 140,
+      "resources": 37,
+      "transferKB": 11778,
+      "canvas": [
+        "682x1477"
+      ],
+      "overflowX": 0,
+      "bodyText": "MORTON — personal identity MORTON PERSONAL IDENTITY REPLAY SIX LETTERS, HELD IN ONE LIGHT."
+    }
+  ],
+  "problems": [],
+  "video": {
+    "webm": "docs/RECORDING/A2-opening.webm",
+    "mp4": "docs/RECORDING/A2-opening.mp4",
+    "probe": {
+      "mountedAt": 0,
+      "loadingAt": 199,
+      "drawingAt": 250,
+      "builtAt": 1401,
+      "expandingAt": 1416,
+      "heroAt": 1916
+    },
+    "heroMs": 1776,
+    "pageErrors": []
+  },
+  "reloadHeapSamples": [
+    44261626,
+    58235182,
+    58415363,
+    66024979,
+    65666339
+  ],
+  "finishedAt": "2026-10-21T22:50:33.890Z"
+}

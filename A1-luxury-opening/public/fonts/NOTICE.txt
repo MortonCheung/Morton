@@ -1,0 +1,16 @@
+Marcellus Regular
+=================
+
+Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI)
+(astigma@astigmatic.com), with Reserved Font Name "Marcellus"
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: https://openfontlicense.org/
+License text: https://scripts.sil.org/OFL
+
+The font file (marcellus.ttf) is redistributed unmodified under the terms of
+the SIL Open Font License 1.1. It is used for the wordmark geometry and for the
+display type in the interface. It is not sold on its own.
+
+The file was taken from the project's shared, pre-licensed font pool; the
+license statement above is reproduced verbatim from the font's name table.

@@ -1,0 +1,936 @@
+{
+  "url": "http://127.0.0.1:5183/",
+  "startedAt": "2026-10-21T22:50:37.152Z",
+  "runs": [
+    {
+      "view": "desktop-1920",
+      "width": 1920,
+      "height": 1080,
+      "dpr": 1,
+      "loadMs": 246,
+      "screenshot": "docs/SCREENSHOTS/desktop-1920.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "probe": {
+        "state": "hero",
+        "timings": {
+          "mountedAt": 237,
+          "fontAt": 266,
+          "drawingAt": 298,
+          "sceneReadyAt": 481,
+          "assetsReadyAt": 481,
+          "builtAt": 1429,
+          "expandingAt": 1430,
+          "heroAt": 1979
+        },
+        "letters": [
+          {
+            "id": "M-0",
+            "position": [
+              -3.327817994042167,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-1",
+            "position": [
+              -2.0163894226135954,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "R-2",
+            "position": [
+              -0.762103708327881,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "T-3",
+            "position": [
+              0.18646772024354785,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-4",
+            "position": [
+              1.0136105773864048,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "N-5",
+            "position": [
+              2.2678962916721193,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          }
+        ],
+        "extra": {
+          "plan": {
+            "drawMs": 1155,
+            "expandMs": 500
+          },
+          "font": {
+            "file": "jost-morton-medium.ttf",
+            "family": "Jost",
+            "weight": 500,
+            "license": "SIL OFL 1.1"
+          },
+          "word": {
+            "text": "MORTON",
+            "width": 6.598,
+            "height": 1.165,
+            "capHeight": 1,
+            "trackingEm": 0.075
+          },
+          "geometry": {
+            "unique": 5,
+            "meshes": 6,
+            "byLetter": [
+              "6f6c27a4-19f9-44b7-8b2b-e2cb161dfcfe",
+              "935fdef8-d5b9-4ab9-9619-438a069a02fb",
+              "c4ea40c6-fda3-4757-9d49-0bdc5987f985",
+              "e50030aa-7e93-4cd2-bedb-1cd8ff6dbaf5",
+              "935fdef8-d5b9-4ab9-9619-438a069a02fb",
+              "d2484e8d-e912-4530-91d9-d5387b51a894"
+            ],
+            "sharedO": true,
+            "sharedOInstances": true
+          },
+          "frame": {
+            "cssW": 1920,
+            "cssH": 1080,
+            "camW": 9.997,
+            "camH": 5.623,
+            "camY": -0.141,
+            "wordFill": 0.66,
+            "dpr": 1.5,
+            "tier": "desktop"
+          },
+          "dpr": 1.5,
+          "reducedMotion": false,
+          "lastRun": {
+            "drawMs": 1131,
+            "expandMs": 549,
+            "totalMs": 1682
+          },
+          "replays": 0,
+          "renderer": {
+            "calls": 14,
+            "triangles": 53484,
+            "points": 0,
+            "lines": 0,
+            "geometries": 5,
+            "textures": 6,
+            "programs": 2,
+            "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3, Unspecified Version)",
+            "pixelSize": "2880x1620"
+          }
+        }
+      },
+      "domContentLoaded": 238,
+      "loadEvent": 238,
+      "resources": 41,
+      "transferKB": 14550,
+      "canvas": [
+        "2880x1620"
+      ],
+      "overflowX": 0,
+      "bodyText": "ENGINEERED IN SIX LETTERS. MORTON PERSONAL IDENTITY REPLAY MORTON"
+    },
+    {
+      "view": "desktop-1440",
+      "width": 1440,
+      "height": 900,
+      "dpr": 1,
+      "loadMs": 169,
+      "screenshot": "docs/SCREENSHOTS/desktop-1440.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "probe": {
+        "state": "hero",
+        "timings": {
+          "mountedAt": 163,
+          "fontAt": 185,
+          "drawingAt": 213,
+          "sceneReadyAt": 348,
+          "assetsReadyAt": 348,
+          "builtAt": 1347,
+          "expandingAt": 1347,
+          "heroAt": 1900
+        },
+        "letters": [
+          {
+            "id": "M-0",
+            "position": [
+              -3.327817994042167,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-1",
+            "position": [
+              -2.0163894226135954,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "R-2",
+            "position": [
+              -0.762103708327881,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "T-3",
+            "position": [
+              0.18646772024354785,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-4",
+            "position": [
+              1.0136105773864048,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "N-5",
+            "position": [
+              2.2678962916721193,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          }
+        ],
+        "extra": {
+          "plan": {
+            "drawMs": 1155,
+            "expandMs": 500
+          },
+          "font": {
+            "file": "jost-morton-medium.ttf",
+            "family": "Jost",
+            "weight": 500,
+            "license": "SIL OFL 1.1"
+          },
+          "word": {
+            "text": "MORTON",
+            "width": 6.598,
+            "height": 1.165,
+            "capHeight": 1,
+            "trackingEm": 0.075
+          },
+          "geometry": {
+            "unique": 5,
+            "meshes": 6,
+            "byLetter": [
+              "299d72b0-5a77-4b6b-bc35-d44f6a84c8d6",
+              "a667c04e-df37-4bbb-8044-08a02faa09f5",
+              "3e809579-de29-4a30-914f-80d55e292b56",
+              "27eb0fce-2990-4d61-908c-a93e189998ca",
+              "a667c04e-df37-4bbb-8044-08a02faa09f5",
+              "d16982ac-a9e2-415c-bfe4-51c62c5036fd"
+            ],
+            "sharedO": true,
+            "sharedOInstances": true
+          },
+          "frame": {
+            "cssW": 1440,
+            "cssH": 900,
+            "camW": 9.164,
+            "camH": 5.727,
+            "camY": -0.143,
+            "wordFill": 0.72,
+            "dpr": 1.5,
+            "tier": "desktop"
+          },
+          "dpr": 1.5,
+          "reducedMotion": false,
+          "lastRun": {
+            "drawMs": 1134,
+            "expandMs": 553,
+            "totalMs": 1687
+          },
+          "replays": 0,
+          "renderer": {
+            "calls": 14,
+            "triangles": 53484,
+            "points": 0,
+            "lines": 0,
+            "geometries": 5,
+            "textures": 6,
+            "programs": 2,
+            "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3, Unspecified Version)",
+            "pixelSize": "2160x1350"
+          }
+        }
+      },
+      "domContentLoaded": 165,
+      "loadEvent": 166,
+      "resources": 41,
+      "transferKB": 14550,
+      "canvas": [
+        "2160x1350"
+      ],
+      "overflowX": 0,
+      "bodyText": "ENGINEERED IN SIX LETTERS. MORTON PERSONAL IDENTITY REPLAY MORTON"
+    },
+    {
+      "view": "laptop-1366",
+      "width": 1366,
+      "height": 768,
+      "dpr": 1,
+      "loadMs": 170,
+      "screenshot": "docs/SCREENSHOTS/laptop-1366.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "probe": {
+        "state": "hero",
+        "timings": {
+          "mountedAt": 164,
+          "fontAt": 185,
+          "drawingAt": 213,
+          "sceneReadyAt": 356,
+          "assetsReadyAt": 356,
+          "builtAt": 1337,
+          "expandingAt": 1338,
+          "heroAt": 1887
+        },
+        "letters": [
+          {
+            "id": "M-0",
+            "position": [
+              -3.327817994042167,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-1",
+            "position": [
+              -2.0163894226135954,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "R-2",
+            "position": [
+              -0.762103708327881,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "T-3",
+            "position": [
+              0.18646772024354785,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-4",
+            "position": [
+              1.0136105773864048,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "N-5",
+            "position": [
+              2.2678962916721193,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          }
+        ],
+        "extra": {
+          "plan": {
+            "drawMs": 1155,
+            "expandMs": 500
+          },
+          "font": {
+            "file": "jost-morton-medium.ttf",
+            "family": "Jost",
+            "weight": 500,
+            "license": "SIL OFL 1.1"
+          },
+          "word": {
+            "text": "MORTON",
+            "width": 6.598,
+            "height": 1.165,
+            "capHeight": 1,
+            "trackingEm": 0.075
+          },
+          "geometry": {
+            "unique": 5,
+            "meshes": 6,
+            "byLetter": [
+              "ade67fa3-0dc5-425f-9d6e-0322c137c03b",
+              "e96967e8-2e9d-48ea-ac6e-cbf7a078d065",
+              "23f41481-c955-4de8-9c5d-1475961dd3a9",
+              "9b5f5901-9c14-413e-a093-7c0c44638180",
+              "e96967e8-2e9d-48ea-ac6e-cbf7a078d065",
+              "ef39206e-1e7c-4a4b-91db-e2e5a784258a"
+            ],
+            "sharedO": true,
+            "sharedOInstances": true
+          },
+          "frame": {
+            "cssW": 1366,
+            "cssH": 768,
+            "camW": 9.164,
+            "camH": 5.152,
+            "camY": -0.129,
+            "wordFill": 0.72,
+            "dpr": 1.5,
+            "tier": "desktop"
+          },
+          "dpr": 1.5,
+          "reducedMotion": false,
+          "lastRun": {
+            "drawMs": 1124,
+            "expandMs": 549,
+            "totalMs": 1675
+          },
+          "replays": 0,
+          "renderer": {
+            "calls": 14,
+            "triangles": 53484,
+            "points": 0,
+            "lines": 0,
+            "geometries": 5,
+            "textures": 6,
+            "programs": 2,
+            "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3, Unspecified Version)",
+            "pixelSize": "2049x1152"
+          }
+        }
+      },
+      "domContentLoaded": 166,
+      "loadEvent": 166,
+      "resources": 41,
+      "transferKB": 14550,
+      "canvas": [
+        "2049x1152"
+      ],
+      "overflowX": 0,
+      "bodyText": "ENGINEERED IN SIX LETTERS. MORTON PERSONAL IDENTITY REPLAY MORTON"
+    },
+    {
+      "view": "tablet-1024",
+      "width": 1024,
+      "height": 768,
+      "dpr": 1,
+      "loadMs": 158,
+      "screenshot": "docs/SCREENSHOTS/tablet-1024.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "probe": {
+        "state": "hero",
+        "timings": {
+          "mountedAt": 152,
+          "fontAt": 173,
+          "drawingAt": 201,
+          "sceneReadyAt": 334,
+          "assetsReadyAt": 334,
+          "builtAt": 1334,
+          "expandingAt": 1335,
+          "heroAt": 1901
+        },
+        "letters": [
+          {
+            "id": "M-0",
+            "position": [
+              -3.327817994042167,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-1",
+            "position": [
+              -2.0163894226135954,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "R-2",
+            "position": [
+              -0.762103708327881,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "T-3",
+            "position": [
+              0.18646772024354785,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-4",
+            "position": [
+              1.0136105773864048,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "N-5",
+            "position": [
+              2.2678962916721193,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          }
+        ],
+        "extra": {
+          "plan": {
+            "drawMs": 1155,
+            "expandMs": 500
+          },
+          "font": {
+            "file": "jost-morton-medium.ttf",
+            "family": "Jost",
+            "weight": 500,
+            "license": "SIL OFL 1.1"
+          },
+          "word": {
+            "text": "MORTON",
+            "width": 6.598,
+            "height": 1.165,
+            "capHeight": 1,
+            "trackingEm": 0.075
+          },
+          "geometry": {
+            "unique": 5,
+            "meshes": 6,
+            "byLetter": [
+              "5a674812-4b28-4af2-b11b-cb0d4f161351",
+              "9a1c743a-f290-4c49-b271-4bde7493fbd5",
+              "fa7388c8-45a7-424d-951c-c0834872e07a",
+              "736d2e68-d5f7-4a23-8eb0-ac7931961447",
+              "9a1c743a-f290-4c49-b271-4bde7493fbd5",
+              "4d02f27a-886d-4d29-ba38-24d63bc7d063"
+            ],
+            "sharedO": true,
+            "sharedOInstances": true
+          },
+          "frame": {
+            "cssW": 1024,
+            "cssH": 768,
+            "camW": 8.248,
+            "camH": 6.186,
+            "camY": -0.155,
+            "wordFill": 0.8,
+            "dpr": 1.5,
+            "tier": "tablet"
+          },
+          "dpr": 1.5,
+          "reducedMotion": false,
+          "lastRun": {
+            "drawMs": 1133,
+            "expandMs": 566,
+            "totalMs": 1700
+          },
+          "replays": 0,
+          "renderer": {
+            "calls": 14,
+            "triangles": 53484,
+            "points": 0,
+            "lines": 0,
+            "geometries": 5,
+            "textures": 6,
+            "programs": 2,
+            "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3, Unspecified Version)",
+            "pixelSize": "1536x1152"
+          }
+        }
+      },
+      "domContentLoaded": 153,
+      "loadEvent": 154,
+      "resources": 41,
+      "transferKB": 14550,
+      "canvas": [
+        "1536x1152"
+      ],
+      "overflowX": 0,
+      "bodyText": "ENGINEERED IN SIX LETTERS. MORTON PERSONAL IDENTITY REPLAY MORTON"
+    },
+    {
+      "view": "mobile-390",
+      "width": 390,
+      "height": 844,
+      "dpr": 2,
+      "loadMs": 167,
+      "screenshot": "docs/SCREENSHOTS/mobile-390.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "probe": {
+        "state": "hero",
+        "timings": {
+          "mountedAt": 161,
+          "fontAt": 181,
+          "drawingAt": 212,
+          "sceneReadyAt": 341,
+          "assetsReadyAt": 341,
+          "builtAt": 1336,
+          "expandingAt": 1336,
+          "heroAt": 1902
+        },
+        "letters": [
+          {
+            "id": "M-0",
+            "position": [
+              -3.327817994042167,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-1",
+            "position": [
+              -2.0163894226135954,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "R-2",
+            "position": [
+              -0.762103708327881,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "T-3",
+            "position": [
+              0.18646772024354785,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "O-4",
+            "position": [
+              1.0136105773864048,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          },
+          {
+            "id": "N-5",
+            "position": [
+              2.2678962916721193,
+              -0.5009494200348854,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "visible": true
+          }
+        ],
+        "extra": {
+          "plan": {
+            "drawMs": 1155,
+            "expandMs": 500
+          },
+          "font": {
+            "file": "jost-morton-medium.ttf",
+            "family": "Jost",
+            "weight": 500,
+            "license": "SIL OFL 1.1"
+          },
+          "word": {
+            "text": "MORTON",
+            "width": 6.598,
+            "height": 1.165,
+            "capHeight": 1,
+            "trackingEm": 0.075
+          },
+          "geometry": {
+            "unique": 5,
+            "meshes": 6,
+            "byLetter": [
+              "89dd3cea-a31b-4ea0-bd1a-92f01de3739e",
+              "a64915a2-b0e2-4123-a6b3-8e36ffd61869",
+              "dffbac6e-a6cb-44e6-9171-32c702314c95",
+              "ab31a982-31fd-4d21-ab8d-96888265a9bf",
+              "a64915a2-b0e2-4123-a6b3-8e36ffd61869",
+              "3bce3f77-a4ac-4846-9739-55f05ba6ba33"
+            ],
+            "sharedO": true,
+            "sharedOInstances": true
+          },
+          "frame": {
+            "cssW": 390,
+            "cssH": 844,
+            "camW": 7.172,
+            "camH": 15.521,
+            "camY": -0.931,
+            "wordFill": 0.92,
+            "dpr": 1.75,
+            "tier": "mobile"
+          },
+          "dpr": 1.75,
+          "reducedMotion": false,
+          "lastRun": {
+            "drawMs": 1124,
+            "expandMs": 566,
+            "totalMs": 1691
+          },
+          "replays": 0,
+          "renderer": {
+            "calls": 14,
+            "triangles": 53484,
+            "points": 0,
+            "lines": 0,
+            "geometries": 5,
+            "textures": 6,
+            "programs": 2,
+            "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3, Unspecified Version)",
+            "pixelSize": "682x1477"
+          }
+        }
+      },
+      "domContentLoaded": 162,
+      "loadEvent": 163,
+      "resources": 41,
+      "transferKB": 14550,
+      "canvas": [
+        "682x1477"
+      ],
+      "overflowX": 0,
+      "bodyText": "ENGINEERED IN SIX LETTERS. MORTON PERSONAL IDENTITY MORTON"
+    }
+  ],
+  "problems": [],
+  "video": {
+    "webm": "docs/RECORDING/A3-opening.webm",
+    "mp4": "docs/RECORDING/A3-opening.mp4",
+    "probe": {
+      "mountedAt": 180,
+      "fontAt": 207,
+      "drawingAt": 235,
+      "sceneReadyAt": 377,
+      "assetsReadyAt": 377,
+      "builtAt": 1367,
+      "expandingAt": 1367,
+      "heroAt": 1932
+    },
+    "heroMs": 1751,
+    "pageErrors": []
+  },
+  "reloadHeapSamples": [
+    40203442,
+    56247170,
+    64071601,
+    64791398,
+    56351100
+  ],
+  "finishedAt": "2026-10-21T22:51:13.350Z"
+}

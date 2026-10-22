@@ -1,0 +1,1123 @@
+{
+  "generatedAt": "2026-10-21T22:53:07.265Z",
+  "root": "/Users/morton_cheung/Desktop/AI/Morton/MORTON-experiments",
+  "projects": [
+    {
+      "id": "A1",
+      "dir": "A1-luxury-opening",
+      "port": 5181,
+      "exists": true,
+      "gitHead": "44277f2f5fb7a836ac47eb60ee00db6017e57bee",
+      "gitDirty": [],
+      "commitCount": 8,
+      "missingDocs": [],
+      "screenshots": [
+        {
+          "file": "docs/SCREENSHOTS/desktop-1440.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 1077
+        },
+        {
+          "file": "docs/SCREENSHOTS/desktop-1920.png",
+          "w": 1920,
+          "h": 1080,
+          "kb": 1623
+        },
+        {
+          "file": "docs/SCREENSHOTS/laptop-1366.png",
+          "w": 1366,
+          "h": 768,
+          "kb": 899
+        },
+        {
+          "file": "docs/SCREENSHOTS/mobile-390.png",
+          "w": 780,
+          "h": 1688,
+          "kb": 1183
+        },
+        {
+          "file": "docs/SCREENSHOTS/state-built.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 835
+        },
+        {
+          "file": "docs/SCREENSHOTS/state-drawing.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 829
+        },
+        {
+          "file": "docs/SCREENSHOTS/state-handoff.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 870
+        },
+        {
+          "file": "docs/SCREENSHOTS/tablet-1024.png",
+          "w": 1024,
+          "h": 768,
+          "kb": 688
+        }
+      ],
+      "videos": [
+        {
+          "file": "docs/RECORDING/A1-opening.mp4",
+          "width": 1440,
+          "height": 900,
+          "duration": 6.08,
+          "bytes": 618719
+        },
+        {
+          "file": "docs/RECORDING/A1-opening.webm",
+          "width": 1440,
+          "height": 900,
+          "duration": 6.08,
+          "bytes": 1594300
+        }
+      ],
+      "evidence": {
+        "states": [
+          "desktop-1920:hero",
+          "desktop-1440:hero",
+          "laptop-1366:hero",
+          "tablet-1024:hero",
+          "mobile-390:hero"
+        ],
+        "timings": {
+          "mountedAt": 0,
+          "loadingAt": 179,
+          "drawingAt": 302,
+          "drawPlannedMs": 1230,
+          "fontBytes": 46004,
+          "fontFetchMs": 45,
+          "geometryBuildMs": 32,
+          "shaderCompileMs": 25,
+          "assetsReadyMs": 101,
+          "readyAt": 408,
+          "builtAt": 1420,
+          "drawMs": 1117,
+          "expandingAt": 1420,
+          "heroAt": 1987,
+          "expandMs": 567,
+          "totalMs": 1685
+        },
+        "letters": 6,
+        "consoleErrors": 0,
+        "pageErrors": 0,
+        "failedRequests": 0,
+        "overflowX": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "video": {
+          "webm": "docs/RECORDING/A1-opening.webm",
+          "mp4": "docs/RECORDING/A1-opening.mp4",
+          "probe": {
+            "mountedAt": 0,
+            "loadingAt": 141,
+            "drawingAt": 204,
+            "drawPlannedMs": 1230,
+            "fontBytes": 46004,
+            "fontFetchMs": 42,
+            "geometryBuildMs": 31,
+            "shaderCompileMs": 13,
+            "assetsReadyMs": 87,
+            "readyAt": 293,
+            "builtAt": 1395,
+            "drawMs": 1191,
+            "expandingAt": 1395,
+            "heroAt": 1962,
+            "expandMs": 567,
+            "totalMs": 1757
+          },
+          "heroMs": 1820,
+          "pageErrors": []
+        },
+        "detailCycles": null,
+        "reloadHeapSamples": [
+          43616193,
+          45925679,
+          49460569,
+          43606364,
+          43266100
+        ],
+        "mobile": null,
+        "fatal": null
+      },
+      "checks": {
+        "drawAtLeast1000": true,
+        "expandBetween400and700": true,
+        "sixLetters": true,
+        "noConsoleErrors": true,
+        "noHorizontalOverflow": true
+      },
+      "build": {
+        "ok": true,
+        "tail": "> tsc -b && vite build\n\nvite v8.3.5 building client environment for production...\ntransforming...\n✓ 44 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                     0.97 kB │ gzip:   0.54 kB\ndist/assets/index-cvZlXMvQ.css      5.62 kB │ gzip:   2.18 kB\ndist/assets/index-B0gXVVFn.js   1,057.46 kB │ gzip: 300.61 kB\n\n✓ built in 167ms"
+      }
+    },
+    {
+      "id": "A2",
+      "dir": "A2-sculptural-opening",
+      "port": 5182,
+      "exists": true,
+      "gitHead": "b33a6c40a885d1eda819d10a21fc9189f9c88e03",
+      "gitDirty": [],
+      "commitCount": 5,
+      "missingDocs": [],
+      "screenshots": [
+        {
+          "file": "docs/SCREENSHOTS/desktop-1440.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 408
+        },
+        {
+          "file": "docs/SCREENSHOTS/desktop-1920.png",
+          "w": 1920,
+          "h": 1080,
+          "kb": 605
+        },
+        {
+          "file": "docs/SCREENSHOTS/gate-hold-1440.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 379
+        },
+        {
+          "file": "docs/SCREENSHOTS/hero-verification-1440.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 409
+        },
+        {
+          "file": "docs/SCREENSHOTS/laptop-1366.png",
+          "w": 1366,
+          "h": 768,
+          "kb": 349
+        },
+        {
+          "file": "docs/SCREENSHOTS/mobile-390.png",
+          "w": 780,
+          "h": 1688,
+          "kb": 178
+        },
+        {
+          "file": "docs/SCREENSHOTS/reduced-motion-1440.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 413
+        },
+        {
+          "file": "docs/SCREENSHOTS/tablet-1024.png",
+          "w": 1024,
+          "h": 768,
+          "kb": 247
+        }
+      ],
+      "videos": [
+        {
+          "file": "docs/RECORDING/A2-opening.mp4",
+          "width": 1440,
+          "height": 900,
+          "duration": 6.12,
+          "bytes": 465594
+        },
+        {
+          "file": "docs/RECORDING/A2-opening.webm",
+          "width": 1440,
+          "height": 900,
+          "duration": 6.12,
+          "bytes": 1237298
+        }
+      ],
+      "evidence": {
+        "states": [
+          "desktop-1920:hero",
+          "desktop-1440:hero",
+          "laptop-1366:hero",
+          "tablet-1024:hero",
+          "mobile-390:hero"
+        ],
+        "timings": {
+          "mountedAt": 0,
+          "loadingAt": 297,
+          "drawingAt": 356,
+          "builtAt": 1508,
+          "expandingAt": 1524,
+          "heroAt": 2025
+        },
+        "letters": 6,
+        "consoleErrors": 0,
+        "pageErrors": 0,
+        "failedRequests": 0,
+        "overflowX": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "video": {
+          "webm": "docs/RECORDING/A2-opening.webm",
+          "mp4": "docs/RECORDING/A2-opening.mp4",
+          "probe": {
+            "mountedAt": 0,
+            "loadingAt": 199,
+            "drawingAt": 250,
+            "builtAt": 1401,
+            "expandingAt": 1416,
+            "heroAt": 1916
+          },
+          "heroMs": 1776,
+          "pageErrors": []
+        },
+        "detailCycles": null,
+        "reloadHeapSamples": [
+          44261626,
+          58235182,
+          58415363,
+          66024979,
+          65666339
+        ],
+        "mobile": null,
+        "fatal": null
+      },
+      "checks": {
+        "drawAtLeast1000": true,
+        "expandBetween400and700": true,
+        "sixLetters": true,
+        "noConsoleErrors": true,
+        "noHorizontalOverflow": true
+      },
+      "build": {
+        "ok": true,
+        "tail": "> tsc -b && vite build\n\nvite v8.3.5 building client environment for production...\ntransforming...\n✓ 39 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                     0.86 kB │ gzip:   0.48 kB\ndist/assets/index-Bs-E8zAe.css      5.79 kB │ gzip:   2.06 kB\ndist/assets/index-BYX_AueP.js   1,061.99 kB │ gzip: 300.10 kB\n\n✓ built in 177ms"
+      }
+    },
+    {
+      "id": "A3",
+      "dir": "A3-premium-tech-opening",
+      "port": 5183,
+      "exists": true,
+      "gitHead": "23daceedfdde9ab925b5010bc97af300f252fa59",
+      "gitDirty": [],
+      "commitCount": 6,
+      "missingDocs": [],
+      "screenshots": [
+        {
+          "file": "docs/SCREENSHOTS/desktop-1440.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 967
+        },
+        {
+          "file": "docs/SCREENSHOTS/desktop-1920.png",
+          "w": 1920,
+          "h": 1080,
+          "kb": 1481
+        },
+        {
+          "file": "docs/SCREENSHOTS/laptop-1366.png",
+          "w": 1366,
+          "h": 768,
+          "kb": 797
+        },
+        {
+          "file": "docs/SCREENSHOTS/mobile-390.png",
+          "w": 780,
+          "h": 1688,
+          "kb": 1008
+        },
+        {
+          "file": "docs/SCREENSHOTS/tablet-1024.png",
+          "w": 1024,
+          "h": 768,
+          "kb": 613
+        }
+      ],
+      "videos": [
+        {
+          "file": "docs/RECORDING/A3-opening.mp4",
+          "width": 1440,
+          "height": 900,
+          "duration": 6.12,
+          "bytes": 510814
+        },
+        {
+          "file": "docs/RECORDING/A3-opening.webm",
+          "width": 1440,
+          "height": 900,
+          "duration": 6.12,
+          "bytes": 1603768
+        }
+      ],
+      "evidence": {
+        "states": [
+          "desktop-1920:hero",
+          "desktop-1440:hero",
+          "laptop-1366:hero",
+          "tablet-1024:hero",
+          "mobile-390:hero"
+        ],
+        "timings": {
+          "mountedAt": 237,
+          "fontAt": 266,
+          "drawingAt": 298,
+          "sceneReadyAt": 481,
+          "assetsReadyAt": 481,
+          "builtAt": 1429,
+          "expandingAt": 1430,
+          "heroAt": 1979
+        },
+        "letters": 6,
+        "consoleErrors": 0,
+        "pageErrors": 0,
+        "failedRequests": 0,
+        "overflowX": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "video": {
+          "webm": "docs/RECORDING/A3-opening.webm",
+          "mp4": "docs/RECORDING/A3-opening.mp4",
+          "probe": {
+            "mountedAt": 180,
+            "fontAt": 207,
+            "drawingAt": 235,
+            "sceneReadyAt": 377,
+            "assetsReadyAt": 377,
+            "builtAt": 1367,
+            "expandingAt": 1367,
+            "heroAt": 1932
+          },
+          "heroMs": 1751,
+          "pageErrors": []
+        },
+        "detailCycles": null,
+        "reloadHeapSamples": [
+          40203442,
+          56247170,
+          64071601,
+          64791398,
+          56351100
+        ],
+        "mobile": null,
+        "fatal": null
+      },
+      "checks": {
+        "drawAtLeast1000": true,
+        "expandBetween400and700": true,
+        "sixLetters": true,
+        "noConsoleErrors": true,
+        "noHorizontalOverflow": true
+      },
+      "build": {
+        "ok": true,
+        "tail": "> tsc -b && vite build\n\nvite v8.3.5 building client environment for production...\ntransforming...\n✓ 56 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                     1.11 kB │ gzip:   0.64 kB\ndist/assets/index-BnCaH5B5.css      6.36 kB │ gzip:   2.30 kB\ndist/assets/index-D0bRetYj.js   1,644.14 kB │ gzip: 502.24 kB\n\n✓ built in 226ms"
+      }
+    },
+    {
+      "id": "A4",
+      "dir": "A4-hybrid-opening",
+      "port": 5184,
+      "exists": true,
+      "gitHead": "5ec88214adc73d0e6ddbddacdd47cedcc68beef6",
+      "gitDirty": [],
+      "commitCount": 6,
+      "missingDocs": [],
+      "screenshots": [
+        {
+          "file": "docs/SCREENSHOTS/desktop-1440.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 452
+        },
+        {
+          "file": "docs/SCREENSHOTS/desktop-1920.png",
+          "w": 1920,
+          "h": 1080,
+          "kb": 670
+        },
+        {
+          "file": "docs/SCREENSHOTS/laptop-1366.png",
+          "w": 1366,
+          "h": 768,
+          "kb": 390
+        },
+        {
+          "file": "docs/SCREENSHOTS/mobile-390.png",
+          "w": 780,
+          "h": 1688,
+          "kb": 468
+        },
+        {
+          "file": "docs/SCREENSHOTS/tablet-1024.png",
+          "w": 1024,
+          "h": 768,
+          "kb": 299
+        }
+      ],
+      "videos": [
+        {
+          "file": "docs/RECORDING/A4-opening.mp4",
+          "width": 1440,
+          "height": 900,
+          "duration": 5.24,
+          "bytes": 234211
+        },
+        {
+          "file": "docs/RECORDING/A4-opening.webm",
+          "width": 1440,
+          "height": 900,
+          "duration": 5.24,
+          "bytes": 760382
+        }
+      ],
+      "evidence": {
+        "states": [
+          "desktop-1920:hero",
+          "desktop-1440:hero",
+          "laptop-1366:hero",
+          "tablet-1024:hero",
+          "mobile-390:hero"
+        ],
+        "timings": {
+          "mountedAt": 0,
+          "drawingAt": 490,
+          "sceneReadyAt": 579,
+          "criticalReadyAt": 582,
+          "builtAt": 1545,
+          "expandingAt": 1545,
+          "heroAt": 2027
+        },
+        "letters": 6,
+        "consoleErrors": 0,
+        "pageErrors": 0,
+        "failedRequests": 0,
+        "overflowX": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "video": {
+          "webm": "docs/RECORDING/A4-opening.webm",
+          "mp4": "docs/RECORDING/A4-opening.mp4",
+          "probe": {
+            "mountedAt": 0,
+            "drawingAt": 354,
+            "sceneReadyAt": 422,
+            "criticalReadyAt": 424,
+            "builtAt": 1405,
+            "expandingAt": 1405,
+            "heroAt": 1889
+          },
+          "heroMs": 1595,
+          "pageErrors": []
+        },
+        "detailCycles": null,
+        "reloadHeapSamples": [
+          67282414,
+          76557076,
+          123958546,
+          65751261,
+          65792269
+        ],
+        "mobile": null,
+        "fatal": null
+      },
+      "checks": {
+        "drawAtLeast1000": true,
+        "expandBetween400and700": true,
+        "sixLetters": true,
+        "noConsoleErrors": true,
+        "noHorizontalOverflow": true
+      },
+      "build": {
+        "ok": true,
+        "tail": "> tsc -b && vite build\n\nvite v8.3.5 building client environment for production...\ntransforming...\n✓ 591 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                     0.67 kB │ gzip:   0.39 kB\ndist/assets/index-pR2kj2ec.css      6.88 kB │ gzip:   2.49 kB\ndist/assets/index-EaZActay.js   1,402.30 kB │ gzip: 398.55 kB\n\n✓ built in 251ms"
+      }
+    },
+    {
+      "id": "B1",
+      "dir": "B1-site-skeleton",
+      "port": 5185,
+      "exists": true,
+      "gitHead": "aa09b4a2719cffa372ae8e98677e1a0f71114e97",
+      "gitDirty": [],
+      "commitCount": 7,
+      "missingDocs": [],
+      "screenshots": [
+        {
+          "file": "docs/SCREENSHOTS/B1-desktop-1440-01-hero.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 205
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-desktop-1440-99-end.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 180
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-desktop-1440-sec-M.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 246
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-desktop-1440-sec-N.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 212
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-desktop-1440-sec-O1.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 233
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-desktop-1440-sec-O2.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 498
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-desktop-1440-sec-R.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 240
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-desktop-1440-sec-T.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 219
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-desktop-1920-01-hero.png",
+          "w": 1920,
+          "h": 1080,
+          "kb": 278
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-desktop-1920-99-end.png",
+          "w": 1920,
+          "h": 1080,
+          "kb": 253
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-desktop-1920-sec-M.png",
+          "w": 1920,
+          "h": 1080,
+          "kb": 327
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-desktop-1920-sec-N.png",
+          "w": 1920,
+          "h": 1080,
+          "kb": 274
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-desktop-1920-sec-O1.png",
+          "w": 1920,
+          "h": 1080,
+          "kb": 300
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-desktop-1920-sec-O2.png",
+          "w": 1920,
+          "h": 1080,
+          "kb": 640
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-desktop-1920-sec-R.png",
+          "w": 1920,
+          "h": 1080,
+          "kb": 305
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-desktop-1920-sec-T.png",
+          "w": 1920,
+          "h": 1080,
+          "kb": 278
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-detail-button-closed.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 447
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-detail-button-open.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 253
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-detail-button-view2.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 235
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-laptop-1366-01-hero.png",
+          "w": 1366,
+          "h": 768,
+          "kb": 184
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-laptop-1366-99-end.png",
+          "w": 1366,
+          "h": 768,
+          "kb": 159
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-laptop-1366-sec-M.png",
+          "w": 1366,
+          "h": 768,
+          "kb": 224
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-laptop-1366-sec-N.png",
+          "w": 1366,
+          "h": 768,
+          "kb": 192
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-laptop-1366-sec-O1.png",
+          "w": 1366,
+          "h": 768,
+          "kb": 211
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-laptop-1366-sec-O2.png",
+          "w": 1366,
+          "h": 768,
+          "kb": 431
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-laptop-1366-sec-R.png",
+          "w": 1366,
+          "h": 768,
+          "kb": 220
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-laptop-1366-sec-T.png",
+          "w": 1366,
+          "h": 768,
+          "kb": 199
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-mobile-390-01-hero.png",
+          "w": 780,
+          "h": 1688,
+          "kb": 348
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-mobile-390-99-end.png",
+          "w": 780,
+          "h": 1688,
+          "kb": 290
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-mobile-390-detail-closed.png",
+          "w": 780,
+          "h": 1688,
+          "kb": 425
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-mobile-390-detail-open.png",
+          "w": 780,
+          "h": 1688,
+          "kb": 116
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-mobile-390-sec-M.png",
+          "w": 780,
+          "h": 1688,
+          "kb": 407
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-mobile-390-sec-N.png",
+          "w": 780,
+          "h": 1688,
+          "kb": 404
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-mobile-390-sec-O1.png",
+          "w": 780,
+          "h": 1688,
+          "kb": 371
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-mobile-390-sec-O2.png",
+          "w": 780,
+          "h": 1688,
+          "kb": 663
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-mobile-390-sec-R.png",
+          "w": 780,
+          "h": 1688,
+          "kb": 434
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-mobile-390-sec-T.png",
+          "w": 780,
+          "h": 1688,
+          "kb": 395
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-rm-1440-detail.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 272
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-rm-1440-hero.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 151
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-rm-1440-mid.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 228
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-rm-390-detail.png",
+          "w": 390,
+          "h": 844,
+          "kb": 51
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-rm-390-hero.png",
+          "w": 390,
+          "h": 844,
+          "kb": 103
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-rm-390-mid.png",
+          "w": 390,
+          "h": 844,
+          "kb": 183
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-scroll-01-hero.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 205
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-scroll-99-end.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 179
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-scroll-detail-closed-0.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 477
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-scroll-detail-closed-1.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 479
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-scroll-detail-closed-2.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 483
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-scroll-detail-open-0.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 265
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-scroll-detail-open-1.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 266
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-scroll-detail-open-2.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 248
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-scroll-mobile-01-hero.png",
+          "w": 780,
+          "h": 1688,
+          "kb": 347
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-scroll-mobile-02-mid.png",
+          "w": 780,
+          "h": 1688,
+          "kb": 385
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-scroll-mobile-03-end.png",
+          "w": 780,
+          "h": 1688,
+          "kb": 285
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-scroll-scroll-04.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 237
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-scroll-scroll-08.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 223
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-scroll-scroll-12.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 505
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-scroll-scroll-16.png",
+          "w": 1440,
+          "h": 900,
+          "kb": 175
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-tablet-1024-01-hero.png",
+          "w": 1024,
+          "h": 768,
+          "kb": 150
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-tablet-1024-99-end.png",
+          "w": 1024,
+          "h": 768,
+          "kb": 127
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-tablet-1024-sec-M.png",
+          "w": 1024,
+          "h": 768,
+          "kb": 180
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-tablet-1024-sec-N.png",
+          "w": 1024,
+          "h": 768,
+          "kb": 161
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-tablet-1024-sec-O1.png",
+          "w": 1024,
+          "h": 768,
+          "kb": 177
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-tablet-1024-sec-O2.png",
+          "w": 1024,
+          "h": 768,
+          "kb": 368
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-tablet-1024-sec-R.png",
+          "w": 1024,
+          "h": 768,
+          "kb": 187
+        },
+        {
+          "file": "docs/SCREENSHOTS/B1-tablet-1024-sec-T.png",
+          "w": 1024,
+          "h": 768,
+          "kb": 171
+        }
+      ],
+      "videos": [
+        {
+          "file": "docs/RECORDING/B1-scroll.mp4",
+          "width": 1440,
+          "height": 900,
+          "duration": 21.04,
+          "bytes": 3008161
+        },
+        {
+          "file": "docs/RECORDING/B1-scroll.webm",
+          "width": 1440,
+          "height": 900,
+          "duration": 21.04,
+          "bytes": 6054261
+        },
+        {
+          "file": "docs/RECORDING/B1-smooth-scroll.mp4",
+          "width": 1440,
+          "height": 900,
+          "duration": 19,
+          "bytes": 2521420
+        },
+        {
+          "file": "docs/RECORDING/B1-smooth-scroll.webm",
+          "width": 1440,
+          "height": 900,
+          "duration": 19,
+          "bytes": 5800212
+        }
+      ],
+      "evidence": {
+        "states": null,
+        "timings": {
+          "mountedAt": 0,
+          "drawingAt": 407,
+          "builtAt": 1428,
+          "expandingAt": 1511,
+          "expandStart": 1511,
+          "heroAt": 2015,
+          "storyReadyAt": 2015
+        },
+        "letters": 6,
+        "consoleErrors": 0,
+        "pageErrors": 0,
+        "failedRequests": 0,
+        "overflowX": [
+          0
+        ],
+        "video": {
+          "webm": "docs/RECORDING/B1-scroll.webm",
+          "mp4": "docs/RECORDING/B1-scroll.mp4"
+        },
+        "detailCycles": [
+          {
+            "step": "detail",
+            "index": 0,
+            "scrollBefore": 0,
+            "scrollAtCard": 8593,
+            "scrollAfterClose": 8593,
+            "restored": true,
+            "opened": {
+              "probe": {
+                "open": true,
+                "sourceId": "p01"
+              },
+              "overlay": true,
+              "active": "BUTTON",
+              "bodyOverflow": "hidden",
+              "scrollY": 0
+            },
+            "closed": {
+              "probe": {
+                "open": false,
+                "sourceId": null
+              },
+              "overlay": false,
+              "active": "BUTTON",
+              "scrollY": 8593
+            },
+            "openShot": "docs/SCREENSHOTS/B1-scroll-detail-open-0.png",
+            "closedShot": "docs/SCREENSHOTS/B1-scroll-detail-closed-0.png"
+          },
+          {
+            "step": "detail",
+            "index": 1,
+            "scrollBefore": 8593,
+            "scrollAtCard": 8593,
+            "scrollAfterClose": 8593,
+            "restored": true,
+            "opened": {
+              "probe": {
+                "open": true,
+                "sourceId": "p02"
+              },
+              "overlay": true,
+              "active": "BUTTON",
+              "bodyOverflow": "hidden",
+              "scrollY": 0
+            },
+            "closed": {
+              "probe": {
+                "open": false,
+                "sourceId": null
+              },
+              "overlay": false,
+              "active": "BUTTON",
+              "scrollY": 8593
+            },
+            "openShot": "docs/SCREENSHOTS/B1-scroll-detail-open-1.png",
+            "closedShot": "docs/SCREENSHOTS/B1-scroll-detail-closed-1.png"
+          },
+          {
+            "step": "detail",
+            "index": 2,
+            "scrollBefore": 8593,
+            "scrollAtCard": 8593,
+            "scrollAfterClose": 8593,
+            "restored": true,
+            "opened": {
+              "probe": {
+                "open": true,
+                "sourceId": "p03"
+              },
+              "overlay": true,
+              "active": "BUTTON",
+              "bodyOverflow": "hidden",
+              "scrollY": 0
+            },
+            "closed": {
+              "probe": {
+                "open": false,
+                "sourceId": null
+              },
+              "overlay": false,
+              "active": "BUTTON",
+              "scrollY": 8593
+            },
+            "openShot": "docs/SCREENSHOTS/B1-scroll-detail-open-2.png",
+            "closedShot": "docs/SCREENSHOTS/B1-scroll-detail-closed-2.png"
+          }
+        ],
+        "reloadHeapSamples": null,
+        "mobile": {
+          "scrollHeight": 12744,
+          "overflowX": 0,
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        "fatal": null
+      },
+      "checks": {
+        "drawAtLeast1000": true,
+        "expandBetween400and700": true,
+        "sixLetters": true,
+        "noConsoleErrors": true,
+        "noHorizontalOverflow": true,
+        "detailScrollRestored": true,
+        "detailEscapeWorks": true
+      },
+      "build": {
+        "ok": true,
+        "tail": "> tsc -b && vite build\n\nvite v8.3.5 building client environment for production...\ntransforming...\n✓ 62 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                     1.02 kB │ gzip:   0.66 kB\ndist/assets/index-DTD1y2kw.css     39.16 kB │ gzip:   8.09 kB\ndist/assets/index-CBqrrOy8.js   1,136.47 kB │ gzip: 325.45 kB\n\n✓ built in 177ms"
+      }
+    }
+  ]
+}
